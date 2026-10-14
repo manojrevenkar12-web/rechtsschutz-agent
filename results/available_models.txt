@@ -1,0 +1,6 @@
+catalog HTTP 200
+OK
+
+OK
+
+inference HTTP 200
