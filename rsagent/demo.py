@@ -13,7 +13,7 @@ _TYPES = [
     (r"vollstreckungsbescheid", "vollstreckungsbescheid", "vertragsrecht"),
     (r"mahnbescheid", "mahnbescheid", "vertragsrecht"),
     (r"mieterhöhung", "mieterhoehungsverlangen", "mietrecht"),
-    (r"kündigung", "kuendigung_arbeitsvertrag", "arbeitsrecht"),
+    (r"kündig", "kuendigung_arbeitsvertrag", "arbeitsrecht"),
     (r"bescheid", "sozialbescheid", "sozialrecht"),
 ]
 
