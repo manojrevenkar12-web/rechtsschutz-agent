@@ -1,0 +1,62 @@
+{
+ "request_key": "e4d255493a88ddb092875b015cce37ee",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.7002820550000024,
+ "response": {
+  "id": "gen-1791972839-Bp09B41uWl3MUVgkBI5z",
+  "object": "chat.completion",
+  "created": 1791972839,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_qW2TWEVe8K46yADkWxTr5mM0",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"arbeitsrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"kuendigung_arbeitsvertrag\",\"event_date\":\"2026-09-04\",\"event_date_evidence\":\"der Bote hat es am 04.09.2026 in meinen Briefkasten geworfen\",\"dispute_start_date\":\"2026-09-03\",\"dispute_start_evidence\":\"Das Kündigungsschreiben ist auf den 03.09.2026 datiert\",\"summary_de\":\"Der Mandant wurde von seinem Arbeitgeber, dem [FIRMA_1], gekündigt. Das Kündigungsschreiben ist auf den 03.09.2026 datiert, und der Mandant erhielt es am 04.09.2026. Der Mandant arbeitet seit elf Jahren als [FIRMA_2] bei dem Arbeitgeber.\",\"client_goal_de\":\"Der Mandant möchte rechtliche Unterstützung im Zusammenhang mit der Kündigung durch den Arbeitgeber.\",\"missing_information_de\":[\"Kopie des Kündigungsschreibens\",\"Grund der Kündigung\",\"Ob bereits eine Reaktion auf die Kündigung erfolgte\",\"Ob der Mandant rechtliche Schritte plant\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1330,
+   "completion_tokens": 250,
+   "total_tokens": 1580,
+   "cost": 0.000932,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000932,
+    "upstream_inference_prompt_cost": 0.000532,
+    "upstream_inference_completions_cost": 0.0004
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "request_key": "9209e642170687696fb1488188df1f4d",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.6392550820000054,
+ "response": {
+  "id": "gen-1791972841-OZI4C2qlrXcGyLv0QAfn",
+  "object": "chat.completion",
+  "created": 1791972841,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur rechtlichen Vertretung im Kündigungsschutzverfahren – Versicherungsnummer [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nin vorbezeichneter Angelegenheit bitten wir namens und im Auftrag unseres Mandanten, Herrn [PERSON_1], um Erteilung der Deckungszusage für die Wahrnehmung seiner rechtlichen Interessen im Zusammenhang mit der Kündigung seines Arbeitsverhältnisses durch den Arbeitgeber, [FIRMA_1].\n\nUnser Mandant erhielt das Kündigungsschreiben, datiert auf den 03.09.2026, am 04.09.2026. Er ist seit elf Jahren als [FIRMA_2] bei [FIRMA_1] beschäftigt. Die Kündigung stellt den Anlass für die beabsichtigte rechtliche Auseinandersetzung dar, die bereits am 03.09.2026 begann.\n\nDa die Frist zur Erhebung einer Kündigungsschutzklage gemäß § 4 Satz 1 KSchG am 25.09.2026 endet, bitten wir um eine zeitnahe Prüfung und Erteilung der Deckungszusage, damit die erforderlichen rechtlichen Schritte fristgerecht eingeleitet werden können.\n\nFür Rückfragen stehen wir Ihnen selbstverständlich jederzeit zur Verfügung.\n\nMit freundlichen Grüßen\n\n[Name des Partners / der Kanzlei]  \n[Adresse der Kanzlei]  \n[Telefonnummer / E-Mail-Adresse]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 729,
+   "completion_tokens": 292,
+   "total_tokens": 1021,
+   "cost": 0.0007588,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0007588,
+    "upstream_inference_prompt_cost": 0.0002916,
+    "upstream_inference_completions_cost": 0.0004672
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

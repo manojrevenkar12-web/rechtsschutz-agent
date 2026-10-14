@@ -1,0 +1,51 @@
+{
+ "request_key": "7d3ff1e125afc2e418a8fac64e9cc3e7",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.3578307169999846,
+ "response": {
+  "id": "gen-1791972847-2iIujzvb4NWI8PMctAiI",
+  "object": "chat.completion",
+  "created": 1791972847,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur Durchsetzung ausstehender Gehaltszahlungen gegen [FIRMA_1]\n\nSehr geehrte Damen und Herren,\n\nin vorbezeichneter Angelegenheit vertreten wir unseren Mandanten, Herrn/Frau [PERSON_1], der/die bei der [FIRMA_1] beschäftigt ist. Unser Mandant hat uns beauftragt, ihn/sie bei der Durchsetzung der ausstehenden Gehaltszahlungen für die Monate Juli und August 2026 zu unterstützen.\n\nDas Gehalt für Juli 2026 hätte spätestens am 31.07.2026 auf dem Konto unseres Mandanten (IBAN [IBAN_1]) eingegangen sein müssen. Trotz fortlaufender Tätigkeit unseres Mandanten bei der [FIRMA_1] wurden die Zahlungen bislang nicht geleistet. Der Geschäftsführer der [FIRMA_1] führt Liquiditätsprobleme als Grund an.\n\nDa unser Mandant auf eine zügige Klärung angewiesen ist, bitten wir Sie um Erteilung der Deckungszusage für die Wahrnehmung seiner arbeitsrechtlichen Interessen in diesem Zusammenhang. Eine schnelle Entscheidung Ihrerseits wäre sehr willkommen, um die weitere Vorgehensweise zeitnah abstimmen zu können.\n\nFür Rückfragen stehen wir Ihnen selbstverständlich jederzeit zur Verfügung.\n\nMit freundlichen Grüßen\n\n[Name des Partners/der Partnerin]  \n[Name der Kanzlei]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 610,
+   "completion_tokens": 283,
+   "total_tokens": 893,
+   "cost": 0.0006968,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0006968,
+    "upstream_inference_prompt_cost": 0.000244,
+    "upstream_inference_completions_cost": 0.0004528
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

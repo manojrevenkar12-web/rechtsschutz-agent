@@ -139,7 +139,7 @@ class ChatClient:
                 t0 = time.perf_counter()
                 r = await client.post(self.url, headers=headers, json=body)
                 latency = time.perf_counter() - t0
-                if r.status_code in (429, 500, 502, 503, 504) and attempt < 5:
+                if r.status_code in (402, 429, 500, 502, 503, 504) and attempt < 5:  # 402: OpenRouter credit reservation for in-flight calls
                     await asyncio.sleep(float(r.headers.get("retry-after", delay)))
                     delay *= 2
                     continue

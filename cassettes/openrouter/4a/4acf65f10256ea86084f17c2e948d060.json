@@ -1,0 +1,62 @@
+{
+ "request_key": "4acf65f10256ea86084f17c2e948d060",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.8918743970000094,
+ "response": {
+  "id": "gen-1791972849-DBdNHwekiOnMvuD30kbV",
+  "object": "chat.completion",
+  "created": 1791972849,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_DK5QZ6Zb1YPmclMAId05oPI1",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"arbeitsrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"kuendigung_arbeitsvertrag\",\"event_date\":\"2026-08-20\",\"event_date_evidence\":\"Am 20.08.2026 habe ich die Kündigung bekommen\",\"dispute_start_date\":\"2026-06-01\",\"dispute_start_evidence\":\"ich habe am 01.06.2026 als Barista angefangen\",\"summary_de\":\"Der Mandant hat am 01.06.2026 als Barista angefangen und befindet sich noch in der Probezeit. Am 20.08.2026 erhielt er die Kündigung von seinem Arbeitgeber [FIRMA_1], nachdem er sich über fehlende Pausenzeiten beschwert hatte. Der Mandant wohnt in Berlin.\",\"client_goal_de\":\"Der Mandant möchte rechtliche Unterstützung bezüglich der Kündigung erhalten.\",\"missing_information_de\":[\"Kopie der Kündigung\",\"Details zur Beschwerde über fehlende Pausenzeiten\",\"Reaktion des Arbeitgebers auf die Beschwerde\",\"Ob der Mandant bereits rechtliche Schritte unternommen hat\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1281,
+   "completion_tokens": 245,
+   "total_tokens": 1526,
+   "cost": 0.0009044,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0009044,
+    "upstream_inference_prompt_cost": 0.0005124,
+    "upstream_inference_completions_cost": 0.000392
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}
