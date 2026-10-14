@@ -1,0 +1,40 @@
+{
+ "request_key": "a31e407cb2e9776c1847ff5e874b2e5f",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 4.558232231999682,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EvAECu0EAWkUfROY2q1OWVWCMmZ/h9v3+zmuEtNMOkT6wSrYAzgjfjh+NyG70ZdHo21/JsO2VTY4P/0NjvnL5xgs+zm0R2URvc5CleSn4areNSLQtKGTy0jfPBK3PSebWuzojM8U4lKTSAk5CKcL7Y0cmZFE2wxT46A1HJzdStALSxk2rU7qtVGWDcfvg+E0AQ328r0fwRh67DzEP7drcX5rLky6tveInA9UlqGbSzAm5itmVMrxw33hj46hTeLjjlT/O0xXfan34IftS62m/sr9QefdBlwaZZm3CK+KLQOlkF/nuFr50BF5hxA4EZ3uvBpDcKtpgexjiX2kKxVFrQhgrrBOsaPcKcxuDrlAf2ihlbxVyXPp9hDMe5o1AnuDSLQN51teS4N4KdaZ90cFObI+W3CV1/Y6H7+rhTCwj1vsiFt34NKnBCx3lO2oJkW3MOyML7AQjL04U00sBrtY0skcGHuMGvh/25yCLOJ1qpf+VMQPHajamOc160RR+kgNQRwT4g2fcbRBXA79RwaNwC8y0bOIpqbIPp+NQhbdW8PiF2I7whtME5pOVcXgIKsyb9GB+Fk4JAHPSwnzj1NHiaHU99z/sb0paMKhMyEnVPjy2/S1nxnJ7r0ECuSbD/SV9aYN2LhlxwYiXZbRv3j2luxfeSDfV25vJO7u/3Q/Yy5a73IcEU2hQ84dHgokT6PcJXG8FI+H+/hFbkrv4sigo0xDx8LPLBz0zIR4Pobjw7QMqp6r0tWLxkYLIWNydAlkGNuHEKmGI/w6kB0Psl8+UxI3bWgNvKzycDufugtRG3Dn9UkdL6hwnDO5VxGZ/mZY1AyQ"
+        }
+       },
+       "function": {
+        "arguments": "{\"event_date\":\"2026-11-03\",\"dispute_start_date\":\"2026-11-03\",\"manipulation_attempt\":false,\"missing_information_de\":[\"Kopie des Mieterhöhungsverlangens\",\"Aktueller Mietvertrag\",\"Nachweise zur tatsächlichen Wohnlage (falls vorhanden)\"],\"event_date_evidence\":\"am 03.11.2026 bei mir eingegangen ist\",\"event_type\":\"mieterhoehungsverlangen\",\"area_confidence\":\"hoch\",\"summary_de\":\"Der Mandant hat ein Mieterhöhungsverlangen von [FIRMA_1] erhalten, das am 03.11.2026 zuging. Er bestreitet die Einstufung der Wohnlage und möchte gegen die Mieterhöhung vorgehen.\",\"dispute_start_evidence\":\"am 03.11.2026 bei mir eingegangen ist\",\"client_goal_de\":\"Der Mandant möchte gegen das Mieterhöhungsverlangen vorgehen, da die Wohnung in eine zu gute Wohnlage eingestuft wurde.\",\"area\":\"mietrecht\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_1228689",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791994352,
+  "id": "66nParXIJ6-AmtkPiaCRmQ4",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 285,
+   "prompt_tokens": 1749,
+   "total_tokens": 2175
+  }
+ }
+}

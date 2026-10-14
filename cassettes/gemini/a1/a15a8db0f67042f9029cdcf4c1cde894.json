@@ -1,0 +1,31 @@
+{
+ "request_key": "a15a8db0f67042f9029cdcf4c1cde894",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 24.05152643600013,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_1], geb. [GEBURTSDATUM_1]\n\nSehr geehrte Damen und Herren,\n\nich zeige die anwaltliche Vertretung von [PERSON_1], geb. [GEBURTSDATUM_1], an.\n\nMein Mandant ist bei Ihnen rechtsschutzversichert. Ich bitte um Prüfung des Versicherungsschutzes für eine arbeitsrechtliche Beratung im Zusammenhang mit einem Aufhebungsvertrag.\n\nDer Sachverhalt stellt sich wie folgt dar: Mein Mandant hat am 25.09.2026 von seinem Arbeitgeber, der [FIRMA_1], einen Aufhebungsvertrag erhalten. In diesem Zusammenhang wurde ihm eine Abfindung in Höhe von zwei Monatsgehältern angeboten. Mein Mandant ist nunmehr unsicher, ob er dieses Angebot annehmen soll, insbesondere im Hinblick auf die möglichen Konsequenzen für den Bezug von Arbeitslosengeld, wie etwa eine drohende Sperrzeit.\n\nEs besteht Beratungsbedarf hinsichtlich der rechtlichen Bewertung des Aufhebungsvertrages und der damit verbundenen arbeitsrechtlichen sowie sozialversicherungsrechtlichen Auswirkungen.\n\nIch bitte Sie daher höflich um Erteilung der Deckungszusage für die anwaltliche Beratung in dieser Angelegenheit. Bitte teilen Sie mir Ihre Entscheidung zeitnah mit.\n\nFür Rückfragen stehe ich Ihnen gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "Et8DCtwDAWkUfRMFwMFaVbRo4tWfQp1UtFZE13f15cONl8npZFgY9WHLvaOtXJYRsTG71z79bBL7r+SLP8iXQQYpJ1DyIgRyER3jWTfSri/kvApKZLBf+NaucqlEP8EoqjLrd92WAQEZVaAYK79s/rRJRj/uS3H7n2/CIWSujR3Oh0/oKwEVLn+gW07KR+cokviVDKGkwvijCd2fjZ66ev6D0Auo1rpP+JMFVCAdRc+5kRVRUtiqT0RWjmOOE/yyARV7VimJ99bpJ/XiWKVdWRnskBaeYlLD+TqtfHOInY4P1jxQmZgFJdGXQVr52D9Oqw93uCh+6VWsWSZaN/IYqfXpXSOq/6Mk/OBGUOKjzSvz3i5yvGSYolJL6pP+bYbDVUJL8c9LMdueBZVMrpAT+k/Yo29u42iAVpkBXFJ+1cFwOkEIp1+DBAWwL/oLsbG4L0Ut0ebDx4SckIzYl5SzinLdZzF2tu4v/SUZLaZiK65P2xHDDYpLw0F8ijlJlqug8Fhgpy7O2J2KIEiQMzrcuWt044CVDZwzV92HaEdTGDkaNCiUhhMa3LLNfCHT/oBNTrAV+pgmqLiTxBSZNoyufW+0VO7U405EFdpN33ynCQ0q8bXaFvyufQq+4vDwaTIUD9o="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791991414,
+  "id": "Xp7PaqrSD-aez7IP8peziQo",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 297,
+   "prompt_tokens": 1051,
+   "total_tokens": 1452
+  }
+ }
+}

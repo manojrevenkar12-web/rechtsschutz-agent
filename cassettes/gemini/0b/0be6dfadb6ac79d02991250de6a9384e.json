@@ -1,0 +1,31 @@
+{
+ "request_key": "0be6dfadb6ac79d02991250de6a9384e",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.3478009400000133,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für rechtliche Schritte im Mietrecht / Mandant: [PERSON_1] / Schadennummer bzw. Versicherungsnummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen von [PERSON_1], wohnhaft in [ADRESSE_1], [PLZ_1] Berlin, in einer mietrechtlichen Angelegenheit vertreten. \n\nDer Sachverhalt stellt sich wie folgt dar: Unser Mandant beklagt seit Monaten anhaltenden Schimmel im Schlafzimmer. Den Mangel hat er am 12.06.2026 erstmals gegenüber der [FIRMA_1] gemeldet, jedoch bislang ohne Reaktion seitens der Gegenpartei. \n\nUnser Mandant verfolgt das Ziel, die Miete zu mindern und die fachgerechte Beseitigung des Schimmels im Schlafzimmer durchzusetzen.\n\nWir bitten Sie hiermit, uns zeitnah die schriftliche Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten in dieser Angelegenheit zu erteilen. \n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TTCl4y+/QJkPUUrlx84bHZflOJwS5q4rj5gGLQb+LbFotTcyBU+kNwejtC0uW/BriMIJKhBz4ql08kq+77NmxjK1i57dq5QSd+6EZl69pZ728VhpOfT9AkFg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989427,
+  "id": "sZbPaufdNOODmtkPmoub4Q8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 246,
+   "prompt_tokens": 674,
+   "total_tokens": 920
+  }
+ }
+}

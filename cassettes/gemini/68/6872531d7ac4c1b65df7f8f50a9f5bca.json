@@ -1,0 +1,31 @@
+{
+ "request_key": "6872531d7ac4c1b65df7f8f50a9f5bca",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 2.2914294950000453,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage – [PERSON_1] / Widerspruch gegen Ablehnung Pflegegrad 2\n\nSehr geehrte Damen und Herren,\n\nwir zeigen hiermit die anwaltliche Vertretung von [PERSON_1] an und bitten für die Wahrnehmung der rechtlichen Interessen im Bereich Sozialrecht um Erteilung der Deckungszusage.\n\nDem Mandanten wurde am 06.10.2026 ein Ablehnungsbescheid der Pflegekasse bezüglich seines Antrags auf Pflegegrad 2 zugestellt. Da die Begutachtung aus Sicht des Mandanten mangelhaft war und die Einschränkungen nicht zutreffend erfasst wurden, soll gegen diesen Bescheid vorgegangen werden. Das Ziel ist die Anfechtung der Ablehnung.\n\nDie Frist für die Einlegung des Widerspruchs endet am 06.11.2026. \n\nAngesichts der laufenden Frist bitten wir um eine zeitnahe Prüfung und um eine baldige Entscheidung bezüglich der Kostenübernahme.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T6YU/a8fc8v4nodF9uknwLdyd0GNg7ap8cDGhL3irUauNpefplNbR8Tmm2zB1aBEC+FGIFoRPZ5ggtdIE7I0uHoxHXzz+k02FE4WmI3es2GAiWxq941Zxb0E="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989506,
+  "id": "AJfPav6JC5yCqtsPrIKzyAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 232,
+   "prompt_tokens": 649,
+   "total_tokens": 881
+  }
+ }
+}

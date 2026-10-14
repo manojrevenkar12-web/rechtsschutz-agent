@@ -1,0 +1,31 @@
+{
+ "request_key": "afa40fb3ad6c852af00e5c7fb2058e91",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 2.948741580999922,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_2]\nVersicherungsnummer: [Bitte hier Versicherungsnummer einfügen]\n\nSehr geehrte Damen und Herren,\n\nich zeige die anwaltliche Vertretung von [PERSON_2] an. Im Namen meines Mandanten bitte ich um Prüfung des Versicherungsschutzes und Erteilung der Deckungszusage für die Durchsetzung von Ansprüchen aus einem Mietverhältnis.\n\nDer Sachverhalt stellt sich wie folgt dar: Mein Mandant ist zum 31.03.2026 aus seiner Wohnung ausgezogen. Der Vermieter, [PERSON_1], verweigert seit dem 15.07.2026 die Rückzahlung der Mietkaution in Höhe von 2.100 Euro. Zur Begründung führt der Vermieter angebliche Schäden an, obwohl bei der Wohnungsübergabe ein mängelfreies Übergabeprotokoll erstellt und unterzeichnet wurde.\n\nMein Mandant beabsichtigt nunmehr, die Rückzahlung der Kaution außergerichtlich und gegebenenfalls gerichtlich geltend zu machen.\n\nIch bitte Sie höflich, den Versicherungsschutz für diese Angelegenheit zu prüfen und mir eine entsprechende Deckungszusage zukommen zu lassen. Bitte bestätigen Sie mir die Kostenübernahme zeitnah, damit ich die weiteren Schritte zur Wahrnehmung der Interessen meines Mandanten einleiten kann.\n\nFür Rückfragen stehe ich Ihnen gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EsEECr4EAWkUfRNcc1vx6RQjtRm8H4K9db+JtDde7nXGpU84E328T/3oMEUR1NtAWfjlz54wAre03osrno3r0kO5LdIeNXcWZmJYuI7z+B0VTmLJj6WzhssgSdHGTiHlKPX+kATnY4FOBNuy8KzgRKPCefhhgx51bPL5F/mLwUUlH0UU47QUqyKPzJTiQgb2Mq9K3fLOOT576KIDJAT94er52ixZT86tL6/SzCYryUAieeBzkMdSzX8oVMawwW4zELCLzuDOEhYfvx+cenX9PAwd5D2wXhlmUCtwoILK8KY5vronmFa61CT9xRlVmgip2AJahUKh2puUpzl/C3C2SI7tvf8tuEv29KXoqIE0zNpQqEsnFrVkaA3NsPZ8zwmbKyUFrDlVUgElAkDCvCamRWrstgtipFGpc4MUx9xlr6N98jYv8lVcE2s8+JHmgR5uRjnjQ0eYxjGaazWP1p/3VxYvBgbXq8dVcvVzl6fjmeSsSH4XJbix52D4CG2g7KygVuEPHgiEkO5uatB12So5VwTjwn6iU6mantRu6JD1EKEhjGjmt5KvKuno4KJN+4D5WroCKcjWFyE8jOL65klMMarv3Fy9Ruo1D8v5A1QCNYtOHbx2ufVu/Utq7gSn5izZ1R5LRM3SylGUue5pY2QSNAMA/PJxzBfq7x2BkmJMjAlQvWB+0YFF8FiQX7IOPMlVcqWYVHRFy8unQD7FPrZAJhYe5mhyA+XV7FGZ3PfYSk9k36ZuIlSeJjP23KSdYAhZlsYIig=="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791994963,
+  "id": "UKzPaqSsH5CtqtsPuMqTaA",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 325,
+   "prompt_tokens": 720,
+   "total_tokens": 1172
+  }
+ }
+}

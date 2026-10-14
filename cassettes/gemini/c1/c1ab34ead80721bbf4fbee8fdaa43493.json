@@ -1,0 +1,31 @@
+{
+ "request_key": "c1ab34ead80721bbf4fbee8fdaa43493",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.4547882370000025,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_2] / Rechtsschutzversicherung Versicherungsnummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nin oben genannter Angelegenheit zeigen wir an, dass wir die Interessen von [PERSON_2] vertreten. \n\nNach dem Tod des Vaters am 02.06.2026 und der Testamentseröffnung am 20.07.2026 macht unsere Mandantin ihren Pflichtteil sowie Auskunftsansprüche hinsichtlich des Nachlasses gegen den als Alleinerben eingesetzten Bruder, [PERSON_1], geltend. Der Gegner verweigert bislang jegliche Auskunft.\n\nWir bitten höflich um Prüfung des Sachverhalts und um zeitnahe Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unserer Mandantin.\n\nMit freundöglichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T5ifx5CPsYNlN07+aZ8j9E3IEWFUGktLpiVjdoUJAW72+dDJxzaPpt+013ZsOb/3ihTfbDDeHinYgwCrVwwWo/xWeuSpT5+Akr/6WRDatvvDM0Bv2rZ3OgsE="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989512,
+  "id": "B5fPavXyFNH7qtsPruyU6A8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 192,
+   "prompt_tokens": 651,
+   "total_tokens": 843
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "request_key": "07376f9e2c5e201647fccb108b83b020",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 1.2244541809999419,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EuIECt8EAWkUfRO7r/2vEqN9/n3holWpEfQ3zX6DDNjctqYfirIQ7XwhOltSpSz5quXGhfn1HKNdrEL5dRN/gJvB1pVsoiu5PXYGzr+8DdwStm4ZYMAgQSlEmkyYRrDV7Xjz9rEo1kMCs/KdryXKF5o4+PvMYCQd2n4wu3AbUuuRdbm90D9AZXAtFgXzOyp0xVsMTW98k5kdgpm8iGjm9tntjTRcIK0ar5HHd4wVpTsuVD4a14NJzqyinpvJ6PVccjcRJ4uE0Lgg13aPpxF9wplItq+ZYSU3FImk4o9HOOqeOd4lWRNR+Rai2Jb8oXxrSBH9We9p5a+hk/cVR+z1crxEqWDDDbrCCzoCHa5EVcph+/bCkSISWqp3q7YObUxFxO12Jj+O/bICmQ/bI26QGLTCp3tyUScO7tAxlI8bMhWn1TNxI5knwzsGDZMMLShJlANYBJdMBIgap6sZ27vS1UCx9V8/EVD+ZTcBCrAdJP5du5oEWIyikGv3ipZACGzEaKt0KkJPArpZIZewlWCecTh1mgszGpcyw0/ydQsS2Y+fhMs24wGkb7pp1Xp5NsSKkw5nD4HnkWeMqXa3mfNLldpp0CdzQoVdneI0GDda+J9Vs76oVZVr3ZC8tHH6buVqhe1KsICIsbD48lQBtMB3TZ6ZYI4S1VYhdmzE/FCdkXjrKzjYtVNVoe1WGseDBomqE2pxzqe7kRGBweIIQOOK2CkA3+gQLrhXejXwMPWwLjyiVdaqk4AK7l4nfCix4JD6fEnJ6wARJGo+pwgavlckwLNV6q5ByeahH0lBjjUeF/XMFwK+OQ=="
+        }
+       },
+       "function": {
+        "arguments": "{\"weekday\":\"donnerstag\",\"base_date\":\"2026-10-12\",\"which\":\"most_recent\"}",
+        "name": "find_weekday"
+       },
+       "id": "call_1686689",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989943,
+  "id": "tpjPapevC6OHz7IPprGy4A4",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 1760,
+   "total_tokens": 1930
+  }
+ }
+}

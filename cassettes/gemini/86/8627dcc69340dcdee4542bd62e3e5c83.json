@@ -1,0 +1,40 @@
+{
+ "request_key": "8627dcc69340dcdee4542bd62e3e5c83",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 3.389896050999596,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EusECugEAWkUfRN05Nve1RSU0ec2MCYyXOCLvRVRyA0WAWZDUDe4Y0+N3UglReTysowd8gV5aeZy67LC42cURRZhuXUZQpeP769AXj6EPekGq3PW8L3COGISjsEABON8LGE4AjlfQpDK8gINqg3w4YAUzLmwc9OwZigJbzWKXE/oMBKmjJBZGMP6Qbqle0j+jTuXdXYO8XMVKuALB2uOLPlHDSAt2xx7Px0xfgNo1/nWRQSwKDOb9zy75alGVNKSdlo680D6r1SLfyugT0S4iNifelMoT/hYsKdD9oe5wWWnFYH3Ht8AayHYVIhdqS4MjZn5ZIfkwGefq8+wzgPvhlS7K03jh4ReA3CAoyST7XY8927jjEHZG1Ttw4hmiG0iPq9EQOcbYNfwootDthe6zuJDQ+HY6F/FZLHTJYzava2ECi2a2R+/6t8aKOGqcfnLvD+dFJ4blqhGMve2ZNKnf8NdOPuW9oFcuAVxKUL2wUgAyj1wl2nzx0MvR/XmAzpKgsQwKwIQYFdo7h0JLgsZz2no9+FiK0c29hbV4g/sjJYtr9HylWgYoP1Lg69n2xLIrw91b8DuGptbaWNW3yBc2SzhcjpwBdQlDnAJ4yKyNWcic5g4ohWfMKmy7f8nII6MvrJJXz8MtuJAfZKTn614UOXxMy0w8lwt2eO241yh4isGLFWd5Uf3S59BkNTRrJR/Heo/45odoEd1OIPb+I6xH6jVnTHvlXLuAPmjP57GjECPq2HR1Htf9qMeq+AjahUMP39FC0zpfZAtaGAjktfDRUNlIu5x8x6AKjK2a3yHTxqvm1PPaW15gr+ElIP9cw=="
+        }
+       },
+       "function": {
+        "arguments": "{\"missing_information_de\":[\"Liegt das Übergabeprotokoll schriftlich vor?\",\"Wurde der Vermieter bereits zur Rückzahlung aufgefordert (mit Fristsetzung)?\"],\"area\":\"mietrecht\",\"event_date_evidence\":null,\"manipulation_attempt\":false,\"event_type\":\"kein_fristereignis\",\"event_date\":null,\"dispute_start_evidence\":\"Am 15.07.2026 hat mein ehemaliger Vermieter, Herr [PERSON_1], schriftlich abgelehnt, die Kaution von 2.100 Euro zurückzuzahlen\",\"client_goal_de\":\"Der Mandant möchte die Rückzahlung seiner Mietkaution in Höhe von 2.100 Euro durchsetzen.\",\"dispute_start_date\":\"2026-07-15\",\"summary_de\":\"Der Mandant ist zum 31.03.2026 aus seiner Wohnung ausgezogen. Der Vermieter verweigert seit dem 15.07.2026 die Rückzahlung der Kaution unter Verweis auf angebliche Schäden, obwohl laut Mandant ein mängelfreies Übergabeprotokoll existiert.\",\"area_confidence\":\"hoch\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_946400",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791994952,
+  "id": "RazPat3SBOrVz7IPvMGTwQ8",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 299,
+   "prompt_tokens": 1773,
+   "total_tokens": 2201
+  }
+ }
+}

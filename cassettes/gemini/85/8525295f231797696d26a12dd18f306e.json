@@ -1,0 +1,31 @@
+{
+ "request_key": "8525295f231797696d26a12dd18f306e",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1416442660000001,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für arbeitsrechtliche Vertretung / Kündigungsschutz\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen von [PERSON_1] in einer arbeitsrechtlichen Angelegenheit vertreten. \n\nUnsere Mandantin ist als Pflegehelferin bei [FIRMA_1] tätig. Nach einer zuvor erteilten Abmahnung vom 05.08.2026 erhielt unsere Mandantin am 08.10.2026 eine Kündigung ihres Arbeitsvertrages. Gegen diese Kündigung möchte sie rechtlich vorgehen.\n\nDie gesetzliche Frist zur Erhebung der Kündigungsschutzklage endet am 29.10.2026. \n\nUm die Interessen unserer Mandantin fristwahrend und optimal vertreten zu können, bitten wir höflich um zeitnahe Erteilung der Deckungszusage für die Wahrnehmung rechtlicher Interessen im Arbeitsrecht sowie um Mitteilung der Schadennummer. \n\nFür Ihre baldige Rückmeldung danken wir im Voraus.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TrPReK26OxMMrrGCBZpvMyt2W8+VL6jdPBvxJ7Bgzqhx8FQ+Rwxb9VrLXEEl3+S1U/mm+4Zc9moZ2m5XeYUMfILUuMzR26eUPR4HYuA5w4QjrPJod7ICg5+4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989327,
+  "id": "TpbParfqJvXiqtsPlN2J-Q8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 241,
+   "prompt_tokens": 726,
+   "total_tokens": 967
+  }
+ }
+}

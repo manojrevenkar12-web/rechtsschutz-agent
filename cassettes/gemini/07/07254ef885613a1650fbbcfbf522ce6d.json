@@ -1,0 +1,31 @@
+{
+ "request_key": "07254ef885613a1650fbbcfbf522ce6d",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 3.279750969999995,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage arbeitsrechtliche Angelegenheit – [PERSON_1] ./. [FIRMA_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen unseres Mandanten, [PERSON_1], in einer arbeitsrechtlichen Angelegenheit vertreten.\n\nAm 05.10.2026 hat unser Mandant von der [FIRMA_1] eine fristlose Kündigung erhalten. Unser Mandant möchte gegen diese Kündigung vorgehen und bestreitet den Vorwurf, Pakete falsch zugestellt zu haben. Nach seiner Darstellung können die vorliegenden Scanner-Daten dies belegen.\n\nZur gerichtlichen Geltendmachung der Ansprüche und zur Wahrung der Rechte unseres Mandanten ist die Erhebung einer Kündigungsschutzklage erforderlich. Die gesetzliche Frist hierfür endet am 26.10.2026. \n\nAngesichts des bevorstehenden Fristablaufs bitten wir Sie höflich, den Vorgang kurzfristig zu prüfen und uns zeitnah die Deckungszusage für die außergerichtliche und gerichtliche Vertretung im Arbeitsrecht zu erteilen. \n\nFür eventuelle Rückfragen oder zur Anforderung weiterer Unterlagen stehen wir Ihnen unter der Telefonnummer [TELEFON_1] gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "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"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989346,
+  "id": "X5bPaof1LcCHqtsPkP-usA4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 291,
+   "prompt_tokens": 1027,
+   "total_tokens": 2162
+  }
+ }
+}

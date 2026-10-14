@@ -1,0 +1,31 @@
+{
+ "request_key": "6fc7f19a96e62ee98f3d846daa3c238b",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 3.141708433000005,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage im Arbeitsrecht – [PERSON_1] / [FIRMA_1]\nVersicherungsschein-Nr.: [NUMMER_1] (falls bekannt)\n\nSehr geehrte Damen und Herren,\n\nhiermit zeige ich die vertretung an, dass ich die Interessen von [PERSON_1], wohnhaft in [ADRESSE_1], [PLZ_1] Berlin, in einer arbeitsrechtlichen Angelegenheit gegenüber dem Arbeitgeber [FIRMA_1] vertrete.\n\nDer Mandant ist seit dem 01.06.2026 als Barista bei der genannten Firma beschäftigt. Am 20.08.2026 erhielt der Mandant eine Kündigung in der Probezeit, nachdem er sich zuvor über fehlende Pausenzeiten beschwert hatte. \n\nDer Mandant möchte nun gegen diese Kündigung vom 20.08.2026 vorgehen. Zur Wahrung der Rechte ist insbesondere die Erhebung einer Kündigungsschutzklage geboten, für die die gesetzliche Frist am 10.09.2026 endet. \n\nAngesichts dieser Frist bitte ich um eine möglichst baldige Entscheidung und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen im Arbeitsrecht.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TI2/6n7EkECnGknr6W1ol5QovBOdWKRVv3k/NB/Ave7j+LhSS5xIAhntC05ZcDEbq92odzedeql4Sp0QGPSuDGz5dudIPO9tpzViGrKO6Bbg8ZoJueOB2hNQ="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989350,
+  "id": "Y5bPauKdBYHjqtsPnY7d-A8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 295,
+   "prompt_tokens": 734,
+   "total_tokens": 1029
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "request_key": "0cbf804ae9a647f79e6031b9fbbc44b5",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.0555969240000138,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage Arbeitsrecht – [PERSON_1] / [FIRMA_1]\nVersicherungsnummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen der Mandantin [PERSON_1] vertreten. \n\nAm 12.09.2026 erhielt unsere Mandantin per Einschreiben ihre Kündigung als Rezeptionistin im [FIRMA_1] nach vierjähriger Betriebszugehörigkeit. Sie vermutet einen Zusammenhang mit ihrer Mitarbeit im Betriebsrat und möchte gegen die Kündigung vorgehen. \n\nFür die Erhebung der Kündigungsschutzklage endet die Frist am 05.10.2026. \n\nWir bitten daher höflich um zeitnahe Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unserer Mandantin im Arbeitsrecht sowie um Mitteilung, ob Versicherungsschutz besteht.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TpttlD12CZSUyTln4gAdQLNMDVcMt29S6TsBi2VMRgBynPtQFvcckE0rbzi5g5DpQzuJHhgHkO2Y+EX7pcPHd41ydwcNXivaDXwNV5EX5RN7TRmNfTJ9+GzI="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989330,
+  "id": "UZbPatC7BJyCqtsPrIKzyAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 213,
+   "prompt_tokens": 740,
+   "total_tokens": 953
+  }
+ }
+}

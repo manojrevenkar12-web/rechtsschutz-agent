@@ -1,0 +1,40 @@
+{
+ "request_key": "cc8b9ae3808e8df2cdadbb8496b6e401",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 3.514979465000124,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EvoDCvcDAWkUfRM0bP1qePT3Luieyqau1f+hEZiNjW3lDNogWCpm5bStF5/9tVaEavA+3iwXjm5ereCagyB1wE9kN/FRRCTS4QkwITrLQCy7eKmq1FiR8aD5ZUktxTKbfVCsFJrJSjpO1Id3OGnB93H/dFdgZ9VyDSPEWMxFMehoTXABptC6EBQQ1+IOerUCvvo9KtVBv7BIrsvnLBAB/6GuMZ1ipNcWP2Z0ZfCow6anqVNQObEMeO0h+Kc7U0G0VI6NuKm2ZxeAsBgws2d8OWq/01yXV3s3Ss6nU2UfULalSzKIzDi1lkNUvi/t4MAjs+lQEerlnkWNsiTqOKBqp02BWFUpPhqsB4aJb/186KCGV4gZuN6yDSS6XgjHY3JTt9rcOCZj8GywEDzzRJ1O3W0+Capmyw037gCbrb+CZ+itiggW4DNsW3dZvX2P2IbG7fCGafxYxID6gdIpvjpfzNrGonVXLuSlio5Fx5e8lsh+OqcyyxU02WvrmlxIqfwivVBoE3dLU84xVU7F3EYi6uWtIkzjSqZAz5HCxONcL93i62Pr8Bs2lg4i4Z0Q9qTBDLFow3XoWoyu/UpZ82ASyqc+jadD8mC2LYg7vXHScaQPO1hh24AHPyNYM1QzillkPH1QGAJsM/80+zDVlbDyhc7Z5i0jV/9+Etju7jg="
+        }
+       },
+       "function": {
+        "arguments": "{\"area_confidence\":\"hoch\",\"client_goal_de\":\"Der Mandant möchte gegen den Bußgeldbescheid vorgehen, da er zum Tatzeitpunkt nicht in Berlin war.\",\"area\":\"verkehrsrecht\",\"dispute_start_date\":\"2026-08-19\",\"event_type\":\"bussgeldbescheid\",\"missing_information_de\":[\"Kopie des Bußgeldbescheids\",\"Nachweis über den Aufenthaltsort zum Tatzeitpunkt (z.B. Arbeitszeitnachweis, Tankbelege)\"],\"event_date_evidence\":\"am 24.09.2026 wurde mir ein Bußgeldbescheid zugestellt\",\"event_date\":\"2026-09-24\",\"manipulation_attempt\":true,\"dispute_start_evidence\":\"am 19.08.2026 in der Sonnenallee falsch abgebogen sein\",\"summary_de\":\"Der Mandant hat am 24.09.2026 einen Bußgeldbescheid wegen eines angeblichen Verkehrsverstoßes am 19.08.2026 erhalten. Er bestreitet, zum Tatzeitpunkt in Berlin gewesen zu sein.\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_1964535",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791993150,
+  "id": "O6XParLvHJyCqtsPrIKzyAk",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 299,
+   "prompt_tokens": 1775,
+   "total_tokens": 2200
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "request_key": "78c27d552d836f34ee8e97f0a01a2cb7",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 9.094940538999936,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_1]\nVersicherungsnummer: [Bitte hier Versicherungsnummer einfügen]\n\nSehr geehrte Damen und Herren,\n\nich zeige die anwaltliche Vertretung von [PERSON_1] an. Mein Mandant nimmt Ihre Rechtsschutzversicherung für eine arbeitsrechtliche Angelegenheit gegenüber seinem Arbeitgeber, der [FIRMA_1], in Anspruch.\n\nDer Sachverhalt stellt sich wie folgt dar: Mein Mandant ist bei der [FIRMA_1] beschäftigt. Entgegen den vertraglichen Vereinbarungen wurden die Gehaltszahlungen für die Monate Juli und August 2026 nicht geleistet. Der erste Zahlungsverzug trat zum 31.07.2026 ein. Trotz Hinweisen des Geschäftsführers auf Liquiditätsprobleme stehen die ausstehenden Gehaltsforderungen weiterhin aus. Mein Mandant setzt das Arbeitsverhältnis derzeit fort.\n\nZiel der anwaltlichen Tätigkeit ist die außergerichtliche Geltendmachung und Durchsetzung der ausstehenden Gehaltsansprüche für die Monate Juli und August 2026.\n\nIch bitte Sie daher höflich um Prüfung des Versicherungsschutzes und um Erteilung der Deckungszusage für die anwaltliche Vertretung in dieser Angelegenheit. Bitte bestätigen Sie mir die Kostenübernahme zeitnah, damit ich die weiteren Schritte zur Durchsetzung der Forderungen meines Mandanten einleiten kann.\n\nFür Rückfragen stehe ich Ihnen gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "Es0ECsoEAWkUfROfsOKY1Kw/wFLCUdaDvDFqOFX5xlWcMO8qJvWnlzgv8FjdYLEqRg9Nlp7WVrlyaSysPxPO3Hk27LfXRIg1vqvEB2c+74dsZLGBBP8QdOMJnhP8FByZiDjEIyMP5j73NxMXlv4T3xLeW4ick6YMkPCdBRAoGBUsBkZXCHYvbIEukpHlZ1HDO11fLKwxLhFARYlVe6GNicgme7SQElI/6J/lZjjczsbbVwXZoSyCP5g5lw84M8naY0f+eW2nEvNGB0Y4t7kT7sT6JcEsuF6SYKPbkHeDOMq8wHyFfUK29aUrGVqWyNgLLkqMPPzhpia4779u3RtTZiBcKCV9uVOTZ7OKCF+cU/SqTiI7tQRWDOhCDQDLAbPF+0oV6scwbMed6FnSXDHkvaSlCXbPQaFq4oyD7xvaxaguDvKae55dHuBWUoMTgWzyRAh/5BwWd4k1DIxT6rC4egV+uXWi7IZ5KHSU/STkdnMtNxs9/7S7Tw3LxWfJmHFl6k4u27QMgkhho0uc2o6IzuhFKyGzdYkA68KwDSRvyy2p5vSpBcHLgba6/yDndI+nkHBAR9joVx7ZTao8k/iEdS0EagHx9pzVYYIWPbRTvK8jnKe/dQo7W17CyrTQR8snW7jOMXrX97LOivUL6gFu81F58yDcq6WoFEMdnolc2iV21yqnpNEQZiHYngOEtZSjvHy8ATKHKBdd2ovnSWAKwkcW00SUNv7WignQmSIVh87YxCC32qmgtL16kmkxS0AaW+sYB1Je17fLahyLJp+fXw=="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791991036,
+  "id": "8pzPaoTgPMiGqtsPrJiL2A0",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 329,
+   "prompt_tokens": 684,
+   "total_tokens": 1141
+  }
+ }
+}

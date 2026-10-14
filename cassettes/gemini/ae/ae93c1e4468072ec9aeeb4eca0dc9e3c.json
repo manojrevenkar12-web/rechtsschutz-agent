@@ -1,0 +1,31 @@
+{
+ "request_key": "ae93c1e4468072ec9aeeb4eca0dc9e3c",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.2005189680000115,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage Verkehrsrecht – [PERSON_1] / Kennzeichen: [KENNZEICHEN_1]\n\nSehr geehrte Damen und Herren,\n\nich zeige an, dass ich den Mandanten [PERSON_1] in einer Angelegenheit des Verkehrsrechts vertrete. \n\nDer Mandant hat am 29.09.2026 einen Anhörungsbogen der Bußgeldstelle bezüglich eines angeblichen Abstandsverstoßes auf der A113 vom 03.09.2026 erhalten. Gegenstand der vertragsgemäßen Interessenwahrnehmung ist die rechtliche Beratung und Vertretung bezüglich dieses Vorwurfs.\n\nUm die Interessen unseres Mandanten optimal wahrnehmen zu können, bitten wir höflich um zeitnahe Erteilung der Deckungszusage für die Wahrnehmung rechtlicher Interessen im Bereich des Verkehrsrechts für das genannte Fahrzeug mit dem Kennzeichen [KENNZEICHEN_1]. \n\nBitte bestätigen Sie die Kostenübernahme schriftlich. \n\nMit freundöglichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TYKirklKTBGTusCGsd9sItJ0xkhBWmukV/4liY+cJYzK+t1ds25CNjjkjIAZYz/RhEzuSFhnjg3SqsVSaT7aFhBcwxglO7jnMzG8nxdgjw1qmesZqiYZJcf4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989395,
+  "id": "kpbPaqmtH_P5qtsP3-WRmAs",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 235,
+   "prompt_tokens": 679,
+   "total_tokens": 914
+  }
+ }
+}

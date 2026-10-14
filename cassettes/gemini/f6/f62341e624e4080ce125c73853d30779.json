@@ -1,0 +1,31 @@
+{
+ "request_key": "f62341e624e4080ce125c73853d30779",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 0.9883700660000159,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für Mandanten [PERSON_1] / Mietrecht\nVersicherungsschein-Nr.: [NUMMER_1] (falls bekannt)\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir den Mandanten [PERSON_1] in einer mietrechtlichen Angelegenheit vertreten.\n\nAm 28.08.2026 hat unser Mandant ein Mieterhöhungsverlangen von der [FIRMA_1] erhalten. Unser Mandant möchte gegen dieses Mieterhöhungsverlangen vorgehen. Die Frist zur Erklärung der Zustimmung oder Verweigerung endet am 02.11.2026.\n\nWir bitten daher um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tqj62Ly9ySutEyNEoC0oNAW8p0nDcllsVW3OmSHnoM5stPKKrfbftBSq4HuHIDxqVyw1bJDaXBl1I/TEkesBU1dK3zUgZeVMbybOr4EBbrX7KzotASI3idfo="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989446,
+  "id": "xpbPav3cA_P5qtsP3-WRmAs",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 190,
+   "prompt_tokens": 683,
+   "total_tokens": 873
+  }
+ }
+}

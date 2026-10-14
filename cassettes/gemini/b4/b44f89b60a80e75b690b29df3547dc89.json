@@ -1,0 +1,31 @@
+{
+ "request_key": "b44f89b60a80e75b690b29df3547dc89",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 1.8517313750000994,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_1] – Arbeitsrechtliche Angelegenheit gegen [FIRMA_1]\n\nSehr geehrte Damen und Herren,\n\nich zeige die anwaltliche Vertretung von [PERSON_1] an. Namens und in Vollmacht meiner Mandantin bitte ich um Prüfung des Versicherungsschutzes für die arbeitsrechtliche Auseinandersetzung mit ihrem Arbeitgeber, der [FIRMA_1].\n\nDer Sachverhalt stellt sich wie folgt dar: Meine Mandantin ist als Pflegehelferin bei der [FIRMA_1] beschäftigt. Bereits am 05.08.2026 erhielt sie eine Abmahnung, die sie als ungerechtfertigt ansieht. Am 08.10.2026 wurde ihr das Kündigungsschreiben zugestellt. Meine Mandantin hält die Kündigung für sozial ungerechtfertigt und beabsichtigt, sich hiergegen zur Wehr zu setzen.\n\nZur Wahrung der gesetzlichen Frist für eine Kündigungsschutzklage gemäß § 4 S. 1 KSchG ist ein Tätigwerden bis zum 29.10.2026 erforderlich.\n\nIch bitte Sie daher höflich um die Erteilung der Deckungszusage für die außergerichtliche sowie gegebenenfalls gerichtliche Interessenvertretung in dieser Angelegenheit. Aufgrund der laufenden Klagefrist bitte ich um eine zeitnahe Entscheidung.\n\nFür Rückfragen stehe ich Ihnen gerne zur Verfügung. Bitte richten Sie Ihre Korrespondenz an [EMAIL_1].\n\nMit freundlichen Grüßen\n\nRechtsanwalt/Rechtsanwältin",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EswECskEAWkUfRMYv8KEYBLzzbNqj+wUWf+OXENCUdKcKRfKnEiUbdXkJQWrR83Ghh9CYKIm9BBbfqhDgkOzKgqpWytPVLEOtqUngYTTh5UHIg1IAPBY0oLfDclku+j17pgZohW/tZRpdwqJPz5RFQLp5l++9hyznJS7TLLFHTgH/cu6WxwJkP/VlLt2Uwr4B9ZBir81UcT97XyWfUI3vzoEO1qEzPDnB6sXnaImSC3+mpXch8fhu15Dp9hlpPgbyd5JnHmryZLd6B1sALAj23rShWvs21cUpjkC7DCZMfTb9Y1rers7drvkqkOjXpoPdek5gbMpsNevgzQCZD59p7QGm8fBkA5f2QF7pn/lm4uzoKg0MHjHCfkxHpy3j4ACto0YGTmBaNYrMC0TywS4Q2Lf4Aqh0ZxGfBhiJ0YQCe+DGGnXYIBkqfXFmED0DOmvvqY8qia9n1I8JDcki7Kx193ID7ef8vz95V0fizvQHt4Xugp5T0xG4F3ith5v9KEmrQ5jEwp4sfM//80WyAP1zqID+kXGsOqOJ+bidwT7iT2FPaZmbqcDFRSaPIqxZ8rBamzJKmPek/ql9PtwAoJNcMDb6gIjqcRNSCd2nSp4W1zCIzPUvhm2c17LbNRFvpi0D/6RaA91KCN6t2jlyTmdB8vQJCIkVs1bC07o31JALj4V2vIAIDlMwC2BAcIHzcTgGOV/i4F4K68j5xy3CdoEGbUJyVD/1Tk9Nr6vZKbF5+T5drxjuXesIYAh0AoB5yed1v89Evk9KPoku0idGa7o"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791990159,
+  "id": "jpnPar3xA8n5qtsPpr-h2Q8",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 347,
+   "prompt_tokens": 729,
+   "total_tokens": 1204
+  }
+ }
+}

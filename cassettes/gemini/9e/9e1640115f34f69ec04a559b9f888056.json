@@ -1,0 +1,31 @@
+{
+ "request_key": "9e1640115f34f69ec04a559b9f888056",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 23.238098412,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_1], [ADRESSE_1], [PLZ_1] Berlin\n\nSehr geehrte Damen und Herren,\n\nwir zeigen die anwaltliche Vertretung von [PERSON_1] an. Namens und in Vollmacht unseres Mandanten bitten wir um Prüfung des Versicherungsschutzes und Erteilung der Deckungszusage für die beabsichtigte rechtliche Auseinandersetzung im Bereich Mietrecht.\n\nDer Sachverhalt stellt sich wie folgt dar: Unser Mandant leidet unter Schimmelbefall in seinem Schlafzimmer. Diesen Mangel hat er seit dem 12.06.2026 mehrfach gegenüber der [FIRMA_1] angezeigt. Bisher erfolgte jedoch keine Reaktion seitens der Vermieterin, sodass der Mangel weiterhin besteht.\n\nUnser Mandant beabsichtigt nunmehr, seine mietrechtlichen Ansprüche geltend zu machen. Ziel ist es, die fachgerechte Beseitigung des Schimmelbefalls durch die [FIRMA_1] zu erwirken sowie eine entsprechende Mietminderung durchzusetzen.\n\nWir bitten Sie höflich, den Versicherungsschutz für diese Angelegenheit zu prüfen und uns zeitnah eine Deckungszusage zu erteilen, damit wir die notwendigen rechtlichen Schritte einleiten können.\n\nFür Rückfragen stehen wir Ihnen gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EtYECtMEAWkUfRPlR/s8Zs+4OYzG13LU7Qg7Y4fZQTmiwosd8GRwUmagU6QJtRsimihIPOSrjAQJYqKe7+lj/ZksTJjvDDMFvad10KQWeqSDcVLr+8k4k7GpVvRPBucMNTxvdj+hoJRXZ9f17cZdzIR6XYDLD8OGe1l0w9+3UA1xxZU/IpvAE+5oJyWAMTezNbT6iSytJ3naVO932Y8yV4IbIQ8gardAn3YxuktL5hGCjf39lsMBmZ7dWkFUxETz9EbNTK94HB2p1OwbGgZEbPsGcM816x7oRkuD5Pw27sAYtKP4P8UjSL/HMOuVLy36Lcv+SYTfhpAC581CIt0o77NtL7b+e4MKOlwCK1CHlgur/HlD+pdOzQEGPp81gtGemCiU8d5m97Qg575Rv57jUoRGFXyL2rYSLoGMTgPAFjCe2/fOBHVavJyjNQzeXkS3Q2QyrmVHP7ykqfIogH2GGYzA6K1zzm8MQAgnLlcvT3/T4qWxWeCdJkDxKqXa2O8WLFLHojcdrUOZphB5FC/r1lTeqI3Sxx6nJ3U2sZQa1LNdzBXX3aNBStsisHwO8+LwPwhGyci9AMoV5hK+5c+tLWiODdoHoxyGZyM1S3fj9zvIzztK5EG0gbCl11+AK5kAfQIKGJLcQC2HfeoegKL903Y5qOmxqKfEV6zx78N8rXKsBTFvIx8/x3At/nnKd608GuorW6qOFehPEL7eqmC7PNlMGu8LoaRSQ+W2gmceM8OvWndBb6mOk7GNeLyZBd/oEtyLPdQDijJhPJlxkwnvBRA0RmuMRteqfw=="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791994948,
+  "id": "LazPapG7MeaDmtkP9aii0AE",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 301,
+   "prompt_tokens": 675,
+   "total_tokens": 1107
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "request_key": "f0d04a547ae6e69164ab1db4073c3d3c",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 2.450561127999663,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EsUECsIEAWkUfRPn3t0jWCtRRHJ8AYqNZiB/4jbjfgLUfNJKUJzoHZQExA1DImXn+HmfM241qHAcc2eW5YfPmnVeSi1BNjk59zvqYcPqD6F9DRmnh6b4mhCjFvp+wrvwd9FKI/QnCfvX/QguK+WZIG+D/Od2GqFl6IHl5qPKJFS3doHsC7qFoezNxDBpMxFQ81kCQOtBbObOVyeQs9x7QHuiGt708oXd32tyzrbGJa8z0rbz5ROvSCN3qj+vRRk1dHWnd6DKUM6hK3jcbpDvuTZCEFwFOs5qYnowdef0YlLOasZfOB5WMPQLcw6LJWAGsFZrKMdGQNALyrppQz63wGy7ng1cgYVebGFpqBbTMVHxQJcWd85l+FCoVv+ThpQkpajgoJKniQR3wWvYBW66i/oVmNfOU6gaEB0Sn0FT0NUEL3zLQO1aI/OdHM1DDTiEISk+HXCEFOh3aW19dzLiB8YxzmT1WLTcF8k//r1hk8aQnG7QTCKnIt1hqxSwiP+hv21+wGvqnPe3mhgRJgzXf+7qvElIXSBfpc8a4BDX8HHq5nUW3riYNV2C0g7CGu1MJrSZS/oETd4EfxXlqEyB9atDO/vmDwkqFGSiUExQxNCJrj1aSg64D78v2GcaP0R9WbbezC/oxYZcCDwVGRDFWB3adQHL0+2lvtqwbaahaeuTpdgw5aly8Vq0/wGk5b+OgWc7joucKHC56ECkIJL77gKYjfjDjx+dpJV/5IOXzoFt4p4HhObvIrhy9TKzm+OUQ1bMwCEQgxU="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_date_evidence\":null,\"dispute_start_date\":\"2026-09-03\",\"area\":\"verkehrsrecht\",\"summary_de\":\"Der Mandant hat am 29.09.2026 einen Anhörungsbogen wegen eines Abstandsverstoßes vom 03.09.2026 erhalten. Er fragt nun, ob er diesen ausfüllen muss.\",\"event_date\":null,\"event_type\":\"kein_fristereignis\",\"area_confidence\":\"hoch\",\"manipulation_attempt\":false,\"missing_information_de\":[\"Kopie des Anhörungsbogens\"],\"dispute_start_evidence\":\"am 03.09.2026 auf der A113 zu wenig Abstand gehalten haben\",\"client_goal_de\":\"Der Mandant möchte wissen, ob er den Anhörungsbogen ausfüllen muss.\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_1267948",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791993061,
+  "id": "4qTPavPBM9mj6dkP0Z3-kAo",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 222,
+   "prompt_tokens": 1739,
+   "total_tokens": 2079
+  }
+ }
+}

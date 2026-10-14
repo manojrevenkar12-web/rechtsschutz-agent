@@ -1,0 +1,31 @@
+{
+ "request_key": "a1d0ab7d5b9756630bf23b6619b1b20a",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.2857540679999886,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage – [PERSON_1] / [FIRMA_1]\nVersichertennummer: [NUMMER_1] (falls bekannt) / Schadennummer: [NUMMER_2] (falls bekannt)\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die rechtlichen Interessen von [PERSON_1], wohnhaft in [ADRESSE_1], [PLZ_1] Berlin, in einer mietrechtlichen Angelegenheit vertreten.\n\nAm 03.11.2026 ist bei unserem Mandanten ein Mieterhöhungsverlangen der [FIRMA_1] eingegangen. Unser Mandant möchte gegen dieses Mieterhöhungsverlangen vorgehen, da die Einordnung der Wohnung in eine bessere Wohnlage nach seiner Auffassung unzutreffend ist. \n\nDie Frist zur Abgabe einer Erklärung gegenüber dem Vermieter endet am 01.02.2027.\n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten im Mietrecht. \n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0ToOItI9FJ2GhxlJVMmCRI9YxEtBQ6OWnAUpUznCz5kl6On2irwo63JjXl3AdUTz9yJNKkpIGqrz0EKnoBS5w4avtZurT2tcKH8bK5w1dDsmPXQFpUFXzaqBo="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989420,
+  "id": "q5bPaq7FIOfrz7IPj5vgsQE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 258,
+   "prompt_tokens": 728,
+   "total_tokens": 986
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "request_key": "9c576b915be3460d436cb75769a4a46f",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 15.21095681199995,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_1]\nVersicherungsnummer: [VERSICHERUNGSNUMMER]\n\nSehr geehrte Damen und Herren,\n\nich zeige die anwaltliche Vertretung von [PERSON_1] an.\n\nAm 26.09.2026 ereignete sich ein Verkehrsunfall, bei dem ein anderer Verkehrsteilnehmer, [PERSON_2] (Kennzeichen [KENNZEICHEN_1]), auf das Fahrzeug meines Mandanten auffuhr. Infolge dieses Auffahrunfalls entstand ein Sachschaden am Fahrzeug meines Mandanten. Zudem macht mein Mandant gesundheitliche Beeinträchtigungen in Form von Nackenschmerzen geltend.\n\nDie gegnerische Versicherung verweigert derzeit die Regulierung des Schadens sowie die Anerkennung der gesundheitlichen Folgen. Mein Mandant beabsichtigt nunmehr, seine Ansprüche auf Schadensersatz und Schmerzensgeld gegenüber dem Unfallgegner bzw. dessen Haftpflichtversicherung gerichtlich oder außergerichtlich durchzusetzen.\n\nIch bitte Sie daher höflich um Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die anwaltliche Vertretung in dieser verkehrsrechtlichen Angelegenheit.\n\nFür eine zeitnahe Entscheidung sehe ich Ihrem Schreiben entgegen.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EtYECtMEAWkUfRPpImEfm7MBMoQTizGHowtwIULFEhHZJNOu60iHzx4SKJTSd3lYLOKBILRBRItj9mLXRH7IttQp9FsZy6P+yTz6BhU1aGTBgN1DDqKUdwtOuWnFxMM4HDxZO7ltV9y3zdfcKVnYpHzNsIEPoidzyYa96TQAWbYNRJoRLu/a0awQPRDOBHvpnaboIi9bdutR+gnFZawfQZ8/oI85gAejImosqDfYrMcWl+rg59UEEECJA8FHcCRnCXM+TfrrTgce72/E/MlR2Dd67AlEKWHcCK55VsIQOJnK3D+qpudpI1LvycNoY/P0I05qnf8hh/YGCvHu6wLY+++rtAiCjdcM6FpiV8DyCDiknsoMVXoHwLexr2X0D+ZRQBh8ZVh1Ydt1mB78M7gPnINKlfK8H6bYAKLTXgY4UnJwfsvrPkV9VjESeGRKFvvhrssgMqjrdoBdajjwQ++dk4+Kk1HyqMQ9LFo0fyL4VjRThSuOEGaAMb2QNYvhimBwDvqPk/IV2vxvQ6oB4Hwhd7paOreGmIDLFmrveeRrNy0n2PqMPvoMMMc88rrPvzl937W/8czqkNfzfxIEpRTGmlD4yMWd+JkdW9WFxVF6rHS1Wb6VIJzeKdsh2sGsyqOk2jGKtUVxvt2Je/erKGmMRq/LHdNgvYOpkodGpJd94xfSdxQwUNI0pj6Coy6c7MLB3N7y4UGDCugiJa2j9TgX0VKwUsiG8XPJ5SjtprS62hfksZD87bmEwxDoPWTLSR9RSg0XrPMpm5DZYlv9HFyqduR6AfZLXn4X2g=="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791993050,
+  "id": "y6TPaq21JdX5qtsPqNDl8QE",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 286,
+   "prompt_tokens": 680,
+   "total_tokens": 1098
+  }
+ }
+}

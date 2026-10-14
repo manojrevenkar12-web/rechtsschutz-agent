@@ -1,0 +1,40 @@
+{
+ "request_key": "6c5700d9bd5ff4e08ad552db0bfebb43",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 1.7571294470000112,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "ErUJCrIJAWkUfRP4M9k9iWqJlzzoXMeA4t9VNfPyhL53C448f+vjG4qjHPIlREGd69j7/G3vKGgZAe876COUT1smmXMUgvNJwXpXhywkvhW+Qds6AVHriV4ELBHacahd4DTeofuZLwfCT6TaMn5AkhhE/TbJMNWqcq2uT7kd3WHwWPlnaOGiqMtR23Sj/xZDjOrXOUtvlLFpoPg3/KCloI3f0MnW5ZaJGDGUvnh4Gi1Kq0fBJVFDBK5CMhu0IR8TW9b/frptHQBVkw0I37UAxf0CN2VlaXH/zw6A3sMHng2IXEgm+Nw+Vc7AzovnATa7hfxUisWGX6wbXTNiXhNBGEUWaX05u+yLFEs/q/Y7ANjUTUArh/loasnal0h8a3REPjiS3pwdq9p4ZMTFzBJ7hFL2nERbK+3n9ew11ANn0N3GhCffHPuzHwGonTbJYrnpFwtkdagB6OrAzEP0DzWBj6GwPfDI3i4grP92KNwZNt+x5YTFsgdm04ToPMN084j/gH47Hbjqz+Yztm2NW6CtBfx9mtZZZU/LWX2/66zDz+bD5YTaPUpUFcfgfuQgh55hC6JTWe0W983j7L1T0Y1V0DwiYSDaOBw98bOvOSMpNKsxt7hq89aVr/Ho+FJqxaoAYuTqePKBUtRWhRqUt/+/k1TShMC00DBadvRI9x7t4Hd/MDIpAaofLM6cIsiyprDYZvgUonXTnWkt0FFr5iq4bYkHoDqAKL6xV0wruJkRatUyA+CVCTHvHa9ANVbbPuULRJk2Vrydqfd9oW5T72+v0evPT+6lNq0xkpItblvx8Mf38YwYZEUPCEpLG3i8n4IMtBHCjENPJ/6gEjyef1s3wjWYuhfxeEhzur2fi2B0Up8YQ1/7CTqz0KvWyIxwmZICX2kXq9tGf6FxEfJF3Mr0oEK6Ai1F/oN9kHHKfws/jWV0nUXmq7299PhArnZZGvhg9QxpiCSlwb8y3qIr34OVYPD2CyLgBsMPbtFn+vNP1bO43q+lEHawNcG17rNhIThn30iJCLe4OlzJC1h2CDf6FbeY087X1d5vZ53WdvKvVGV29E8X19qBhDFkHegpHGNj7VNyuNpudd+kaE8CQ5OH92kjP865YSvEFUjOgpyBx0GcvleLVeTc6karIRD1dUdIC6nTTjgvjxlCs+P/i7sNXzlcKVhaejXmuPXtNFdhQQ2Uw9MrFw1BKz4AFSiHWgT4bchzESvOTtV2+LsQq275iSVgG7tOGqNE8wPhYlKIx7xQeN3+RDB96jKcumQ918LWzjdLT7O/68xziDErC+RMnoIYe6SNrj5cNM0hdA07I/QSBssUDQimNWf+n7IHkhO3du5b95vlpejgaCOKCaJoTVOJCnr1GN9FbE5hcuid+q3uypyXGVugGGN+uLnU7ZAvZAx2OlepFxhCYNbeWaDMJS0hk9cTdWgXLMD0KflHZjLQir4RrpqJZJtzHrOeNs4sbqD9bhlEdmITPehddO5S9J71L3n+1/HxK5sTI3O/UxhfygNJDKcXY5PHxj49/PunEFiQiB+BVpqYWk9twczOMGAqsSMcTFq7iJhk22TZLW/Ob2b95noh4g6w51a7tQMB8xFewoAA6JI="
+        }
+       },
+       "function": {
+        "arguments": "{\"area\":\"arbeitsrecht\",\"missing_information_de\":[\"Gibt es einen Betriebsrat im Unternehmen?\",\"Wie viele Mitarbeiter beschäftigt das Unternehmen (ungefähr)?\",\"Wurde ein Grund für die Kündigung genannt?\"],\"event_date_evidence\":\"Letzten Donnerstag lag dann die Kündigung in meinem Briefkasten.\",\"event_type\":\"kuendigung_arbeitsvertrag\",\"dispute_start_date\":\"2026-08-05\",\"manipulation_attempt\":false,\"client_goal_de\":\"Die Mandantin möchte gegen die Kündigung vorgehen, da sie diese für ungerechtfertigt hält.\",\"event_date\":\"2026-10-08\",\"dispute_start_evidence\":\"Am 5. August habe ich eine Abmahnung bekommen\",\"summary_de\":\"Die Mandantin ist als Pflegehelferin bei [FIRMA_1] tätig und erhielt am 08.10.2026 eine Kündigung. Bereits am 05.08.2026 hatte sie eine Abmahnung erhalten, die sie für ungerechtfertigt hält.\",\"area_confidence\":\"hoch\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_1802317",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989953,
+  "id": "wJjPavCfDujlqtsPzaM2",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 280,
+   "prompt_tokens": 1966,
+   "total_tokens": 2562
+  }
+ }
+}

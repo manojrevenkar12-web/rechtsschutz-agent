@@ -1,0 +1,40 @@
+{
+ "request_key": "2e43e942fe04d0173bb31691d120cb11",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 1.5237118879999798,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EucECuQEAWkUfRO2j/fBvBnoXQ9deMqvwZJHyfdrewpsbtCAoCNJsgXTAFBUEqCwWqt6rl/0pEPhFhEdzCC0HM41vw1nu6CKbMfdZykVgszkxg+wIT4k8RT3BOtUnmT6aGd00nrIdlFSOP+S0kg3cgdHXPFVr4GDjg+5mwf/Wt+ivLcWK58qkb+P/y3ExYTXME+UDzI36MMl25vivkbb6SdEHvc7/67MKw5FIGWyOkREIZDLZ+2saxvLCjxsL4B8Vq2lwFu1FrBCOi0pLrW6FVwxmpZr8wyNExE/75+vVaYTPgiuizxCCVIG+pSmZrfMVzcQsbKTbOXPI4dKZklwZtq1c+9FUSikVa1zLf++RylH93d50YxGos6EVEdvLLFn0MdkFq965wS5vHYc6oQOYMtCGG30ZdTlguW1859RYK1YIMzSLdvWFn5oHbQn9m7WW/ZpOoAcnSCMqURkPcKjAs06U3dt8esaAL43nr60sfmeJJ39v4G6hqvoSrahiujP0uUgdoyMrn7yCr3/Fd+f9gbJYa8b+r+FRlhx+YeNe0AXFtaQr7B/tVCsGfwBMSWCoQ8ZGZ1GHhFlOAtFhSZK3HPjkrgY0N/rZuOaDOA+8Qq2m3eU4NhqQ4IDALxq+bBemKn+zxq8a2Gq1ly564/mZ83q3VSQuvzEXBknQNkO6hZlkgoOh70k3Rt7LjPwk5OyUc80mBqAv2euGY04W7L89EbpVMm1xu9HYDbQjS/vSrVSa+0+YWQYOSqjraHlO1xRuu/WpxOMgmQwgHTtSJfT0Wws65MxNLNLW1SXw7QB3/6yseaggcDCeWJJ"
+        }
+       },
+       "function": {
+        "arguments": "{\"dispute_start_date\":\"2026-09-18\",\"area_confidence\":\"hoch\",\"manipulation_attempt\":false,\"client_goal_de\":\"Der Mandant möchte sich gegen die ordentliche Kündigung durch seinen Arbeitgeber wehren.\",\"event_date\":\"2026-09-18\",\"dispute_start_evidence\":\"Am 18.09.2026 hat mir mein Vorgesetzter, Herr [PERSON_2], die ordentliche Kündigung persönlich übergeben.\",\"event_date_evidence\":\"Am 18.09.2026 hat mir mein Vorgesetzter, Herr [PERSON_2], die ordentliche Kündigung persönlich übergeben.\",\"event_type\":\"kuendigung_arbeitsvertrag\",\"summary_de\":\"Der Mandant [PERSON_1] ist seit 2015 bei der [FIRMA_1] als Lagerist beschäftigt und hat am 18.09.2026 eine ordentliche Kündigung erhalten. Er möchte gegen diese Kündigung vorgehen, da er die Begründung der Umstrukturierung aufgrund der Weiterbeschäftigung jüngerer Kollegen anzweifelt.\",\"missing_information_de\":[\"Kopie des Kündigungsschreibens\",\"Arbeitsvertrag (falls vorhanden)\",\"Informationen zu etwaigen Abfindungsangeboten\"],\"area\":\"arbeitsrecht\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_1243970",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989647,
+  "id": "jpfPaqbPBoHjqtsPnY7d-A8",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 337,
+   "prompt_tokens": 1825,
+   "total_tokens": 2296
+  }
+ }
+}

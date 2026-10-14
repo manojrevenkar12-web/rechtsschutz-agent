@@ -1,0 +1,31 @@
+{
+ "request_key": "cc6f6f7f4524c23e58b5ca9e7fe4494e",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 1.4917302370000698,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_1] / Versicherungsnummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nich zeige die anwaltliche Vertretung von [PERSON_1], wohnhaft in [ADRESSE_1], [PLZ_1] Berlin, an.\n\nMein Mandant ist seit 2015 als Lagerist bei der [FIRMA_1] beschäftigt. Am 18.09.2026 erhielt er von seinem Arbeitgeber eine ordentliche Kündigung. Mein Mandant beabsichtigt, sich gegen diese Kündigung zur Wehr zu setzen, da er die angeführte Begründung der Umstrukturierung aufgrund der Weiterbeschäftigung jüngerer Kollegen anzweifelt.\n\nZur Wahrung der gesetzlichen Frist für eine Kündigungsschutzklage gemäß § 4 S. 1 KSchG ist eine Klageerhebung bis zum 09.10.2026 erforderlich.\n\nIch bitte Sie daher höflich um Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die anwaltliche Vertretung in dieser arbeitsrechtlichen Angelegenheit. Bitte teilen Sie mir Ihre Entscheidung zeitnah mit, damit die notwendigen Schritte zur Fristwahrung rechtzeitig eingeleitet werden können.\n\nFür Rückfragen stehe ich Ihnen gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EsEECr4EAWkUfRNmycfTiHnIAP9Ki1T+e36VWw8S1vX6RxW8QtlPMRIfpAc8PP4P5MfbJz6WHHM2HojbRnJb3AuVfTt0CfR1oz2Icilzh72zSxpqi/d7O+mB728Lh1ade2eITygF9wkzylWmKtY+9jBEfCJjse0j6jFPRDQtbpj/FCn+wbO6u5WsxQnuNz24FK3wkN5Bqb2qDnQQ/qsdlQiB9pAp0h+id/L4wKYmwelyUxkjkN62jOjJvSWYFw2+EUSWdX7l7/gnzrzhph5WfTyZWT0z9VkoldYkmoCUySc6Do7fZg/xout/XaltfRzXOcqAbtVO44dC+3WspKqOuJma9VRQHL2v9UOE0mFKDMVeIz0P4PJppT1cOyp7GGqM14Z7h8hSLfV0K+FkH/pnqeIufcmaoQk7+D96k16Os2n7c+DSGBkaWKQ8UsKMNhIEYoRlrskXgo1lunJepVw9PNFdyTlwqffU4EU6TPJYkHzJHMqBEnbH0kPzTHQqQWiu+Ku3Ux5CL9LDUajr53pQ89e+FNncQF0ZnQSva0UHlIop/VCtsKSC/di9DtjpaXP44wV+n+JcuGKz9PQS5V5sp3bkpJ4J5IwZMYwkpsTW1cuGN0SSW/VoI0AHPYsm8GzFyf+oPAd0dCfNha/xpcggpj/IlkF+V/2taA6bwlTjPouxjE9KEDmAF1654wTq3gplU3khG3mGaf+Hrz49FI5jYmXyxjFNefdaT8QbM4IwxDrpXo20WMIPR+CrEu2FReN1WG2TXw=="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989909,
+  "id": "lJjPaqitF5_4qtsPvsTN-A8",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 304,
+   "prompt_tokens": 835,
+   "total_tokens": 1266
+  }
+ }
+}
