@@ -1,0 +1,31 @@
+{
+ "request_key": "ca4978d46f98aed77932a9cdde141154",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 2.1292284640000076,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage im Arbeitsrecht – [PERSON_1] / [FIRMA_1]\nVersicherungsscheinnummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen von [PERSON_1] in einer arbeitsrechtlichen Angelegenheit vertreten.\n\nAm 05.10.2026 wurde unserem Mandanten von [FIRMA_1] fristlos gekündigt, angeblich wegen falscher Paketzustellung. Unser Mandant bestreitet die Vorwürfe. Ziel ist es, gegen die fristlose Kündigung vorzugehen.\n\nZur Wahrung der Rechte unseres Mandanten ist die Erhebung einer Kündigungsschutzklage erforderlich, welche Frist am 26.10.2026 endet. \n\nWir bitten daher höflich um zeitnahe Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten in dieser Angelegenheit.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TxoOCGr402l6ANkDDc/FldvKtuPcPTypv1D6yySi8mZMVXu+Rnlw0oTp/s6eeSIAR/tmmx7+dr8BTXCUwEhK6vjjQ8cr3BWdMjrAakz3JthV31UwKS8+aB04="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791995545,
+  "id": "l67PatX3J5zNjMcPgN-a6A4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 223,
+   "prompt_tokens": 585,
+   "total_tokens": 808
+  }
+ }
+}

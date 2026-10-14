@@ -1,0 +1,31 @@
+{
+ "request_key": "00a50565131fff100e0c0ab522b33722",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.2574368450000009,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_2] / Scheidung, Sorgerecht und Unterhalt\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir den Mandanten [PERSON_2] in dieser Angelegenheitwaltlich vertreten. \n\nDer Mandant lebt seit dem 01.11.2025 von seiner Ehefrau [PERSON_1] getrennt. Es ist zwischen den Eheleuten Streit bezüglich der Scheidung, des Sorgerechts und des Unterhalts entstanden. Das Ziel unseres Mandanten ist es, die Scheidung durchzuführen sowie die Fragen bezüglich des Sorgerechts und des Unterhalts zu klären.\n\nWir bitten höflich um Prüfung des Versicherungsschutzes und um zeitnahe Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TdbdJ8iNxxcc9G/tE3tgA6TZc9RUa8ZuQJnMMlSkNZhwE1YLr0wVxhSWEcXuHduRjGxuM4bbXwyvwqgUIsRpT6THdpm2h3O8q7LoazSIa2CFrsa0sAZD4slM="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791995559,
+  "id": "pq7PaqTOEL6k1MkP96zx0QE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 187,
+   "prompt_tokens": 532,
+   "total_tokens": 719
+  }
+ }
+}

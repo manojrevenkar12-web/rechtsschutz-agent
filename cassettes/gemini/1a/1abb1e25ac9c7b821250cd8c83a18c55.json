@@ -1,0 +1,31 @@
+{
+ "request_key": "1abb1e25ac9c7b821250cd8c83a18c55",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.3102957830000008,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage Verkehrsrecht – Mandant: [PERSON_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen hiermit die vertretungshandelnde Anzeige unserer Mandantschaft, Herrn/Frau [PERSON_1], an und bitten um die Übernahme der Kosten für die Wahrnehmung rechtlicher Interessen im Bereich Verkehrsrecht.\n\nDem Mandanten wird vorgeworfen, am 01.10.2026 beim Rechtsabbiegen einen Unfall mit einem Radfahrer verursacht zu haben, wobei das Fahrzeug mit dem Kennzeichen [KENNZEICHEN_1] beschädigt wurde. Der Unfallgegner macht nunmehr Schmerzensgeldansprüche geltend. \n\nDas Ziel des Mandanten ist es, sich gegen diese unberechtigten Ansprüche des Radfahrers zu verteidigen. \n\nWir bitten höflich darum, uns zeitnah die Deckungszusage für diewaltige Rechtsverfolgung bzw. -verteidigung zu erteilen. Für Rückfragen stehen wir Ihnen unter der Telefonnummer [TELEFON_1] gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TTAmmWXCPx3Zmlff6FMEyC9+6/N/8F/wYaNHlyAwevopxzhs10DZbALuuiOhcSK5gpKmK94dycAsarvOdQD6HMyXBOuB7gKiWe5/wgA3H8zv9imf7jpxIEhw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791995551,
+  "id": "nq7Papv4Iuaa9MoP3Pm-wAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 244,
+   "prompt_tokens": 576,
+   "total_tokens": 820
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "request_key": "834d2b8f030c74a645514a95b85ada4b",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.0885058750000098,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage – [PERSON_1] / Versicherungsnummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen von [PERSON_1] in einer Angelegenheit des Sozialrechts vertreten. \n\nDie Deutsche Rentenversicherung hat den Antrag unseres Mandanten auf medizinische Reha mit Bescheid vom 26.08.2026 abgelehnt, welcher dem Mandanten am 31.08.2026 zugegangen ist. Gegen diesen Bescheid möchte unser Mandant vorgehen.\n\nZur Wahrung der Interessen ist die Einlegung eines Widerspruchs erforderlich. Die Frist hierfür endet am 30.09.2026.\n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten.\n\nMit freundöglichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TD8CPV8OlCD3YooAJAKMLWW8M29pfxZ95EapTtadQTmjHM04bzGYxJ9iUHdO2YI02xPupvjdXbU4DJRmPU5m7Mi36ZotKT+eMI3pyNY0We4aQmFSTx5All3Y="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791995558,
+  "id": "pa7Paq-aB9fUjMcPrPDL2AM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 210,
+   "prompt_tokens": 573,
+   "total_tokens": 783
+  }
+ }
+}

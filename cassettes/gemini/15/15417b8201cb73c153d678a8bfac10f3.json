@@ -1,0 +1,31 @@
+{
+ "request_key": "15417b8201cb73c153d678a8bfac10f3",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.549901186999989,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage Verkehrsrecht – Mandant: [PERSON_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir den Mandanten [PERSON_1] in einer verkehrsrechtlichen Angelegenheit vertreten. \n\nAm 26.09.2026 kam es zu einem Verkehrsunfall, bei dem das Fahrzeug unseres Mandanten beschädigt wurde und er Nackenschmerzen erlitt. Der Unfallgegner ([PERSON_2], Kennzeichen [KENNZEICHEN_1]) ist unserem Mandanten an einer Kreuzung aufgefahren. Die gegnerische Versicherung weigert sich bislang, den Schaden zu regulieren, da der Unfallgegner behauptet, unser Mandant habe grundlos gebremst.\n\nUnser Mandant möchte nunmehr erreichen, dass die gegnerische Versicherung den Schaden an seinem Fahrzeug sowie seine Schmerzensgeldansprüche vollumfänglich reguliert.\n\nWir bitten Sie höflich, für die Wahrnehmung der Interessen unseres Mandanten die erforderliche Deckungszusage zu erteilen und uns diese baldmöglichst zukommen zu lassen.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TtS3/efwqa7irEZ62SPstpEkEc6wxt+r0u1k6YKwjEC8bz66GVYnqJxzBIVBPO+OqxRbX590WVCyso7FMBXOJbEQxzCyGCxmuoEpRmJ4y25DxVEBZ62n9toA="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791995606,
+  "id": "1a7Par-4C7i21MkPh_KY6QI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 250,
+   "prompt_tokens": 699,
+   "total_tokens": 949
+  }
+ }
+}
