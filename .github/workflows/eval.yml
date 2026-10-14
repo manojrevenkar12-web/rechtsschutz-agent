@@ -1,48 +1,57 @@
 # Live evaluation against real models. Records every response under cassettes/ so that the CI job
-# above can replay them without a key. Trigger from the Actions tab.
+# can replay them without a key, and pushes results to a branch `eval-runs/<run id>` for review.
+# Trigger from the Actions tab ("Run workflow").
 name: eval-live
 on:
   workflow_dispatch:
     inputs:
-      provider: {description: "openrouter (needs OPENROUTER_API_KEY secret) or github (GitHub Models)", default: openrouter}
+      provider: {description: "openrouter (needs OPENROUTER_API_KEY secret) or github (GitHub Models, free tier)", default: openrouter}
       models: {description: "space-separated model ids (empty = all in config)", default: ""}
       ablations: {description: "run ablations (true/false)", default: "true"}
 permissions:
-  contents: read
+  contents: write
   models: read
 jobs:
   eval:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12", cache: pip}
       - run: pip install -r requirements.txt
-      - name: List matching OpenRouter models
-        if: inputs.provider == 'openrouter'
+      - name: Check model availability
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -s https://openrouter.ai/api/v1/models | python -c "
+          mkdir -p results
+          if [ "${{ inputs.provider }}" = "github" ]; then
+            curl -s -H "Authorization: Bearer $GITHUB_TOKEN" https://models.github.ai/catalog/models \
+              | python -c "import json,sys; d=json.load(sys.stdin); print('\n'.join(sorted(m['id'] for m in d)))" | tee results/available_models.txt
+          else
+            curl -s https://openrouter.ai/api/v1/models | python -c "
           import json,sys,yaml
           ids={m['id'] for m in json.load(sys.stdin)['data']}
           cfg=yaml.safe_load(open('config/eval.yaml'))
           for m in cfg['models']: print(('OK      ' if m['id'] in ids else 'MISSING ')+m['id'])
-          "
+          " | tee results/available_models.txt
+          fi
       - name: Run evaluation (record)
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -o pipefail
           CFG=config/eval.yaml; [ "${{ inputs.provider }}" = "github" ] && CFG=config/eval.github.yaml
           ARGS=""; [ -n "${{ inputs.models }}" ] && ARGS="--models ${{ inputs.models }}"
           [ "${{ inputs.ablations }}" = "false" ] && ARGS="$ARGS --skip-ablations"
-          python evals/run_eval.py --split test --config $CFG --mode record --concurrency 3 $ARGS
-          python evals/report.py --split test
-      - uses: actions/upload-artifact@v4
+          python evals/run_eval.py --split test --config $CFG --mode record --concurrency 3 $ARGS 2>&1 | tee results/eval.log
+          python evals/report.py --split test --config $CFG 2>&1 | tail -3
+      - name: Push results to a branch
         if: always()
-        with:
-          name: eval-results
-          path: |
-            results/
-            cassettes/
-            docs/
+        run: |
+          git config user.name "eval-bot"; git config user.email "eval-bot@users.noreply.github.com"
+          git checkout -b "eval-runs/${{ github.run_id }}"
+          git add -A results cassettes docs 2>/dev/null || true
+          git commit -m "Live eval run ${{ github.run_id }} (${{ inputs.provider }})" || exit 0
+          git push origin "eval-runs/${{ github.run_id }}"
