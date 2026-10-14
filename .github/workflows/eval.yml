@@ -23,6 +23,7 @@ jobs:
       - name: Check model availability
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           mkdir -p results
           if [ "${{ inputs.provider }}" = "github" ]; then
@@ -37,6 +38,9 @@ jobs:
           cfg=yaml.safe_load(open('config/eval.yaml'))
           for m in cfg['models']: print(('OK      ' if m['id'] in ids else 'MISSING ')+m['id'])
           " | tee results/available_models.txt
+            # key/account balance (numbers only, the key itself is never printed)
+            curl -s -H "Authorization: Bearer $OPENROUTER_API_KEY" https://openrouter.ai/api/v1/key | python -c "import json,sys; d=json.load(sys.stdin).get('data',{}); print('key:', {k: d.get(k) for k in ('limit','usage','limit_remaining','is_free_tier')})" | tee -a results/available_models.txt
+            curl -s -H "Authorization: Bearer $OPENROUTER_API_KEY" https://openrouter.ai/api/v1/credits | python -c "import json,sys; d=json.load(sys.stdin); print('account:', d.get('data', d))" | tee -a results/available_models.txt
           fi
       - name: Run evaluation (record)
         env:
