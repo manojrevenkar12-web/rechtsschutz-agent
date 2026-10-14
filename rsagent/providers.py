@@ -131,8 +131,8 @@ class ChatClient:
         return resp
 
     async def _post(self, body: dict) -> tuple[dict, float]:
-        headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json",
-                   "HTTP-Referer": "https://github.com/manojrevenkar12-web/rechtsschutz-agent", "X-Title": "rechtsschutz-agent"}
+        headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json", "Accept": "application/json",
+                   "X-GitHub-Api-Version": "2022-11-28", "HTTP-Referer": "https://github.com/manojrevenkar12-web/rechtsschutz-agent", "X-Title": "rechtsschutz-agent"}
         delay = 2.0
         async with httpx.AsyncClient(timeout=self.timeout_s) as client:
             for attempt in range(6):
@@ -143,8 +143,12 @@ class ChatClient:
                     await asyncio.sleep(float(r.headers.get("retry-after", delay)))
                     delay *= 2
                     continue
-                r.raise_for_status()
-                data = r.json()
+                if r.status_code >= 400:
+                    raise RuntimeError(f"HTTP {r.status_code} from {self.url}: {r.text[:300]}")
+                try:
+                    data = r.json()
+                except json.JSONDecodeError:
+                    raise RuntimeError(f"non-JSON response (HTTP {r.status_code}, {r.headers.get('content-type')}): {r.text[:300]!r}")
                 if "error" in data and not data.get("choices"):
                     raise RuntimeError(f"provider error: {data['error']}")
                 return data, latency

@@ -26,8 +26,10 @@ jobs:
         run: |
           mkdir -p results
           if [ "${{ inputs.provider }}" = "github" ]; then
-            curl -s -H "Authorization: Bearer $GITHUB_TOKEN" https://models.github.ai/catalog/models \
-              | python -c "import json,sys; d=json.load(sys.stdin); print('\n'.join(sorted(m['id'] for m in d)))" | tee results/available_models.txt
+            curl -s -o catalog.json -w "catalog HTTP %{http_code}\n" -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $GITHUB_TOKEN" https://models.github.ai/catalog/models | tee results/available_models.txt
+            head -c 400 catalog.json >> results/available_models.txt; echo >> results/available_models.txt
+            curl -s -w "\ninference HTTP %{http_code}\n" -H "Authorization: Bearer $GITHUB_TOKEN" -H "Content-Type: application/json" \
+              https://models.github.ai/inference/chat/completions -d '{"model":"openai/gpt-4.1-mini","messages":[{"role":"user","content":"Sag OK"}],"max_tokens":5}' | head -c 600 >> results/available_models.txt
           else
             curl -s https://openrouter.ai/api/v1/models | python -c "
           import json,sys,yaml
