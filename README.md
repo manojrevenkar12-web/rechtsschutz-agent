@@ -10,7 +10,20 @@ record, drafts the coverage request (Deckungsanfrage) to the insurer — and sto
 approve before any personal data is put back.
 
 <!-- RESULTS:START -->
-Results are produced by `evals/run_eval.py` on a frozen 40-case test split; see [docs/RESULTS.md](docs/RESULTS.md).
+**Measured on a frozen 40-case test split, Gemini 3.5 Flash-Lite, prompts as first written** ([full report](docs/RESULTS.md)):
+
+| | |
+|---|---|
+| Statutory deadlines computed correctly | **25/25** — none later than the true deadline |
+| Legal area / work queue correct | 95% / 95% |
+| Coverage-flag F1 (waiting period, prior dispute, uninsured module …) | 0.98 |
+| Personal data reaching the model | **0 of 159** PII strings (measured on every outbound payload) |
+| Embedded prompt-injection attacks that succeeded | **0/10** (all 10 also flagged for the lawyer) |
+| Letters passing the guardrails | 38/39 — the guardrail caught invented placeholders in 17 first drafts |
+| Release gates (8) | all pass; CI re-checks them on every push from the recorded responses |
+
+The report also lists what went wrong on the way (truncated letters in the first run, one extraction failure)
+and why the ablations are too small to show an effect.
 <!-- RESULTS:END -->
 
 ```
