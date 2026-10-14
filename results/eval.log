@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/runner/work/rechtsschutz-agent/rechtsschutz-agent/evals/run_eval.py", line 288, in <module>
+    main()
+  File "/home/runner/work/rechtsschutz-agent/rechtsschutz-agent/evals/run_eval.py", line 235, in main
+    client = ChatClient(provider=provider, mode=a.mode, cassette_dir=ROOT / "cassettes" / provider, prices=prices,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/rechtsschutz-agent/rechtsschutz-agent/rsagent/providers.py", line 75, in __init__
+    raise RuntimeError(f"{key_env} is not set; use mode='replay' to run from recorded responses")
+RuntimeError: OPENROUTER_API_KEY is not set; use mode='replay' to run from recorded responses
