@@ -167,7 +167,9 @@ class ChatClient:
         calls = []
         for tc in msg.get("tool_calls") or []:
             fn = tc.get("function", {})
-            calls.append({"id": tc.get("id") or fn.get("name"), "name": fn.get("name"), "arguments": fn.get("arguments") or "{}"})
+            calls.append({"id": tc.get("id") or fn.get("name"), "name": fn.get("name"), "arguments": fn.get("arguments") or "{}",
+                          # Gemini 3 attaches a thought signature that must be sent back with the call
+                          "extra_content": tc.get("extra_content")})
         usage = data.get("usage") or {}
         cost = usage.get("cost")
         if cost is None and model in self.prices:

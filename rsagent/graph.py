@@ -161,9 +161,13 @@ def build_graph(client, settings: Settings | None = None, policies: dict[str, Po
                         messages += [{"role": "assistant", "content": resp.content or ""},
                                      {"role": "user", "content": "Bitte rufe jetzt submit_case_facts mit allen Feldern auf."}]
                         continue
-                    messages.append({"role": "assistant", "content": resp.content or None, "tool_calls": [
-                        {"id": tc["id"], "type": "function", "function": {"name": tc["name"], "arguments": tc["arguments"]}}
-                        for tc in resp.tool_calls]})
+                    calls_out = []
+                    for tc in resp.tool_calls:
+                        call = {"id": tc["id"], "type": "function", "function": {"name": tc["name"], "arguments": tc["arguments"]}}
+                        if tc.get("extra_content"):
+                            call["extra_content"] = tc["extra_content"]
+                        calls_out.append(call)
+                    messages.append({"role": "assistant", "content": resp.content or None, "tool_calls": calls_out})
                     for tc in resp.tool_calls:
                         info["tool_calls"].append(tc["name"])
                         if tc["name"] == "submit_case_facts":
