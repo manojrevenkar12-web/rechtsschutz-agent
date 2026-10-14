@@ -1,0 +1,62 @@
+{
+ "request_key": "4fa7f97cc388c4942a1c6f1c15cd2caf",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.1909678719999874,
+ "response": {
+  "id": "gen-1791974063-W3XcNSyhjdJnS7ba4A28",
+  "object": "chat.completion",
+  "created": 1791974063,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_bs7RTsDDLMMTnVbd6PsfomxW",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"vertragsrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"mahnbescheid\",\"event_date\":\"2026-09-30\",\"event_date_evidence\":\"am 30.09.2026 wurde mir ein Mahnbescheid zugestellt\",\"dispute_start_date\":\"2026-06-15\",\"dispute_start_evidence\":\"Jahresabrechnung vom 15.06.2026\",\"summary_de\":\"Der Mandant erhielt am 30.09.2026 einen Mahnbescheid von der [FIRMA_1] wegen einer Stromnachzahlung. Die Nachzahlung basiert auf einer Jahresabrechnung vom 15.06.2026, bei der der Zählerstand offensichtlich falsch abgelesen wurde.\",\"client_goal_de\":\"Der Mandant möchte die Forderung aus dem Mahnbescheid überprüfen und gegebenenfalls abwehren.\",\"missing_information_de\":[\"Kopie des Mahnbescheids\",\"Details zur Jahresabrechnung und zum angeblich falschen Zählerstand\",\"Ob bereits Widerspruch gegen den Mahnbescheid eingelegt wurde\",\"Ob die Versicherung die Kosten tatsächlich übernommen hat\"],\"manipulation_attempt\":true}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1293,
+   "completion_tokens": 251,
+   "total_tokens": 1544,
+   "cost": 0.0009188,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0009188,
+    "upstream_inference_prompt_cost": 0.0005172,
+    "upstream_inference_completions_cost": 0.0004016
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

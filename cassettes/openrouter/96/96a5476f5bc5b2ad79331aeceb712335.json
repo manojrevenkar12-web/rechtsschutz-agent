@@ -1,0 +1,62 @@
+{
+ "request_key": "96a5476f5bc5b2ad79331aeceb712335",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.0884970809999857,
+ "response": {
+  "id": "gen-1791973946-RLevCZxnyYmW4tcuyUmh",
+  "object": "chat.completion",
+  "created": 1791973946,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_936uDoXTCtNGrjlEkX0uyYXm",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"sozialrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"sozialbescheid\",\"event_date\":\"2026-09-11\",\"event_date_evidence\":\"bei mir am 11.09.2026 angekommen\",\"dispute_start_date\":\"2026-09-08\",\"dispute_start_evidence\":\"Der Bescheid ist vom 08.09.2026\",\"summary_de\":\"Der Kunde hat vom Jobcenter Berlin Lichtenberg einen Bescheid über die Ablehnung seines Antrags auf Bürgergeld erhalten. Der Bescheid datiert vom 08.09.2026 und wurde dem Kunden am 11.09.2026 zugestellt. Der Kunde bestreitet die Begründung der Ablehnung, da das Ersparte für die Kaution einer neuen Wohnung bestimmt ist.\",\"client_goal_de\":\"Der Kunde möchte rechtliche Unterstützung gegen die Ablehnung seines Bürgergeldantrags.\",\"missing_information_de\":[\"Kopie des Ablehnungsbescheids\",\"Details zum Ersparten und dessen Verwendung\",\"Ob bereits Widerspruch eingelegt wurde\",\"Weitere Kommunikation mit dem Jobcenter\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1272,
+   "completion_tokens": 242,
+   "total_tokens": 1514,
+   "cost": 0.000896,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000896,
+    "upstream_inference_prompt_cost": 0.0005088,
+    "upstream_inference_completions_cost": 0.0003872
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

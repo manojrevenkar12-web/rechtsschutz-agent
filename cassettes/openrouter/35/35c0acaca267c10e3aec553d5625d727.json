@@ -1,0 +1,62 @@
+{
+ "request_key": "35c0acaca267c10e3aec553d5625d727",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 0.8396481049999949,
+ "response": {
+  "id": "gen-1791973801-ky91u0tKkDWelU57RTsZ",
+  "object": "chat.completion",
+  "created": 1791973801,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_qCmWoV9eWUQvhQZcz2rm2fSo",
+       "function": {
+        "name": "shift_days",
+        "arguments": "{\"base_date\":\"2026-10-01\",\"days\":-1}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1253,
+   "completion_tokens": 26,
+   "total_tokens": 1279,
+   "cost": 0.0005428,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0005428,
+    "upstream_inference_prompt_cost": 0.0005012,
+    "upstream_inference_completions_cost": 4.16e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

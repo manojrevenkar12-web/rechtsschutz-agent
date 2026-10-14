@@ -1,0 +1,51 @@
+{
+ "request_key": "109f4beae0b0d0c9677089e329e910ba",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.962158532999979,
+ "response": {
+  "id": "gen-1791973940-Ea88VCZiQkN35191DrBJ",
+  "object": "chat.completion",
+  "created": 1791973940,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur Erstattung einer Pauschalreise – Absage durch [FIRMA_1] am 30.08.2026\n\nSehr geehrte Damen und Herren,\n\nin der Angelegenheit unseres Mandanten, [PERSON_1], bitten wir um Prüfung und Erteilung der Deckungszusage für die Wahrnehmung seiner rechtlichen Interessen.\n\nSachverhalt: Am 30.08.2026 hat die [FIRMA_1] die Pauschalreise unseres Mandanten nach Kreta abgesagt. Die [FIRMA_1] erstattet den Reisepreis in Höhe von 3.400 Euro nicht, sondern bietet lediglich einen Gutschein an. Unser Mandant strebt die Erstattung des gezahlten Betrags an. Ein fristauslösendes Dokument wurde nicht übermittelt.\n\nDa der Streit mit der Absage der Reise am 30.08.2026 begann, bitten wir um eine zeitnahe Entscheidung über die Kostenübernahme, damit die rechtlichen Schritte zur Durchsetzung der Erstattung unverzüglich eingeleitet werden können.\n\nFür Rückfragen stehen wir Ihnen gerne unter [TELEFON_1] zur Verfügung.\n\nWir bitten um Erteilung der Deckungszusage und danken Ihnen im Voraus für Ihre Unterstützung.\n\nMit freundlichen Grüßen\n\n[Name des Partners / der Kanzlei]  \n[Kontaktdaten der Kanzlei]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 630,
+   "completion_tokens": 288,
+   "total_tokens": 918,
+   "cost": 0.0007128,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0007128,
+    "upstream_inference_prompt_cost": 0.000252,
+    "upstream_inference_completions_cost": 0.0004608
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

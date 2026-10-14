@@ -1,0 +1,62 @@
+{
+ "request_key": "eab8ea4b17e6020b1ce8831a6fb42107",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.3325461100000098,
+ "response": {
+  "id": "gen-1791973802-pWwmH3JHS6DYJLOr7G40",
+  "object": "chat.completion",
+  "created": 1791973802,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_dVCwSetT0v8BMHJas0SpkU5U",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"mietrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"mieterhoehungsverlangen\",\"event_date\":\"2026-11-03\",\"event_date_evidence\":\"das am 03.11.2026 bei mir eingegangen ist\",\"dispute_start_date\":\"2026-11-03\",\"dispute_start_evidence\":\"das am 03.11.2026 bei mir eingegangen ist\",\"summary_de\":\"Der Kunde hat von der [FIRMA_1] am 03.11.2026 ein Mieterhöhungsverlangen erhalten. Der Kunde bestreitet die Einstufung seiner Wohnung in eine bessere Wohnlage als tatsächlich vorhanden. Der Streit begann mit dem Zugang des Mieterhöhungsverlangens am 03.11.2026.\",\"client_goal_de\":\"Der Kunde möchte rechtliche Unterstützung gegen das Mieterhöhungsverlangen der [FIRMA_1].\",\"missing_information_de\":[\"Kopie des Mieterhöhungsverlangens\",\"Genauere Beschreibung der tatsächlichen Wohnlage\",\"Ob der Kunde bereits auf das Mieterhöhungsverlangen reagiert hat\",\"Ob es vorherige Kommunikation mit der [FIRMA_1] gab\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1269,
+   "completion_tokens": 262,
+   "total_tokens": 1531,
+   "cost": 0.0009268,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0009268,
+    "upstream_inference_prompt_cost": 0.0005076,
+    "upstream_inference_completions_cost": 0.0004192
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

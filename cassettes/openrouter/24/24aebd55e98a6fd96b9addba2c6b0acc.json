@@ -1,0 +1,51 @@
+{
+ "request_key": "24aebd55e98a6fd96b9addba2c6b0acc",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.4702454570000043,
+ "response": {
+  "id": "gen-1791973809-Fkwngx5NW2WvGoPPEHfO",
+  "object": "chat.completion",
+  "created": 1791973809,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur mietrechtlichen Beratung und Vertretung – Minderung der Miete wegen nächtlicher Ruhestörung\n\nSehr geehrte Damen und Herren,\n\nin vorbezeichneter Angelegenheit bitten wir namens und im Auftrag unseres Mandanten, Herrn [PERSON_1], wohnhaft [ADRESSE_1], [PLZ_1] Berlin, um Erteilung der Deckungszusage.\n\nUnser Mandant berichtet, dass seit dem 03.08.2026 die Familie [PERSON_2] in der Wohnung über ihm nahezu jede Nacht bis ca. 3 Uhr morgens feiert. Trotz mehrfacher Beschwerden bei seinem Vermieter unternimmt dieser keine Maßnahmen zur Abstellung der Ruhestörung. Aufgrund der anhaltenden Beeinträchtigung beabsichtigt unser Mandant, die Miete zu mindern.\n\nDa es sich um eine mietrechtliche Angelegenheit handelt, bitten wir um Prüfung und Bestätigung der Kostenübernahme für die rechtliche Beratung und Vertretung unseres Mandanten in diesem Zusammenhang.\n\nFür eine zügige Bearbeitung wären wir Ihnen dankbar, da die Situation seit dem 03.08.2026 andauert und unser Mandant zeitnah handeln möchte.\n\nFür Rückfragen stehen wir selbstverständlich jederzeit zur Verfügung.\n\nMit freundlichen Grüßen\n\n[Name des Partners / der Partnerin]  \n[Name der Kanzlei]  \n[Adresse der Kanzlei]  \n[Telefonnummer]  \n[E-Mail-Adresse]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 616,
+   "completion_tokens": 298,
+   "total_tokens": 914,
+   "cost": 0.0007232,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0007232,
+    "upstream_inference_prompt_cost": 0.0002464,
+    "upstream_inference_completions_cost": 0.0004768
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

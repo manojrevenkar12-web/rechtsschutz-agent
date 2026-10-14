@@ -1,0 +1,62 @@
+{
+ "request_key": "8a1cbe1a37fba9f02a449e61c70442ba",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.4850424929999946,
+ "response": {
+  "id": "gen-1791973806-bY07eUN5mfRoTbiUZPxo",
+  "object": "chat.completion",
+  "created": 1791973806,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_zVXlHwAfBafRmFwrniE6Ewa3",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"mietrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"kein_fristereignis\",\"event_date\":null,\"event_date_evidence\":null,\"dispute_start_date\":\"2026-07-15\",\"dispute_start_evidence\":\"Am 15.07.2026 hat mein ehemaliger Vermieter, Herr [PERSON_1], schriftlich abgelehnt, die Kaution von 2.100 Euro zurückzuzahlen\",\"summary_de\":\"Der Mandant ist zum 31.03.2026 aus seiner Wohnung ausgezogen. Am 15.07.2026 hat der ehemalige Vermieter schriftlich die Rückzahlung der Kaution abgelehnt wegen angeblicher Schäden, obwohl ein mängelfreies Protokoll bei der Übergabe unterschrieben wurde. Der Mandant möchte die Erstattung der Kaution erhalten.\",\"client_goal_de\":\"Der Mandant möchte die Erstattung der Kaution erhalten.\",\"missing_information_de\":[\"Kopie des Ablehnungsschreibens des Vermieters\",\"Details zum mängelfreien Übergabeprotokoll\",\"Ob bereits eine rechtliche Beratung oder Mahnung erfolgte\",\"Ob der Vermieter die Kaution teilweise einbehalten hat\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1297,
+   "completion_tokens": 263,
+   "total_tokens": 1560,
+   "cost": 0.0009396,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0009396,
+    "upstream_inference_prompt_cost": 0.0005188,
+    "upstream_inference_completions_cost": 0.0004208
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

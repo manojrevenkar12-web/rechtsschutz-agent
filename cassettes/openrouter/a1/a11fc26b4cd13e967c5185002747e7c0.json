@@ -1,0 +1,62 @@
+{
+ "request_key": "a11fc26b4cd13e967c5185002747e7c0",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.16903997899999,
+ "response": {
+  "id": "gen-1791973802-qfGodQ8knvfuYaCePekM",
+  "object": "chat.completion",
+  "created": 1791973802,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_db0oWk6dbRXWQPpoix4TZAcP",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"mietrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"kein_fristereignis\",\"event_date\":null,\"event_date_evidence\":null,\"dispute_start_date\":\"2026-06-12\",\"dispute_start_evidence\":\"Seit dem 12.06.2026 habe ich das der [FIRMA_1] mehrfach schriftlich gemeldet\",\"summary_de\":\"Der Kunde hat seit Monaten Schimmel im Schlafzimmer und hat dies der [FIRMA_1] seit dem 12.06.2026 mehrfach schriftlich gemeldet. Es wurde bisher nichts unternommen. Der Kunde möchte die Miete mindern und dass der Schimmel beseitigt wird.\",\"client_goal_de\":\"Der Kunde möchte die Miete mindern und dass der Schimmel beseitigt wird.\",\"missing_information_de\":[\"Gibt es eine schriftliche Antwort oder Reaktion von [FIRMA_1]?\",\"Wurde bereits eine Mietminderung angekündigt oder durchgeführt?\",\"Wie ist der genaue Wortlaut der Mängelanzeige an [FIRMA_1]?\",\"Gibt es Fotos oder Gutachten zum Schimmelbefall?\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1262,
+   "completion_tokens": 255,
+   "total_tokens": 1517,
+   "cost": 0.0009128,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0009128,
+    "upstream_inference_prompt_cost": 0.0005048,
+    "upstream_inference_completions_cost": 0.000408
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

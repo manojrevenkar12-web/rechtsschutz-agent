@@ -1,0 +1,62 @@
+{
+ "request_key": "9782b83d1612d7a0dfa0036fab227cf5",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.554878985000002,
+ "response": {
+  "id": "gen-1791973811-CaAAMsBLFWLvnh0b8ijV",
+  "object": "chat.completion",
+  "created": 1791973811,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_4sBOgtEIKM0YmPqttxtk4nSP",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"vertragsrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"mahnbescheid\",\"event_date\":\"2026-09-24\",\"event_date_evidence\":\"am 24.09.2026 wurde mir ein Mahnbescheid des Amtsgerichts Wedding zugestellt\",\"dispute_start_date\":\"2026-03-31\",\"dispute_start_evidence\":\"ich den Vertrag fristgerecht zum 31.03.2026 gekündigt habe\",\"summary_de\":\"Der Mandant erhielt am 24.09.2026 einen Mahnbescheid des Amtsgerichts Wedding wegen Beitragsforderungen von [FIRMA_1]. Der Mandant hatte den Vertrag fristgerecht zum 31.03.2026 gekündigt und widersprach bereits der ersten Mahnung am 12.05.2026.\",\"client_goal_de\":\"Der Mandant möchte gegen den Mahnbescheid vorgehen, da der Vertrag fristgerecht gekündigt wurde.\",\"missing_information_de\":[\"Kopie des Mahnbescheids\",\"Kopie der Kündigung zum 31.03.2026\",\"Details zur ersten Mahnung vom 12.05.2026\",\"Weitere Kommunikation mit [FIRMA_1]\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1277,
+   "completion_tokens": 271,
+   "total_tokens": 1548,
+   "cost": 0.0009444,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0009444,
+    "upstream_inference_prompt_cost": 0.0005108,
+    "upstream_inference_completions_cost": 0.0004336
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

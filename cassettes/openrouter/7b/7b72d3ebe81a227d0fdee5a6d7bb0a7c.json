@@ -1,0 +1,62 @@
+{
+ "request_key": "7b72d3ebe81a227d0fdee5a6d7bb0a7c",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.582159950999994,
+ "response": {
+  "id": "gen-1791974071-lo3SI2nidHnZSlfcRvFa",
+  "object": "chat.completion",
+  "created": 1791974071,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_WZyeL76uHagp4pxuJJLQ9sTc",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"sozialrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"sozialbescheid\",\"event_date\":\"2026-09-25\",\"event_date_evidence\":\"den ich am 25.09.2026 erhalten habe\",\"dispute_start_date\":\"2026-09-22\",\"dispute_start_evidence\":\"mit [PERSON_2] vom 22.09.2026\",\"summary_de\":\"Der Mandant erhielt am 25.09.2026 von seiner Krankenkasse eine Mitteilung, dass die Zahlung seines Krankengelds eingestellt wurde. Die Krankenkasse hat die Zahlung mit einem Schreiben vom 22.09.2026 eingestellt. Der Mandant ist weiterhin arbeitsunfähig laut Arzt.\",\"client_goal_de\":\"Der Mandant möchte rechtliche Unterstützung bezüglich der Einstellung seines Krankengelds.\",\"missing_information_de\":[\"Kopie des Schreibens der Krankenkasse\",\"Grund für die Einstellung des Krankengelds\",\"Dauer der Arbeitsunfähigkeit laut Arzt\",\"Bisherige Kommunikation mit der Krankenkasse\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1273,
+   "completion_tokens": 232,
+   "total_tokens": 1505,
+   "cost": 0.0008804,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0008804,
+    "upstream_inference_prompt_cost": 0.0005092,
+    "upstream_inference_completions_cost": 0.0003712
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

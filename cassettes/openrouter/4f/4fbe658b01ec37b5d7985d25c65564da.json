@@ -1,0 +1,51 @@
+{
+ "request_key": "4fbe658b01ec37b5d7985d25c65564da",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.4625429159999612,
+ "response": {
+  "id": "gen-1791974068-1UcUOZZqWOsNbMfIo3LC",
+  "object": "chat.completion",
+  "created": 1791974068,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur rechtlichen Vertretung im Verfahren gegen Ablehnung des Bürgergeldantrags, BG-Nummer [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nin vorbezeichneter Angelegenheit bitten wir um Erteilung der Deckungszusage für die rechtliche Vertretung unseres Mandanten, [PERSON_1], im sozialrechtlichen Verfahren gegen den Bescheid des Jobcenters Berlin Lichtenberg vom 08.09.2026. Der Bescheid wurde unserem Mandanten am 11.09.2026 zugestellt und betrifft die Ablehnung seines Antrags auf Bürgergeld.\n\nUnser Mandant bestreitet die Begründung der Ablehnung, da das vorhandene Ersparte ausschließlich für die Kaution einer neuen Wohnung bestimmt ist. Die Frist zur Einlegung eines Widerspruchs endet am 12.10.2026 (§ 84 Abs. 1 SGG). Wir bitten daher um eine zeitnahe Entscheidung über die Kostenübernahme.\n\nFür Rückfragen stehen wir Ihnen selbstverständlich gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\n[Name des Partners/der Partnerin]  \n[Name der Kanzlei]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 641,
+   "completion_tokens": 240,
+   "total_tokens": 881,
+   "cost": 0.0006404,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0006404,
+    "upstream_inference_prompt_cost": 0.0002564,
+    "upstream_inference_completions_cost": 0.000384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

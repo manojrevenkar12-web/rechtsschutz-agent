@@ -1,0 +1,62 @@
+{
+ "request_key": "eb32babee27f079cf01ebc5bd2a79aa7",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.712430289000011,
+ "response": {
+  "id": "gen-1791973816-7HLsoWm4dOGLSet92Sn3",
+  "object": "chat.completion",
+  "created": 1791973816,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_KsHmVgjbAELknFQqmyGMVSwL",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"vertragsrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"vollstreckungsbescheid\",\"event_date\":\"2026-09-21\",\"event_date_evidence\":\"am 21.09.2026 wurde mir ein Vollstreckungsbescheid zugestellt\",\"dispute_start_date\":\"2026-06-10\",\"dispute_start_evidence\":\"Sofa, das am 10.06.2026 beschädigt geliefert wurde\",\"summary_de\":\"Der Mandant erhielt am 21.09.2026 einen Vollstreckungsbescheid von der [FIRMA_1] über 1.890 Euro für ein beschädigt geliefertes Sofa. Das Sofa wurde am 10.06.2026 beschädigt geliefert, und der Mandant meldete den Mangel sofort und hielt die Zahlung zurück.\",\"client_goal_de\":\"Der Mandant möchte rechtliche Unterstützung im Zusammenhang mit dem Vollstreckungsbescheid und der Streitigkeit über das beschädigte Sofa.\",\"missing_information_de\":[\"Kopie des Vollstreckungsbescheids\",\"Details zur Mängelrüge und Kommunikation mit [FIRMA_1]\",\"Ob bereits ein Widerspruch oder eine Klage gegen den Vollstreckungsbescheid eingereicht wurde\",\"Weitere relevante Dokumente oder Schriftverkehr\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1260,
+   "completion_tokens": 284,
+   "total_tokens": 1544,
+   "cost": 0.0009584,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0009584,
+    "upstream_inference_prompt_cost": 0.000504,
+    "upstream_inference_completions_cost": 0.0004544
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

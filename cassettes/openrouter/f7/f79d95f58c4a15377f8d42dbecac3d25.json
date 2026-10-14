@@ -1,0 +1,51 @@
+{
+ "request_key": "f79d95f58c4a15377f8d42dbecac3d25",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.253537723000008,
+ "response": {
+  "id": "gen-1791973819-7btydws0Nn9ey77aB9Nh",
+  "object": "chat.completion",
+  "created": 1791973819,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur rechtlichen Vertretung im Verfahren zum Vollstreckungsbescheid der [FIRMA_1]\n\nSehr geehrte Damen und Herren,\n\nin vorbezeichneter Angelegenheit vertreten wir unseren Mandanten, [PERSON_1], der am 21.09.2026 einen Vollstreckungsbescheid der [FIRMA_1] über einen Betrag von 1.890 Euro erhalten hat. Gegenstand des Verfahrens ist ein Streit über ein beschädigt geliefertes Sofa, welches am 10.06.2026 angeliefert wurde. Unser Mandant hat den Mangel unverzüglich gemeldet und die Zahlung zurückbehalten.\n\nDa der Einspruch gegen den Vollstreckungsbescheid bis spätestens 05.10.2026 einzulegen ist, bitten wir um eine zeitnahe Prüfung und Erteilung der Deckungszusage für die Übernahme der Kosten der rechtlichen Vertretung unseres Mandanten in diesem Verfahren.\n\nWir bitten um eine kurzfristige Rückmeldung, damit die erforderlichen Schritte fristgerecht eingeleitet werden können.\n\nFür Rückfragen stehen wir Ihnen jederzeit gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\n[Name des Partners]  \n[Name der Kanzlei]  \n[Adresse]  \n[Telefonnummer]  \n[E-Mail-Adresse]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 633,
+   "completion_tokens": 267,
+   "total_tokens": 900,
+   "cost": 0.0006804,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0006804,
+    "upstream_inference_prompt_cost": 0.0002532,
+    "upstream_inference_completions_cost": 0.0004272
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

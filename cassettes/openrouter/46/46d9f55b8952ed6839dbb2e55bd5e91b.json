@@ -1,0 +1,62 @@
+{
+ "request_key": "46d9f55b8952ed6839dbb2e55bd5e91b",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.530289984999996,
+ "response": {
+  "id": "gen-1791973931-Jt0UiOmSrw98aEmLoI5L",
+  "object": "chat.completion",
+  "created": 1791973931,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_d0hn3Uf4ct3oSpRJIYVErFzJ",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"vertragsrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"mahnbescheid\",\"event_date\":\"2026-10-02\",\"event_date_evidence\":\"am 02.10.2026 ein Mahnbescheid zugestellt\",\"dispute_start_date\":\"2026-03-05\",\"dispute_start_evidence\":\"Rechnung vom 05.03.2026 habe ich damals sofort widersprochen\",\"summary_de\":\"Der Mandant erhielt am 02.10.2026 einen Mahnbescheid von [FIRMA_1] über 1.240 Euro aus einem Handyvertrag. Der Mandant widersprach der Rechnung vom 05.03.2026, da Roaming-Kosten aus einem Land berechnet wurden, in dem er nie war. Der Mandant war zwei Wochen verreist und fand den Mahnbescheid im Briefkasten vor.\",\"client_goal_de\":\"Der Mandant möchte rechtliche Unterstützung im Zusammenhang mit dem Mahnbescheid und dem Widerspruch gegen die Rechnung.\",\"missing_information_de\":[\"Kopie des Mahnbescheids\",\"Details zum Widerspruch gegen die Rechnung\",\"Ob bereits Kontakt mit [FIRMA_1] aufgenommen wurde\",\"Ob weitere Mahnungen oder Schreiben vorliegen\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1297,
+   "completion_tokens": 274,
+   "total_tokens": 1571,
+   "cost": 0.0009572,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0009572,
+    "upstream_inference_prompt_cost": 0.0005188,
+    "upstream_inference_completions_cost": 0.0004384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

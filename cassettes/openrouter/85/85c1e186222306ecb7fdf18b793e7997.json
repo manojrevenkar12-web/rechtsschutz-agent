@@ -1,0 +1,51 @@
+{
+ "request_key": "85c1e186222306ecb7fdf18b793e7997",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.965303712000008,
+ "response": {
+  "id": "gen-1791973934-00msiJWoO5Cchuxe0SKl",
+  "object": "chat.completion",
+  "created": 1791973934,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur rechtlichen Vertretung im Mahnverfahren gegen [FIRMA_1]\n\nSehr geehrte Damen und Herren,\n\nin vorbezeichneter Angelegenheit vertreten wir unseren Mandanten, [PERSON_1], der am 02.10.2026 einen Mahnbescheid von [FIRMA_1] über 1.240 Euro erhalten hat. Die Forderung resultiert aus einem Handyvertrag, gegen dessen Rechnung vom 05.03.2026 unser Mandant bereits Widerspruch eingelegt hat. Grund des Widerspruchs sind Roaming-Kosten, die für ein Land berechnet wurden, in dem sich unser Mandant nachweislich nicht aufgehalten hat.\n\nDer Mahnbescheid wurde unserem Mandanten während einer zweiwöchigen Abwesenheit in den Briefkasten eingelegt, sodass er erst verspätet Kenntnis davon erlangte. Die Frist zur Einlegung des Widerspruchs gegen den Mahnbescheid endet am 16.10.2026.\n\nWir bitten Sie daher um Erteilung der Deckungszusage für die rechtliche Vertretung unseres Mandanten im Zusammenhang mit dem Mahnverfahren und dem Widerspruch gegen die Forderung von [FIRMA_1]. Aufgrund der nahenden Frist bitten wir um eine zeitnahe Entscheidung.\n\nFür Rückfragen stehen wir Ihnen selbstverständlich gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\n[Name des Anwalts]  \n[Name der Kanzlei]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 695,
+   "completion_tokens": 305,
+   "total_tokens": 1000,
+   "cost": 0.000766,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000766,
+    "upstream_inference_prompt_cost": 0.000278,
+    "upstream_inference_completions_cost": 0.000488
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

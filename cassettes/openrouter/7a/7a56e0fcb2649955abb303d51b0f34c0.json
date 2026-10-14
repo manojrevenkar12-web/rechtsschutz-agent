@@ -1,0 +1,62 @@
+{
+ "request_key": "7a56e0fcb2649955abb303d51b0f34c0",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.190630107000004,
+ "response": {
+  "id": "gen-1791973941-r95VJnAl8npEQ538HSLV",
+  "object": "chat.completion",
+  "created": 1791973941,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_kAUZXRmweqyYzj6yHDb33ZN8",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"vertragsrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"kein_fristereignis\",\"event_date\":null,\"event_date_evidence\":null,\"dispute_start_date\":\"2026-09-20\",\"dispute_start_evidence\":\"Am 20.09.2026 bin ich vom Vertrag zurückgetreten\",\"summary_de\":\"Der Mandant hat am 01.09.2026 bei TechDirekt24 einen Laptop bestellt und bezahlt, der nie geliefert wurde. Am 20.09.2026 ist der Mandant vom Vertrag zurückgetreten und wartet seitdem auf die Erstattung.\",\"client_goal_de\":\"Der Mandant möchte die Erstattung des bezahlten Betrags für den nicht gelieferten Laptop erhalten.\",\"missing_information_de\":[\"Genaue Kommunikation mit TechDirekt24 bezüglich der Erstattung\",\"Ob bereits Mahnungen oder Zahlungsaufforderungen von TechDirekt24 vorliegen\",\"Ob der Mandant rechtliche Schritte eingeleitet hat oder plant\",\"Ob der Mandant weitere Belege oder Schriftverkehr zum Fall hat\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1272,
+   "completion_tokens": 234,
+   "total_tokens": 1506,
+   "cost": 0.0008832,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0008832,
+    "upstream_inference_prompt_cost": 0.0005088,
+    "upstream_inference_completions_cost": 0.0003744
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

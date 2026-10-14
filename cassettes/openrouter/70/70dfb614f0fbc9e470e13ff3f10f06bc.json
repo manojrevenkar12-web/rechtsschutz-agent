@@ -1,0 +1,51 @@
+{
+ "request_key": "70dfb614f0fbc9e470e13ff3f10f06bc",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.2669933600000007,
+ "response": {
+  "id": "gen-1791973814-JRjQzGbwiE28jjnZgT4L",
+  "object": "chat.completion",
+  "created": 1791973814,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur Abwehr eines Mahnbescheids – Vertragsrecht, Aktenzeichen [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nin obiger Angelegenheit vertreten wir unseren Mandanten, Herrn/Frau [PERSON_1]. Dieser erhielt am 24.09.2026 einen Mahnbescheid des Amtsgerichts Wedding wegen angeblicher Beitragsforderungen der [FIRMA_1]. Unser Mandant hat den zugrundeliegenden Vertrag fristgerecht zum 31.03.2026 gekündigt und bereits der ersten Mahnung vom 12.05.2026 widersprochen.\n\nDa der Mahnbescheid am 24.09.2026 zugestellt wurde, ist die Widerspruchsfrist gemäß § 692 Abs. 1 Nr. 3 ZPO bis zum 08.10.2026 zu beachten. Wir bitten Sie daher um eine zeitnahe Prüfung und um Erteilung der Deckungszusage für die Einlegung des Widerspruchs gegen den Mahnbescheid.\n\nFür Rückfragen stehen wir Ihnen selbstverständlich jederzeit zur Verfügung und danken im Voraus für Ihre Unterstützung.\n\nMit freundlichen Grüßen\n\n[Name des Anwalts]  \n[Name der Kanzlei]  \n[Adresse]  \n[Telefonnummer]  \n[E-Mail-Adresse]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 656,
+   "completion_tokens": 271,
+   "total_tokens": 927,
+   "cost": 0.000696,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000696,
+    "upstream_inference_prompt_cost": 0.0002624,
+    "upstream_inference_completions_cost": 0.0004336
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

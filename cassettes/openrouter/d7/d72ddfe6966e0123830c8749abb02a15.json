@@ -1,0 +1,62 @@
+{
+ "request_key": "d72ddfe6966e0123830c8749abb02a15",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.0447108190000023,
+ "response": {
+  "id": "gen-1791973802-Ij0HOHGfLNlyyrt6vxLs",
+  "object": "chat.completion",
+  "created": 1791973802,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_XQgbkyoo7LoHbaSQfvpYmctZ",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"mietrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"mieterhoehungsverlangen\",\"event_date\":\"2026-09-30\",\"event_date_evidence\":\"gestern kam ein Schreiben meiner Vermieterin\",\"dispute_start_date\":null,\"dispute_start_evidence\":null,\"summary_de\":\"Der Mandant erhielt am 30.09.2026 ein Mieterhöhungsverlangen von seiner Vermieterin Frau [PERSON_1] um 15 Prozent. Der Mandant hält die Erhöhung für zu hoch, da in den letzten drei Jahren bereits zweimal erhöht wurde. Es besteht Unsicherheit, ob der Mandant zustimmen muss.\",\"client_goal_de\":\"Der Mandant möchte wissen, ob er dem Mieterhöhungsverlangen zustimmen muss.\",\"missing_information_de\":[\"Kopie des Mieterhöhungsverlangens\",\"Bisherige Mieterhöhungen und deren Zeitpunkte\",\"Aktuelle Miethöhe\",\"Vertragliche Vereinbarungen zur Mieterhöhung\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1302,
+   "completion_tokens": 221,
+   "total_tokens": 1523,
+   "cost": 0.0005288,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 1152,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0005288,
+    "upstream_inference_prompt_cost": 0.0001752,
+    "upstream_inference_completions_cost": 0.0003536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

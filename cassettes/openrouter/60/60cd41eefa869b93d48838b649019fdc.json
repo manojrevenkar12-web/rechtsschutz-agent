@@ -1,0 +1,51 @@
+{
+ "request_key": "60cd41eefa869b93d48838b649019fdc",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.1120584000000093,
+ "response": {
+  "id": "gen-1791973804-4PS78lTSHTGkVjaDnlVh",
+  "object": "chat.completion",
+  "created": 1791973804,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage im mietrechtlichen Streit wegen Schimmelbefalls – Mandant [PERSON_1]\n\nSehr geehrte Damen und Herren,\n\nin obiger Angelegenheit vertreten wir unseren Mandanten [PERSON_1], wohnhaft [ADRESSE_1], [PLZ_1] Berlin. Unser Mandant meldet seit dem 12.06.2026 mehrfach schriftlich bei der [FIRMA_1] einen Schimmelbefall im Schlafzimmer, der bislang nicht behoben wurde.\n\nUnser Mandant beabsichtigt, die Miete zu mindern und die Beseitigung des Schimmels durchzusetzen. Der Streit begann am 12.06.2026.\n\nWir bitten Sie daher um Prüfung und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten in diesem mietrechtlichen Fall.\n\nFür eine zügige Bearbeitung wären wir Ihnen dankbar.\n\nMit freundlichen Grüßen\n\n[Name des Partners/der Partnerin]  \n[Name der Kanzlei]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 607,
+   "completion_tokens": 214,
+   "total_tokens": 821,
+   "cost": 0.0005852,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0005852,
+    "upstream_inference_prompt_cost": 0.0002428,
+    "upstream_inference_completions_cost": 0.0003424
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

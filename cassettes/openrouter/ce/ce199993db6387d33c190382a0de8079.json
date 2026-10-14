@@ -1,0 +1,51 @@
+{
+ "request_key": "ce199993db6387d33c190382a0de8079",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.5805250209999997,
+ "response": {
+  "id": "gen-1791973799-AISI3pnJdlinwYijwYCI",
+  "object": "chat.completion",
+  "created": 1791973799,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur rechtlichen Vertretung im Verkehrsunfallfall vom 26.09.2026\n\nSehr geehrte Damen und Herren,\n\nin der Angelegenheit unseres Mandanten, Herrn [PERSON_1], bitten wir um Erteilung der Deckungszusage für die rechtliche Vertretung im Zusammenhang mit einem Verkehrsunfall, der sich am 26.09.2026 ereignet hat.\n\nUnser Mandant war an der Kreuzung Frankfurter Allee / Warschauer Straße in einen Auffahrunfall verwickelt. Der Unfallgegner, Herr [PERSON_2] mit dem Kennzeichen [KENNZEICHEN_1], behauptet, unser Mandant habe grundlos gebremst. Die Versicherung des Unfallgegners verweigert die Zahlung der Schadensersatzansprüche.\n\nHerr [PERSON_1] hat sowohl Sachschäden an Stoßstange und Kofferraum als auch gesundheitliche Beeinträchtigungen (Nackenschmerzen) erlitten. Unser Mandant wünscht daher rechtliche Unterstützung bei der Durchsetzung seiner Ansprüche gegen die gegnerische Versicherung.\n\nDa keine gesetzliche Frist zu beachten ist, bitten wir dennoch um eine zeitnahe Entscheidung über die Kostenübernahme, um die Interessen unseres Mandanten unverzüglich wahrnehmen zu können.\n\nFür Rückfragen stehen wir Ihnen jederzeit zur Verfügung und danken im Voraus für Ihre Unterstützung.\n\nMit freundlichen Grüßen\n\n[Name des Anwalts / der Kanzlei]  \n[Adresse]  \n[Telefonnummer]  \n[E-Mail-Adresse]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 620,
+   "completion_tokens": 320,
+   "total_tokens": 940,
+   "cost": 0.00076,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00076,
+    "upstream_inference_prompt_cost": 0.000248,
+    "upstream_inference_completions_cost": 0.000512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

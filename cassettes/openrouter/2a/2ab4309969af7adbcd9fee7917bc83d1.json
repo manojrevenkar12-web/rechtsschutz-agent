@@ -1,0 +1,62 @@
+{
+ "request_key": "2ab4309969af7adbcd9fee7917bc83d1",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.309132433000002,
+ "response": {
+  "id": "gen-1791973797-sI0zYiMIWdIQgipvAZSx",
+  "object": "chat.completion",
+  "created": 1791973797,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_T9AmirIzebFsUvrpQN38e5Qj",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"mietrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"mieterhoehungsverlangen\",\"event_date\":\"2026-09-10\",\"event_date_evidence\":\"am 10.09.2026 bei mir eingegangen\",\"dispute_start_date\":\"2026-09-08\",\"dispute_start_evidence\":\"Mieterhöhungsverlangen ist vom 08.09.2026 datiert\",\"summary_de\":\"Der Mandant erhielt am 10.09.2026 ein Mieterhöhungsverlangen seiner Vermieterin [FIRMA_1]. Das Verlangen datiert vom 08.09.2026 und begründet die Erhöhung mit drei Vergleichswohnungen, die jedoch größer sind als die Wohnung des Mandanten.\",\"client_goal_de\":\"Der Mandant möchte rechtliche Unterstützung gegen die Mieterhöhung.\",\"missing_information_de\":[\"Kopie des Mieterhöhungsverlangens\",\"Details zu den Vergleichswohnungen\",\"Informationen zur bisherigen Miethöhe und Mietdauer\",\"Ob bereits eine Reaktion auf das Mieterhöhungsverlangen erfolgte\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1286,
+   "completion_tokens": 240,
+   "total_tokens": 1526,
+   "cost": 0.0008984,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0008984,
+    "upstream_inference_prompt_cost": 0.0005144,
+    "upstream_inference_completions_cost": 0.000384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

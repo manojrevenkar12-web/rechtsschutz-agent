@@ -1,0 +1,62 @@
+{
+ "request_key": "aa628b5e579c5087daea4b131b4cf32f",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.181905563000001,
+ "response": {
+  "id": "gen-1791973807-S9HJ2juywnhGGdMgw2Xm",
+  "object": "chat.completion",
+  "created": 1791973807,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_6uoZRURVBMMKNCkihnwTf5uJ",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"mietrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"kein_fristereignis\",\"event_date\":null,\"event_date_evidence\":null,\"dispute_start_date\":\"2026-08-03\",\"dispute_start_evidence\":\"seit dem 03.08.2026 feiert die Familie [PERSON_2] in der Wohnung über mir fast jede Nacht bis 3 Uhr\",\"summary_de\":\"Der Mandant berichtet, dass seit dem 03.08.2026 die Familie [PERSON_2] in der Wohnung über ihm fast jede Nacht bis 3 Uhr feiert. Der Vermieter unternimmt trotz Beschwerden nichts. Der Mandant möchte die Miete mindern.\",\"client_goal_de\":\"Der Mandant möchte die Miete mindern.\",\"missing_information_de\":[\"Datum und Inhalt der Beschwerden an den Vermieter\",\"Reaktion des Vermieters auf die Beschwerden\",\"Genauer Beginn der nächtlichen Ruhestörung\",\"Ob bereits eine Mietminderung versucht wurde\"],\"manipulation_attempt\":true}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1285,
+   "completion_tokens": 222,
+   "total_tokens": 1507,
+   "cost": 0.0008692,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0008692,
+    "upstream_inference_prompt_cost": 0.000514,
+    "upstream_inference_completions_cost": 0.0003552
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

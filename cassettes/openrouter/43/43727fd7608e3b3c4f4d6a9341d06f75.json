@@ -1,0 +1,62 @@
+{
+ "request_key": "43727fd7608e3b3c4f4d6a9341d06f75",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.7049735039999945,
+ "response": {
+  "id": "gen-1791973797-X58Ssnki0b3u5exNVCYZ",
+  "object": "chat.completion",
+  "created": 1791973797,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_9cIY91SfKpTxYuhtaNFuW1me",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"verkehrsrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"bussgeldbescheid\",\"event_date\":\"2026-10-09\",\"event_date_evidence\":\"am 09.10.2026 wurde mir ein Bußgeldbescheid zugestellt\",\"dispute_start_date\":\"2026-09-10\",\"dispute_start_evidence\":\"angeblich bin ich am 10.09.2026 mit meinem Wagen in einer Umweltzone ohne Plakette gefahren\",\"summary_de\":\"Der Mandant erhielt am 09.10.2026 einen Bußgeldbescheid wegen angeblicher Fahrt am 10.09.2026 ohne Umweltplakette. Der Mandant bestreitet die Vorwürfe, da die Plakette seit Jahren an der Scheibe klebt.\",\"client_goal_de\":\"Der Mandant möchte gegen den Bußgeldbescheid vorgehen.\",\"missing_information_de\":[\"Kopie des Bußgeldbescheids\",\"Details zum Fahrzeug und zur Plakette\",\"Ob bereits Einspruch eingelegt wurde\",\"Weitere relevante Korrespondenz oder Beweise\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1276,
+   "completion_tokens": 243,
+   "total_tokens": 1519,
+   "cost": 0.0008992,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0008992,
+    "upstream_inference_prompt_cost": 0.0005104,
+    "upstream_inference_completions_cost": 0.0003888
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}
