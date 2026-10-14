@@ -1,0 +1,62 @@
+{
+ "split": "test",
+ "use_ner": false,
+ "pii_strings": 159,
+ "leaked": 2,
+ "leak_rate": 0.0126,
+ "cases_with_leak": [
+  "T02",
+  "T04"
+ ],
+ "masked_spans": 124,
+ "over_masked_spans": 7,
+ "masking_precision": 0.9435,
+ "leaks": [
+  [
+   "T02",
+   "Pflegedienst Sonnenschein"
+  ],
+  [
+   "T04",
+   "Hotel Adlerhof"
+  ]
+ ],
+ "over_masked": [
+  [
+   "T02",
+   "PERSON",
+   "Viele Grüße"
+  ],
+  [
+   "T05",
+   "PERSON",
+   "Beste Grüße"
+  ],
+  [
+   "T13",
+   "PERSON",
+   "Viele Grüße"
+  ],
+  [
+   "T18",
+   "PERSON",
+   "Freundliche Grüße"
+  ],
+  [
+   "T27",
+   "FIRMA",
+   "Inkasso Nordstern GmbH"
+  ],
+  [
+   "T31",
+   "FIRMA",
+   "SonnenTours GmbH"
+  ],
+  [
+   "T32",
+   "FIRMA",
+   "Energie Plus Vertrieb GmbH"
+  ]
+ ],
+ "note": "First and only run of the pseudonymiser on the frozen test split (detector tuned on dev only). Commit of the detector: see git log for 'blind test measurement'."
+}

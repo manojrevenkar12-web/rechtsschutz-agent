@@ -1,0 +1,19 @@
+{
+ "split": "dev",
+ "use_ner": true,
+ "pii_strings": 66,
+ "leaked": 0,
+ "leak_rate": 0.0,
+ "cases_with_leak": [],
+ "masked_spans": 49,
+ "over_masked_spans": 1,
+ "masking_precision": 0.9796,
+ "leaks": [],
+ "over_masked": [
+  [
+   "D02",
+   "PERSON",
+   "Blitzerfoto"
+  ]
+ ]
+}
