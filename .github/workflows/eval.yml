@@ -52,6 +52,6 @@ jobs:
         run: |
           git config user.name "eval-bot"; git config user.email "eval-bot@users.noreply.github.com"
           git checkout -b "eval-runs/${{ github.run_id }}"
-          git add -A results cassettes docs 2>/dev/null || true
+          for p in results cassettes docs; do [ -e "$p" ] && git add -A "$p"; done
           git commit -m "Live eval run ${{ github.run_id }} (${{ inputs.provider }})" || exit 0
           git push origin "eval-runs/${{ github.run_id }}"
