@@ -1,0 +1,16 @@
+-- skipping gemini-3.1-flash-lite: HTTP 503 from https://generativelanguage.googleapis.com/v1beta/openai/chat/completions: [{
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in dem
+-- skipping gemini-3.5-flash: HTTP 503 from https://generativelanguage.googleapis.com/v1beta/openai/chat/completions: [{
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in dem
+-- skipping gemini-3.6-flash: HTTP 429 daily quota exhausted: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head t
+-- skipping gemini-3.7-flash: HTTP 503 from https://generativelanguage.googleapis.com/v1beta/openai/chat/completions: [{
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in dem
