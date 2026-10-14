@@ -1,0 +1,11 @@
+langgraph==1.2.15
+pydantic==2.13.5
+fastapi==0.143.0
+uvicorn==0.53.0
+sse-starlette==3.4.11
+httpx==0.28.1
+holidays==0.106
+python-dateutil==2.9.0.post0
+PyYAML==6.0.3
+spacy==3.8.16
+de_core_news_md @ https://github.com/explosion/spacy-models/releases/download/de_core_news_md-3.8.0/de_core_news_md-3.8.0-py3-none-any.whl

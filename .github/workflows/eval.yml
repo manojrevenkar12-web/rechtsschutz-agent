@@ -1,0 +1,48 @@
+# Live evaluation against real models. Records every response under cassettes/ so that the CI job
+# above can replay them without a key. Trigger from the Actions tab.
+name: eval-live
+on:
+  workflow_dispatch:
+    inputs:
+      provider: {description: "openrouter (needs OPENROUTER_API_KEY secret) or github (GitHub Models)", default: openrouter}
+      models: {description: "space-separated model ids (empty = all in config)", default: ""}
+      ablations: {description: "run ablations (true/false)", default: "true"}
+permissions:
+  contents: read
+  models: read
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip}
+      - run: pip install -r requirements.txt
+      - name: List matching OpenRouter models
+        if: inputs.provider == 'openrouter'
+        run: |
+          curl -s https://openrouter.ai/api/v1/models | python -c "
+          import json,sys,yaml
+          ids={m['id'] for m in json.load(sys.stdin)['data']}
+          cfg=yaml.safe_load(open('config/eval.yaml'))
+          for m in cfg['models']: print(('OK      ' if m['id'] in ids else 'MISSING ')+m['id'])
+          "
+      - name: Run evaluation (record)
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          CFG=config/eval.yaml; [ "${{ inputs.provider }}" = "github" ] && CFG=config/eval.github.yaml
+          ARGS=""; [ -n "${{ inputs.models }}" ] && ARGS="--models ${{ inputs.models }}"
+          [ "${{ inputs.ablations }}" = "false" ] && ARGS="$ARGS --skip-ablations"
+          python evals/run_eval.py --split test --config $CFG --mode record --concurrency 3 $ARGS
+          python evals/report.py --split test
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-results
+          path: |
+            results/
+            cassettes/
+            docs/

@@ -86,3 +86,14 @@ def coverage_flags(
     elif deadline_expected_but_missing:
         flags.append("frist_unklar")
     return flags
+
+
+def route_queue(area: str, flags: list[str]) -> str:
+    """Which work queue the case lands in. Deadline risk beats coverage questions beats routine."""
+    if {"frist_abgelaufen", "frist_kritisch", "frist_unklar"} & set(flags):
+        return "prioritaet_frist"
+    if {"nicht_versichert", "vorvertraglich", "wartezeit", "widerspruch_nicht_gedeckt"} & set(flags):
+        return "deckungspruefung"
+    if area == "sonstiges":
+        return "triage_manuell"
+    return f"anwalt_{area}"

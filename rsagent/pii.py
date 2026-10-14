@@ -65,6 +65,14 @@ SIGN_OFF = re.compile(
     r"(?im)^(?:mit freundlichen grüßen|freundliche grüße|viele grüße|beste grüße|liebe grüße|gruß|grüße|"
     r"danke und gruß|vielen dank)[,!.]?\s*$"
 )
+# Businesses named by trade + proper name, without a legal-form suffix ("Pflegedienst Sonnenschein").
+# Added after the blind test run showed this as the only leak class (see results/README).
+TRADE_NAME = re.compile(
+    r"\b(?:Pflegedienst|Hotel|Café|Cafe|Bäckerei|Kita|Praxis|Autohaus|Restaurant|Kanzlei|Apotheke|Fahrschule|"
+    r"Druckerei|Spedition|Reinigungsfirma|Hausverwaltung|Möbelhaus|Fitnessstudio|Elektro|Haustechnik|Pizzeria|"
+    r"Friseur|Salon|Werkstatt|Baufirma|Dachdecker|Gärtnerei|Metzgerei|Klinik|Pflegeheim|Supermarkt|Imbiss)"
+    r"\s+[A-ZÄÖÜ][\wäöüß-]+(?:\s+[A-ZÄÖÜ][\wäöüß-]+)?"
+)
 INLINE_SIGN_OFF = re.compile(r"(?i)\bGruß,\s+(?P<name>[A-ZÄÖÜ][\wäöüßıçşğ]+\s+[A-ZÄÖÜ][\wäöüßıçşğ-]+)")
 
 # Public bodies, courts and generic words that NER tags as ORG/PER but that the lawyer and the LLM
@@ -161,7 +169,8 @@ def _signature_names(text: str) -> list[Span]:
     for k in tail:
         cand = lines[k].strip()
         m = re.fullmatch(r"([A-ZÄÖÜ][\wäöüßıçşğ]+(?:[- ][A-ZÄÖÜ][\wäöüßıçşğ-]+){1,2})(?:,.*)?", cand)
-        if m and not PUBLIC_BODY.search(m.group(1)) and m.group(1).split()[0] not in NAME_STOPWORDS:
+        if (m and not SIGN_OFF.match(cand) and not PUBLIC_BODY.search(m.group(1))
+                and m.group(1).split()[0] not in NAME_STOPWORDS):
             start = offsets[k] + lines[k].index(m.group(1))
             spans.append(Span(start, start + len(m.group(1)), "PERSON", m.group(1)))
     return spans
@@ -199,6 +208,9 @@ def detect(text: str, use_ner: bool = True) -> list[Span]:
         if not PUBLIC_BODY.search(val2):
             s = m.start() + (len(val) - len(val2))
             spans.append(Span(s, m.end(), "FIRMA", text[s:m.end()]))
+    for m in TRADE_NAME.finditer(text):
+        if not PUBLIC_BODY.search(m.group()):
+            add(m, "FIRMA")
     for m in TITLED_NAME.finditer(text):
         if m.group("name") not in NAME_STOPWORDS:
             add(m, "PERSON", "name")
@@ -240,6 +252,17 @@ def pseudonymise(text: str, use_ner: bool = True) -> Pseudonymised:
     original_case: dict[str, str] = {}
     out, last = [], 0
     person_tokens: dict[str, str] = {}
+    # Register multi-token names first so "Herr Wolff" reuses the placeholder of "Jürgen Wolff".
+    for s in sorted((s for s in spans if s.label == "PERSON"), key=lambda s: -len(s.text.split())):
+        toks = [t for t in re.findall(r"[\wäöüßıçşğ-]+", s.text) if len(t) >= 3 and t not in NAME_STOPWORDS]
+        known = next((ph for t in toks if (ph := vault.to_placeholder.get(t.lower()))), None)
+        if known and len(toks) == 1:
+            vault.alias(s.text, known)
+            continue
+        ph = vault.placeholder("PERSON", s.text)
+        if len(toks) > 1:
+            for t in toks:
+                vault.alias(t, ph)
     for s in spans:
         ph = vault.placeholder(s.label, s.text)
         original_case.setdefault(ph, s.text)

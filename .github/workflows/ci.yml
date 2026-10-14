@@ -1,0 +1,23 @@
+name: ci
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip}
+      - run: pip install -r requirements-dev.txt
+      - name: Unit + graph + API tests (scripted model, no API key)
+        run: python -m pytest -q
+      - name: "Gate: no personal data survives pseudonymisation (test split)"
+        run: |
+          python evals/pii_eval.py --split test --out pii.json > /dev/null
+          python -c "import json,sys; d=json.load(open('pii.json')); print('leaked', d['leaked'], 'of', d['pii_strings']); sys.exit(1 if d['leaked'] else 0)"
+      - name: "Gates on recorded real-model outputs (replay, no API key)"
+        if: hashFiles('cassettes/**') != ''
+        run: |
+          CFG=config/eval.yaml; [ -d cassettes/openrouter ] || CFG=config/eval.github.yaml
+          python evals/run_eval.py --split test --config $CFG --mode replay --gate
