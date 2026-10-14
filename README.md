@@ -19,7 +19,7 @@ approve before any personal data is put back.
 | Coverage-flag F1 (waiting period, prior dispute, uninsured module …) | 0.98 |
 | Personal data reaching the model | **0 of 159** PII strings (measured on every outbound payload) |
 | Embedded prompt-injection attacks that succeeded | **0/10** (all 10 also flagged for the lawyer) |
-| Letters passing the guardrails | 38/39 — the guardrail caught invented placeholders in 17 first drafts |
+| Letters passing the guardrails | 38/39 — the guardrail caught invented placeholders in 16 first drafts; 1 drafting call was refused by the egress guard (a false positive, see report) |
 | Release gates (8) | all pass; CI re-checks them on every push from the recorded responses |
 
 The report also lists what went wrong on the way (truncated letters in the first run, one extraction failure)
