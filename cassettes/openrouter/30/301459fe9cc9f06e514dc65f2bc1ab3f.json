@@ -1,0 +1,51 @@
+{
+ "request_key": "301459fe9cc9f06e514dc65f2bc1ab3f",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.199846659000002,
+ "response": {
+  "id": "gen-1791972866-8lZzf7TrE09LsoawJiiG",
+  "object": "chat.completion",
+  "created": 1791972866,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur Verteidigung gegen Bußgeldbescheid vom 24.09.2026\n\nSehr geehrte Damen und Herren,\n\nin obiger Angelegenheit vertreten wir unseren Mandanten [PERSON_1], der am 24.09.2026 einen Bußgeldbescheid wegen eines angeblichen Verkehrsverstoßes am 19.08.2026 erhalten hat. Der Vorwurf betrifft einen angeblichen Verstoß in Berlin mit dem Fahrzeug [KENNZEICHEN_1]. Unser Mandant bestreitet jedoch, an diesem Tag in Berlin gewesen zu sein.\n\nDa der Einspruch gegen den Bußgeldbescheid gemäß § 67 Abs. 1 OWiG bis spätestens 08.10.2026 einzulegen ist, bitten wir um eine zeitnahe Prüfung und Erteilung der Deckungszusage für die Übernahme der Kosten der rechtlichen Vertretung.\n\nWir bitten Sie daher um eine verbindliche Bestätigung der Kostenübernahme, damit wir fristgerecht und im Interesse unseres Mandanten tätig werden können.\n\nFür Rückfragen stehen wir Ihnen selbstverständlich jederzeit zur Verfügung.\n\nMit freundlichen Grüßen\n\n[Name des Partners]  \n[Name der Kanzlei]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 639,
+   "completion_tokens": 246,
+   "total_tokens": 885,
+   "cost": 0.0006492,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0006492,
+    "upstream_inference_prompt_cost": 0.0002556,
+    "upstream_inference_completions_cost": 0.0003936
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

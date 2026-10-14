@@ -1,0 +1,62 @@
+{
+ "request_key": "c78dc2a3b66aad125b716d3b94e1ff1f",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.204022508999998,
+ "response": {
+  "id": "gen-1791972860-ktmfsw9i4CPXWKENH4T4",
+  "object": "chat.completion",
+  "created": 1791972860,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_0HT2JVLlaOOYcCUtroyB2nl8",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"verkehrsrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"bussgeldbescheid\",\"event_date\":\"2026-12-11\",\"event_date_evidence\":\"am 11.12.2026 wurde mir ein Bußgeldbescheid zugestellt\",\"dispute_start_date\":\"2026-10-30\",\"dispute_start_evidence\":\"Ich soll am 30.10.2026 mit dem Handy am Steuer erwischt worden sein\",\"summary_de\":\"Der Mandant hat am 11.12.2026 einen Bußgeldbescheid erhalten, in dem ihm vorgeworfen wird, am 30.10.2026 mit dem Handy am Steuer erwischt worden zu sein. Der Mandant bestreitet dies und gibt an, nur das Navi bedient zu haben. Das Fahrzeug hat das Kennzeichen [KENNZEICHEN_1].\",\"client_goal_de\":\"Der Mandant möchte gegen den Bußgeldbescheid vorgehen.\",\"missing_information_de\":[\"Kopie des Bußgeldbescheids\",\"Genauer Wortlaut des Vorwurfs\",\"Ob bereits Einspruch eingelegt wurde\",\"Weitere Beweismittel oder Zeugen\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1281,
+   "completion_tokens": 257,
+   "total_tokens": 1538,
+   "cost": 0.0009236,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0009236,
+    "upstream_inference_prompt_cost": 0.0005124,
+    "upstream_inference_completions_cost": 0.0004112
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

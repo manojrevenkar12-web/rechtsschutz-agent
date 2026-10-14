@@ -1,0 +1,51 @@
+{
+ "request_key": "28a1c42dcd37691d654984e52c805554",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.2661626629999887,
+ "response": {
+  "id": "gen-1791972863-AKU305xuQziGrdr8WB14",
+  "object": "chat.completion",
+  "created": 1791972863,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur rechtlichen Beratung im verkehrsrechtlichen Anliegen – Anhörungsbogen vom 29.09.2026\n\nSehr geehrte Damen und Herren,\n\nin vorbezeichneter Angelegenheit bitten wir um Erteilung der Deckungszusage für die rechtliche Beratung unseres Mandanten [PERSON_1]. Dieser hat am 29.09.2026 einen Anhörungsbogen der Bußgeldstelle erhalten, in dem ihm vorgeworfen wird, am 03.09.2026 auf der A113 nicht den erforderlichen Sicherheitsabstand eingehalten zu haben.\n\nUnser Mandant wünscht eine rechtliche Einschätzung, ob er den Anhörungsbogen ausfüllen muss. Es handelt sich um ein verkehrsrechtliches Anliegen ohne Fristereignis.\n\nWir bitten um eine zeitnahe Entscheidung, damit wir unseren Mandanten entsprechend beraten können.\n\nFür Rückfragen stehen wir Ihnen jederzeit zur Verfügung.\n\nMit freundlichen Grüßen\n\n[Name des Partners]  \n[Name der Kanzlei]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 613,
+   "completion_tokens": 211,
+   "total_tokens": 824,
+   "cost": 0.0005828,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0005828,
+    "upstream_inference_prompt_cost": 0.0002452,
+    "upstream_inference_completions_cost": 0.0003376
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

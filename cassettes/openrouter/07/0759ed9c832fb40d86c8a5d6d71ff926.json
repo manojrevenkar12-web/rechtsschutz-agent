@@ -1,0 +1,62 @@
+{
+ "request_key": "0759ed9c832fb40d86c8a5d6d71ff926",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.5283765340000173,
+ "response": {
+  "id": "gen-1791972861-gLDrDJeJrstPhaYgNZh9",
+  "object": "chat.completion",
+  "created": 1791972861,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "tool_calls",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": null,
+     "refusal": null,
+     "reasoning": null,
+     "tool_calls": [
+      {
+       "type": "function",
+       "index": 0,
+       "id": "call_spixU98aVnpVecCy4OcD5wiy",
+       "function": {
+        "name": "submit_case_facts",
+        "arguments": "{\"area\":\"verkehrsrecht\",\"area_confidence\":\"hoch\",\"event_type\":\"kein_fristereignis\",\"event_date\":\"2026-09-29\",\"event_date_evidence\":\"ich habe am 29.09.2026 einen Anhörungsbogen der Bußgeldstelle bekommen\",\"dispute_start_date\":\"2026-09-03\",\"dispute_start_evidence\":\"Ich soll am 03.09.2026 auf der A113 zu wenig Abstand gehalten haben\",\"summary_de\":\"Der Mandant hat am 29.09.2026 einen Anhörungsbogen der Bußgeldstelle erhalten. Der Vorfall, bei dem zu wenig Abstand gehalten wurde, soll am 03.09.2026 auf der A113 stattgefunden haben. Es handelt sich um ein verkehrsrechtliches Anliegen ohne Fristereignis.\",\"client_goal_de\":\"Der Mandant möchte wissen, ob er den Anhörungsbogen ausfüllen muss.\",\"missing_information_de\":[\"Ob der Mandant bereits weitere Schreiben von der Bußgeldstelle erhalten hat\",\"Ob der Mandant rechtlichen Beistand wünscht\",\"Ob der Mandant Angaben zum genauen Ablauf des Vorfalls machen kann\",\"Ob der Mandant bereits eine Entscheidung oder einen Bußgeldbescheid erhalten hat\"],\"manipulation_attempt\":false}"
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1311,
+   "completion_tokens": 279,
+   "total_tokens": 1590,
+   "cost": 0.0006252,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 1152,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0006252,
+    "upstream_inference_prompt_cost": 0.0001788,
+    "upstream_inference_completions_cost": 0.0004464
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

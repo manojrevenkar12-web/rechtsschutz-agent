@@ -1,0 +1,51 @@
+{
+ "request_key": "815083f83b51aaaea379546ed865e084",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.3411996420000207,
+ "response": {
+  "id": "gen-1791972862-xAOaya2HiZyeESHfqt7o",
+  "object": "chat.completion",
+  "created": 1791972862,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur Verteidigung gegen Bußgeldbescheid vom 11.12.2026 – Mandant [PERSON_1]\n\nSehr geehrte Damen und Herren,\n\nin vorbezeichneter Angelegenheit bitten wir namens und im Auftrag unseres Mandanten, Herrn/Frau [PERSON_1], um Erteilung der Deckungszusage für die Wahrnehmung seiner/ihrer rechtlichen Interessen.\n\nUnser Mandant hat am 11.12.2026 einen Bußgeldbescheid erhalten, in dem ihm vorgeworfen wird, am 30.10.2026 während der Fahrt mit dem Fahrzeug mit dem Kennzeichen [KENNZEICHEN_1] ein Handy benutzt zu haben. Er bestreitet diesen Vorwurf und gibt an, lediglich das fest in der Halterung befindliche Navigationsgerät bedient zu haben.\n\nDa der Einspruch gegen den Bußgeldbescheid bis spätestens 28.12.2026 einzulegen ist, bitten wir um eine zeitnahe Entscheidung über die Kostenübernahme. Unser Mandant beabsichtigt, gegen den Bußgeldbescheid vorzugehen und benötigt hierfür anwaltliche Unterstützung.\n\nWir bitten daher um Erteilung der Deckungszusage für die Übernahme der Kosten der anwaltlichen Vertretung in diesem verkehrsrechtlichen Verfahren.\n\nFür Rückfragen stehen wir Ihnen selbstverständlich gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\n[Name des Partners/der Partnerin]  \n[Name der Kanzlei]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 659,
+   "completion_tokens": 305,
+   "total_tokens": 964,
+   "cost": 0.0007516,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0007516,
+    "upstream_inference_prompt_cost": 0.0002636,
+    "upstream_inference_completions_cost": 0.000488
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

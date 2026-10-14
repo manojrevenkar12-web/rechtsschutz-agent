@@ -1,0 +1,51 @@
+{
+ "request_key": "ad387d2c41f4480f22a7ec18fde98416",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.1258042469999907,
+ "response": {
+  "id": "gen-1791972843-WITTYOVX844SqYlHNzjy",
+  "object": "chat.completion",
+  "created": 1791972843,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur rechtlichen Vertretung im arbeitsrechtlichen Kündigungsschutzverfahren von [PERSON_1]\n\nSehr geehrte Damen und Herren,\n\nwir vertreten Frau [PERSON_1] in arbeitsrechtlichen Angelegenheiten. Unsere Mandantin ist als Pflegehelferin bei [FIRMA_1] beschäftigt. Am 05.08.2026 erhielt sie eine Abmahnung, die sie als ungerechtfertigt ansieht. Das Arbeitsverhältnis gestaltete sich seitdem schwierig. Am 08.10.2026 wurde ihr die Kündigung per Briefkasten zugestellt.\n\nFrau [PERSON_1] wünscht nun rechtliche Unterstützung gegen diese Kündigung. Die Frist zur Erhebung einer Kündigungsschutzklage endet am 29.10.2026. Wir bitten Sie daher um eine zeitnahe Prüfung und um Erteilung der Deckungszusage für die Übernahme der Kosten der anwaltlichen Vertretung.\n\nFür Rückfragen stehen wir Ihnen gerne zur Verfügung und bitten um eine kurzfristige Rückmeldung.\n\nMit freundlichen Grüßen\n\n[Name des Anwalts/der Anwältin]  \n[Name der Kanzlei]  \n[Kontaktdaten]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 658,
+   "completion_tokens": 250,
+   "total_tokens": 908,
+   "cost": 0.0006632,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0006632,
+    "upstream_inference_prompt_cost": 0.0002632,
+    "upstream_inference_completions_cost": 0.0004
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

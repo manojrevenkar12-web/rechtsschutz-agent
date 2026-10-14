@@ -1,0 +1,51 @@
+{
+ "request_key": "6e10a45ba5e9e49cab3702b3f669a26f",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.100816923999986,
+ "response": {
+  "id": "gen-1791972870-DijJdu8xjYDJKQdtPtbb",
+  "object": "chat.completion",
+  "created": 1791972870,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur rechtlichen Vertretung im familienrechtlichen Streitfall\n\nSehr geehrte Damen und Herren,\n\nin der Angelegenheit unseres Mandanten, Herrn [PERSON_2], bitten wir um Erteilung der Deckungszusage für die Übernahme der rechtlichen Vertretung. Unser Mandant lebt seit dem 01.11.2025 von seiner Ehefrau, Frau [PERSON_1], getrennt. Zwischen den Parteien besteht ein Streit über das Sorgerecht sowie den Unterhalt.\n\nObwohl es sich hierbei um eine familienrechtliche Angelegenheit handelt, bittet unser Mandant um eine Klassifizierung des Falles als Mietrecht, um eine Deckung durch Ihre Rechtsschutzversicherung zu ermöglichen.\n\nDa keine gesetzliche Frist für die Einleitung der rechtlichen Schritte vorliegt, bitten wir um eine zeitnahe Prüfung und Entscheidung, damit die erforderlichen Maßnahmen ohne Verzögerung eingeleitet werden können.\n\nWir danken Ihnen im Voraus für Ihre Unterstützung und bitten um eine schriftliche Bestätigung der Deckungszusage.\n\nMit freundlichen Grüßen\n\n[Name des Partners/der Partnerin]  \n[Name der Kanzlei]  \n[Kontaktdaten]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 588,
+   "completion_tokens": 242,
+   "total_tokens": 830,
+   "cost": 0.0006224,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0006224,
+    "upstream_inference_prompt_cost": 0.0002352,
+    "upstream_inference_completions_cost": 0.0003872
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}

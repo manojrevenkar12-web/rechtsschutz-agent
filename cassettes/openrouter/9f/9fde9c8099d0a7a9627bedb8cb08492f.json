@@ -1,0 +1,51 @@
+{
+ "request_key": "9fde9c8099d0a7a9627bedb8cb08492f",
+ "model": "openai/gpt-4.1-mini",
+ "latency_s": 2.1624477229999854,
+ "response": {
+  "id": "gen-1791972853-ZSXfZf9pZyl6JXTWkMne",
+  "object": "chat.completion",
+  "created": 1791972853,
+  "model": "openai/gpt-4.1-mini",
+  "provider": "OpenAI",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "message": {
+     "role": "assistant",
+     "content": "Betreff: Deckungsanfrage zur rechtlichen Vertretung im arbeitsrechtlichen Kündigungsschutzverfahren gegen [FIRMA_1]\n\nSehr geehrte Damen und Herren,\n\nin vorbezeichneter Angelegenheit bitten wir um Erteilung der Deckungszusage für die Übernahme der Kosten der rechtlichen Vertretung unseres Mandanten [PERSON_1] im Zusammenhang mit einer fristlosen Kündigung seines Arbeitsverhältnisses durch seinen Arbeitgeber [FIRMA_1] zum 05.10.2026.\n\nUnser Mandant bestreitet die ihm vorgeworfene falsche Paketzustellung und verweist auf vorhandene Scanner-Daten als Beleg seiner Unschuld. Er beabsichtigt, gegen die Kündigung rechtlich vorzugehen und eine Kündigungsschutzklage zu erheben.\n\nDa die Klagefrist gemäß § 4 Satz 1 KSchG am 26.10.2026 endet, bitten wir um eine zeitnahe Prüfung und Erteilung der Deckungszusage, damit die erforderlichen rechtlichen Schritte fristgerecht eingeleitet werden können.\n\nFür Rückfragen stehen wir Ihnen gerne unter den bekannten Kontaktdaten zur Verfügung.\n\nMit freundlichen Grüßen\n\n[Name des Partners / der Kanzlei]  \n[Adresse der Kanzlei]  \n[Telefonnummer der Kanzlei]",
+     "refusal": null,
+     "reasoning": null
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 667,
+   "completion_tokens": 272,
+   "total_tokens": 939,
+   "cost": 0.000702,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000702,
+    "upstream_inference_prompt_cost": 0.0002668,
+    "upstream_inference_completions_cost": 0.0004352
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+}
