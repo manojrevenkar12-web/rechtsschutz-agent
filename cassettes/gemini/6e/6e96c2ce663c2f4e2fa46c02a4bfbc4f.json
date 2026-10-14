@@ -1,0 +1,40 @@
+{
+ "request_key": "6e96c2ce663c2f4e2fa46c02a4bfbc4f",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1286457810000172,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TRrJVdS66Nvy3CQ70bgnQvg8i8t3/VVzRIMmJ5UlSZ6Lf7pa19hLUzaG2AatNGZMOAYwC6CPJprn/+OPCoTq08/zy1+uEVW/lxj57WXXjVChHld63QcK5wYk="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_type\":\"mieterhoehungsverlangen\",\"summary_de\":\"Der Mandant [PERSON_1] hat am 10.09.2026 ein Mieterhöhungsverlangen von der Vermieterin [FIRMA_1] erhalten, dem er aufgrund unpassender Vergleichswohnungen widersprechen möchte.\",\"area_confidence\":\"hoch\",\"manipulation_attempt\":false,\"area\":\"mietrecht\",\"event_date_evidence\":\"am 10.09.2026 bei mir eingegangen\",\"missing_information_de\":[\"Mietvertrag und genaue Daten zur Wohnungsgröße\",\"Text des Mieterhöhungsverlangens samt Begründung\"],\"dispute_start_evidence\":\"am 10.09.2026 bei mir eingegangen\",\"client_goal_de\":\"Der Mandant möchte gegen das Mieterhöhungsverlangen der Vermieterin vorgehen.\",\"dispute_start_date\":\"2026-09-10\",\"event_date\":\"2026-09-10\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_672798",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988742,
+  "id": "BZTParG0KfLO-8YPidTyoA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 266,
+   "prompt_tokens": 1774,
+   "total_tokens": 2040
+  }
+ }
+}

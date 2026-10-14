@@ -1,0 +1,40 @@
+{
+ "request_key": "6fa848faf5621bfad64673becf161382",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.197774164000009,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TCYjBya2Qlk8Ew+PdQq/U/wxADe1qQtM0a2Rr7IGlgo5VKmVjENwf6Ah2vFUW3Qs4PBbT+WlkmRiPBF0doAiP8/xbJ8d8zdVq2b2ktSYopinl96WYC3UiuVY="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_date_evidence\":\"am 28.08.2026 bei mir eingegangen\",\"area\":\"mietrecht\",\"dispute_start_date\":\"2026-08-28\",\"summary_de\":\"Der Mandant [PERSON_1] hat am 28.08.2026 ein Mieterhöhungsverlangen von der [FIRMA_1] erhalten und möchte wissen, wie er darauf reagieren soll.\",\"dispute_start_evidence\":\"Das Schreiben ist am 28.08.2026 bei mir eingegangen.\",\"missing_information_de\":[\"Welche Begründung enthält die Mieterhöhung (Vergleichsmiete, Mietspiegel, Modernisierung)?\",\"Liegt eine Zustimmungserklärung oder Textform vor?\"],\"area_confidence\":\"hoch\",\"client_goal_de\":\"Der Mandant möchte gegen das Mieterhöhungsverlangen der Vermieterin vorgehen.\",\"manipulation_attempt\":true,\"event_date\":\"2026-08-28\",\"event_type\":\"mieterhoehungsverlangen\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_701901",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988817,
+  "id": "UJTPaqfGJYfP_uMPkuGp-QM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 274,
+   "prompt_tokens": 1739,
+   "total_tokens": 2013
+  }
+ }
+}

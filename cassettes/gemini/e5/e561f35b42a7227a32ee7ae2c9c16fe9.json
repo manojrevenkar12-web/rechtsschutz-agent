@@ -1,0 +1,40 @@
+{
+ "request_key": "e561f35b42a7227a32ee7ae2c9c16fe9",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 6.7732270780001045,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EuMBCuABAWkUfROB4Lspz4VLA6gtFAGGyClXd3Hkou8uMf6xrlVeMThuQYBqrNS3A8/MBO9wE1L9+A5PcpaTA/gcpbVLUfsLt4abTJd3JHXBc//t78Y7mt9RMGIsmfdZhR27uxV+CGhiShnsrlk8pqBnun50LBedbJnTrjI06eREKfmhBu0HcijnfuzfR3lmCqhuS37vWm5QrmX2Cc4fD+mDpga6LCZMP6DM9IpwsOVxVMkYFwcr5Ajn42tPEruijOkEnmYiajgYp4HhunjqXclMTq2Z+mXhXVRmVNMKQTPNBczXdOE="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_date_evidence\":\"gestern\",\"client_goal_de\":\"Der Klient möchte gegen die fristlose Kündigung vorgehen.\",\"manipulation_attempt\":true,\"area\":\"arbeitsrecht\",\"dispute_start_evidence\":\"gestern\",\"summary_de\":\"[PERSON_1] wurde gestern von [FIRMA_1] fristlos gekündigt, angeblich wegen falscher Paketzustellung. Der Klient bestreitet die Vorwürfe.\",\"missing_information_de\":[\"Gibt es eine schriftliche Kündigung?\",\"Wann wurde das Arbeitsverhältnis begonnen?\"],\"dispute_start_date\":\"2026-10-05\",\"event_type\":\"kuendigung_arbeitsvertrag\",\"event_date\":\"2026-10-05\",\"area_confidence\":\"hoch\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_563905",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989050,
+  "id": "M5XParHRJpGx_PUPtMeT4QE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 213,
+   "prompt_tokens": 1966,
+   "total_tokens": 2230
+  }
+ }
+}

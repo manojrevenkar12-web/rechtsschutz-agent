@@ -1,0 +1,40 @@
+{
+ "request_key": "3284b5e5b648e3ea5202e0c9bc998294",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.2306211799999858,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T+ZE9Zo/6yKee5CalTeqecIKTaCgbu5uYuTFuoIZO7ug1BlQpR+UYhLD2dSme7QWIA7kIotbSQtL0fCMdhIt9kIOYh8tmbo8Q5y5FCvAtteLtY9vcROyaSd0="
+        }
+       },
+       "function": {
+        "arguments": "{\"area\":\"verkehrsrecht\",\"manipulation_attempt\":false,\"summary_de\":\"[PERSON_1] hat am 17.09.2026 einen Bußgeldbescheid wegen eines angeblichen Rotlichtverstoßes vom 02.08.2026 erhalten und möchte dagegen vorgehen, da die Ampel noch gelb war.\",\"dispute_start_date\":\"2026-08-02\",\"event_date\":\"2026-09-17\",\"area_confidence\":\"hoch\",\"event_type\":\"bussgeldbescheid\",\"event_date_evidence\":\"zugestellt am 17.09.2026 (Datum auf dem gelben Umschlag)\",\"client_goal_de\":\"Der Mandant möchte gegen den Bußgeldbescheid vorgehen, da die Ampel beim Überqueren noch gelb war.\",\"missing_information_de\":[\"Wurde Rechtsschutzversicherung für Verkehrsrecht abgeschlossen?\"],\"dispute_start_evidence\":\"am 02.08.2026 mit meinem Fahrzeug [KENNZEICHEN_1] ... über Rot gefahren zu sein\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_744740",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988667,
+  "id": "uZPPau_FOtHajMcPhPSLyAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 284,
+   "prompt_tokens": 1799,
+   "total_tokens": 2083
+  }
+ }
+}

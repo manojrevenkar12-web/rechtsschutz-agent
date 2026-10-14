@@ -1,0 +1,31 @@
+{
+ "request_key": "426c39d7f29b1d14c6c8760922564234",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.246638512000004,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage – [PERSON_1] / [FIRMA_1] / Kundennummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die rechtlichen Interessen von [PERSON_1] in der Angelegenheit gegen [FIRMA_1] (Vertragsrecht) vertreten. \n\nAm 30.09.2026 ist unserem Mandanten ein Mahnbescheid über eine Stromnachzahlung in Höhe von 2.,760 Euro aus der Jahresabrechnung vom 15.06.2026 zugestellt worden. Unser Mandant möchte sich gegen diese Forderung verteidigen, da der zugrundeliegende Zählerstand falsch abgelesen wurde.\n\nDie Frist für die Einlegung des Widerspruchs gegen den Mahnbescheid endet am 14.10.2026. \n\nWir bitten daher um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tkqu8EDvCk0dlc9bZU92PZD2mRuopguDU1m4rbtHTLqKgyLjj4O5d73ixYPp9cgoR8fBJLiP3AKFt5FTS9js5aFNV3V8nxRxshQEuaRl0357dVqw11xhFcSg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989095,
+  "id": "ZpXPavSZL_rF39IP3oXlmAE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 242,
+   "prompt_tokens": 618,
+   "total_tokens": 860
+  }
+ }
+}

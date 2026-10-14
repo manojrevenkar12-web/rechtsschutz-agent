@@ -236,7 +236,7 @@ def build_graph(client, settings: Settings | None = None, policies: dict[str, Po
                              {"role": "user", "content": prompts["draft_repair"].format(violations="; ".join(state["draft_violations"]))}]
             try:
                 resp = await client.chat(model=settings.drafting_model, messages=messages, vault_values=state["vault_values"],
-                                         tracer=tr, span_name="llm:draft", max_tokens=1200)
+                                         tracer=tr, span_name="llm:draft", max_tokens=4000)
             except EgressBlocked as e:
                 return {"draft": None, "status": "blocked_egress", "error": str(e)}
             text = (resp.content or "").strip()

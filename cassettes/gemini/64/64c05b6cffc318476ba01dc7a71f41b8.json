@@ -1,0 +1,31 @@
+{
+ "request_key": "64c05b6cffc318476ba01dc7a71f41b8",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.567487242999988,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für arbeitsrechtliche Vertretung / Mandant: [PERSON_1] / Schadennummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir den Mandanten [PERSON_1] in einer arbeitsrechtlichen Angelegenheit vertreten. Versicherungsansprüche bestehen über Ihre Gesellschaft unter der Vertragsnummer [NUMMER_1].\n\nSachverhalt:\nUnser Mandant erhielt am 15.09.2026 eine Kündigung von der [FIRMA_1]. Im Anschluss war er mehrere Wochen lang erkrankt. Der Mandant wünscht nun eine rechtliche Prüfung und Vertretung hinsichtlich der Möglichkeiten gegen die Kündigung. \n\nZu beachten ist, dass die Frist für die Kündigungsschutzklage am 06.10.2026 geendet hat. Aufgrund der Erkrankung unseres Mandanten prüfen wir derzeit die Möglichkeiten einer nachträglichen Zulassung der Kündigungsschutzklage.\n\nWir bitten Sie hiermit höflich, für die Wahrnehmung der Interessen unseres Mandanten im Arbeitsrecht die Deckungszusage zu erteilen. \n\nDa kurzfristig weitere rechtliche Schritte erforderlich sind, bitten wir um eine zeitnahe Entscheidung.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TElqBQK+LwwYC0x2eA2mYGPZFDmEp0u1136nYF9DcInA323lpZuwgZewzMD3OUCNksOpzyPbz6IMtKLmBGYy36Erv3bL9vvY3AAA15wKb+csT6lG43jLnxWk="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988665,
+  "id": "uJPPaqyCGcun_uMPp9_0iA8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 283,
+   "prompt_tokens": 697,
+   "total_tokens": 980
+  }
+ }
+}

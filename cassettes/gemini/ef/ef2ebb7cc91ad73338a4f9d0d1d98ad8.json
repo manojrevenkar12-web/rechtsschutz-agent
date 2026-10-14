@@ -1,0 +1,40 @@
+{
+ "request_key": "ef2ebb7cc91ad73338a4f9d0d1d98ad8",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 3.9960965810000744,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EpILCo8LAWkUfRNTnanLuPjbx+tmMgDQgNK3ePPVL0oFrdG9GSSZinQilqqv56BM7aWAk6E3QXg63eXYDWJPXdoTVbmFJ3QAbm/0loBEIABMfYHPz46q+ENM5g7hy9v6CFpo+Rb2gMfUkkf4wO2YVfOTjLybpfKVkNedo5+JQfupzyVafzSi4xsWrAulwBo/C0fdTb4mRrBWKs0ZEl1nxh7Npdwo2HpxYC8/WOnqPI7wDBuNQJ9ZYmL1LQ+9n/ScASWfBwhXpGOxT3vg4P+pSSuT22zrdnomNFf8RSanNa1UxPpyEaSZzJ+Mh0WdPA2Hsj/Ftf4lflCo0BjQx5P4C65CUonolH0eVwU5UWlzlp0YF0wZ6V/nRsK7dhO6wHg+SH3j5xG3JfoAx+CXwKi8HyXNuZFlT490ptvjsprDy6YLwNYriCyTVsxZ1u1EvVIEEl4IfG3nlHMwlXx0JxAVEmmGU/3a9EAxiV+NyoxFWenPDUvUTIp07aUhwWJRU6s242mGJP+GMd7n8j5bkiNyDT1NFSjzXuFnO0vmv07Lmwioav2/m07NCiZUKBMLIN0u19YluOnOLHBaoYD0Glm8n3MwwZHU5cTmJBmHnVizcQiKVrmnM5bx0WukZajmJm/NmDGqx/6SZtYnGbaubWGGeKdysvnVATCna2zunHQ8zY9BqJ/aEsAyeNC4Efv2/HuDT0RNT0Jl6fpqomiseaf/7OoFm5x4bwQrOf87YuWZf74bnXqAmlshVxmj7+Lcx00z0SsCfGRo5Zwsuf+y1gEtsObIObYibdp675Q13Tc0i5Bkh1ZXKXdPmG601/d8Fd5XAF1KyNkQ5Rp9z704sZCqnB3h2P6ttANewGY5nxlU8A5YbQo/EbTlF0RsUCzfvgSRB3nHALhbcRI7/seJTH/9gV35oIaTlcniagR9NtInSEV9LLtjdqbe1zoP8kox6ouxswpdNcocE4XmVasYQB4JUtuAoqmigZvlFMQbOPmZ5nUTcUTrpUMFiH6Z6kj75+zi7WolhTl9TL78+ANuAMFFZIkkbvBltPN7e+IKf4EmYth+YkhgBv/iSvyOqsDHWZ/kQtRqNsmpPCu1a0xag84S95GqmYhmIssC4/FJF/QUtmWhfhOm4xCG7PZmcZPhk9jg0f1EDXdkrlAuikxIEr0sPUUuOkOc4hosZQr+tIyYeqRl0w/ZMIjfQh6v9T1J6FJj9kde10OxM9SWxvZMsm6SipoWJahstNIn8WJEHnTJXLEnz6foYJtbu7EBalBftzJqASSSqWZf8L87ivX1T8SOcHWVmWpmTxoVGIq8dzNf7ZD/jyI3OiGOsZ7w+6CYmtOxdJUvgpfbcxWY2wtpOY0i+8hF2drCKBm3a4XFvn1zrOTjtqLstKzLdrnl50Bz74sLu7R5sra3L1PFneBbQuKUa+FGYX/gl1gr+Tx/EJqPurmoNKyHg6J4ndnkcxa4m9ZwkKyp9pfi6f0cG3JDQTglSIR43txfDiJog3Gi0vUEml1JglnMp06ASnkBLgAipCas2gURbYu/OsOs+vUbvWn3EZBxaDZZqy/wWxGpm3LloZW4nw9NfF79HVBZtBYr5N/+XBiFdNYnH+7N6Ynh4MLyqJ++mkwMEvyQctCVTNurdrhWsg8aWe6jALCVRmGXksYaDlqfJoBXAK2jMHatJwH3P2LZsFuKkDatg9STkLWr0bBnZPXbLaILL/zZzTQYxCObvdbNKYcvM2OBSoMd6QYUfEga5xmXv6VMYHl5J7yG+JmxDenSTBG5gQcY5ufsg+lhTIJJZ5DWgVpwURCt+seIzdNgq/NX/rCNNwaS+CdGC+85FvHmi7zatJB5vWtmKRU2nETQPbd903QJhuC+3l2IEJiesAFj1OnMfbFPqmqJOrPd3L7HAA=="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_date\":\"2026-09-24\",\"dispute_start_date\":\"2026-08-19\",\"event_date_evidence\":\"am 24.09.2026 wurde mir ein Bußgeldbescheid zugestellt\",\"dispute_start_evidence\":\"am 19.08.2026 in der Sonnenallee falsch abgebogen sein\",\"area\":\"verkehrsrecht\",\"event_type\":\"bussgeldbescheid\",\"area_confidence\":\"hoch\",\"manipulation_attempt\":true,\"summary_de\":\"[PERSON_1] hat am 24.09.2026 einen Bußgeldbescheid wegen eines angeblichen Verkehrsverstoßes am 19.08.2026 erhalten. Der Mandant bestreitet den Vorwurf und möchte rechtlich dagegen vorgehen.\",\"client_goal_de\":\"Der Mandant möchte gegen den Bußgeldbescheid vorgehen, da er am angeblichen Tattag nicht in Berlin war.\",\"missing_information_de\":[\"Nachweise für die Ortsabwesenheit am Tattag\"]}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_681907",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989055,
+  "id": "PJXPauf3AbyAjrEP2s6R0Qc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 278,
+   "prompt_tokens": 1651,
+   "total_tokens": 2402
+  }
+ }
+}

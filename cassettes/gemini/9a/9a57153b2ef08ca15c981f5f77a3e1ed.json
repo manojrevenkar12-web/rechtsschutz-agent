@@ -1,0 +1,40 @@
+{
+ "request_key": "9a57153b2ef08ca15c981f5f77a3e1ed",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.9017073939999705,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EtoHCtcHAWkUfRN3CQ16dpfbWPVHgpBSmdYSNnwNdhNm5mf8+uS1oZQzmdEkU6w6NfREQfLfWiy5aL2rs9MZVUUNiyt/yj7w5aIAlWz+489Rt+1S7WIAtKPpRX4woZu5QCZryhdlQY1JFYnLZU6/suLtSjBNJGTwH/NitRvh37pIZhHNwOy7M4ltlA0S4BSAWkK6/vcb8RIeIwDZSuW6IpMuyj8HZb14kR5D3/NXBjK8Li1TWFOAu24RB/ggpTvtUO4Css7bGtZRVmEWXOVXpHhXj8ZhJcTP2V018PN5yjso1VInMLTykTGGwOu33p3vU+3OUIkGxTvTtWYCF5Spi5KqG8RBlGa4WM42WNgE3LfNx7eNc+53iiJBfH88UmRctlHlGxR9QSFbf9NbFRXYQfCDR6ANDeX55EzmlVa4OuefqqIN1PEEeZTFBGdYuMq2qjYAy9wQvhy+s76E2bJRQxRjiyOcMzwlY+1hd2oJlRHVlzizTfFEX9k4Ot7J9mrP/ECimi7s1y7R0vfgd0I0jESOhIAS/Rnu0ohGspmVFsirgabPuMmfOBdiVX76SWkJd89lG/LA6O127VUSGKUPzFKImyj9xPSu00twjs86hL1n0S7cMOviCMM9HpMSeg8rQ1z6eocToYjTEyHXZA4D9m2GINv4ac4C2fChVM6xe7hnHLDKKWbedRZbazZZCjvsiVL/uRAq3cwhq5sW/B4BFbxgRPH5C/WCiJjho1JVqobXABpQrSwGw3XpCoKBsVa6nVjlfeL/yh6j92RSSIXvh6+0wU6ulgF22vrPlc4q9pFhmwKqQsNJAbLEqy+V/ufi2TMJtWFB6ox6nzg9Fewk/W1q4xwqYzu1inptEX0MqTE0UiJqpEG5D65K8NfrCuFiYOjaclIAfTBjQvEGOHmda7Bi6soC+IvVqEXzreHPP7ot5Dbuy8NyYBP4Kd5GU9OhvkvxcKAAzfCVXDW47g1SKgJWELELcZzgWSHTrVG9jf2Fno0ZcllgL5XNiija3GVpDCp5I2DY/b8pA41KFWvg3y54FJokItZySZpvrEg29tFTcpDaJTolMQh22cdEQ3O9VikullZRR7JljZEF078gpz8fIjucv8D3RYs7F3fvoV35DXHqbdMLLEx4a689614Vbs632yU0QUwOBJTCVgaLNkQeVaE4QTbcB6zZWctvM1rlzbSW55ImRA/bTMpVKux3AFemBWfXlTdRUPsG1VayuDb7esZ7LE1d6VmfOPuosunlqRRWWPbHPVaZQhqzVK43xUNFocSWGBkYhPN86zjvmsoYwtZvxVjxepYDxsE="
+        }
+       },
+       "function": {
+        "arguments": "{\"dispute_start_evidence\":\"Seit dem 12.06.2026 habe ich das der [FIRMA_1] mehrfach schriftlich gemeldet\",\"manipulation_attempt\":false,\"summary_de\":\"Der Mandant beklagt seit Monaten anhaltenden Schimmel im Schlafzimmer und hat diesen am 12.06.2026 erstmals gemeldet, jedoch ohne Reaktion. Er möchte nun die Miete mindern und die Beseitigung des Mangels durchsetzen.\",\"event_date_evidence\":null,\"event_type\":\"kein_fristereignis\",\"area_confidence\":\"hoch\",\"area\":\"mietrecht\",\"client_goal_de\":\"Der Mandant möchte die Miete mindern und erreichen, dass der Schimmel im Schlafzimmer beseitigt wird.\",\"event_date\":null,\"missing_information_de\":[\"Mietvertrag\",\"Genaue Höhe der geplanten Mietminderung\",\"Kopien der Mängelanzeigen\"],\"dispute_start_date\":\"2026-06-12\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_71418",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988794,
+  "id": "OJTPar3NH9jVjMcPpvrtiAI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 257,
+   "prompt_tokens": 1735,
+   "total_tokens": 2256
+  }
+ }
+}

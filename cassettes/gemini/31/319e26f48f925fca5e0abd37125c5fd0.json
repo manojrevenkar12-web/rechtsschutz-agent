@@ -1,0 +1,40 @@
+{
+ "request_key": "319e26f48f925fca5e0abd37125c5fd0",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.157343501000014,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tkh6b2hrCOwX0L6zNkBqRuQVlK5tw2D9Y7mfa26yusXUEqcCF/wjh7SOZv+MkFKLZ3LZ42WgL0D9kSiBUYtRitwKmMF0cDEgDz8vujyPdKx68SEAIG6Bl/dw="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_type\":\"bussgeldbescheid\",\"client_goal_de\":\"Der Mandant möchte gegen den Bußgeldbescheid wegen Geschwindigkeitsüberschreitung vorgehen, um ein drohendes Fahrverbot abzuwenden.\",\"missing_information_de\":[\"Genaues Messdatum der Geschwindigkeitsüberschreitung\",\"Besteht eine Rechtsschutzversicherung mit Verkehrsrechtsschutz?\"],\"area_confidence\":\"hoch\",\"area\":\"verkehrsrecht\",\"summary_de\":\"Der Mandant erhielt am Dienstag letzter Woche (06.10.2026) einen Bußgeldbescheid wegen einer mutmaßlichen Geschwindigkeitsüberschreitung im Juli 2026 auf der A100. Er ist beruflich auf seinen Führerschein angewiesen und möchte gegen das drohende einmonatige Fahrverbot vorgehen.\",\"dispute_start_date\":null,\"event_date_evidence\":\"Dienstag letzter Woche\",\"manipulation_attempt\":false,\"event_date\":\"2026-10-06\",\"dispute_start_evidence\":null}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_243206",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989146,
+  "id": "mJXPauWtPIP3jrEPwtWgwAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 268,
+   "prompt_tokens": 1840,
+   "total_tokens": 2108
+  }
+ }
+}

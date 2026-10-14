@@ -1,0 +1,40 @@
+{
+ "request_key": "5b4faa2d49c495be27b0dccc6960b3e4",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1680478979999407,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TKGbEgaQWKVx4wmXNNwzM80U7A4EVkac2vGfBsSdMoakfcMbieRHl7YfdZY1vMHKbq38zLddVVlXLBW0Hi25RfFPtDpWSCBoBA/DpcQHdDqaHNtqxKO0FoZA="
+        }
+       },
+       "function": {
+        "arguments": "{\"manipulation_attempt\":false,\"event_date_evidence\":\"gestern kam ein Schreiben meiner Vermieterin\",\"dispute_start_evidence\":null,\"summary_de\":\"Der Mandant hat am 2026-09-30 ein Mieterhöhungsverlangen seiner Vermieterin [PERSON_1] über 15 Prozent erhalten und hält dieses aufgrund vorheriger Erhöhungen für unberechtigt.\",\"area_confidence\":\"hoch\",\"event_date\":\"2026-09-30\",\"event_type\":\"mieterhoehungsverlangen\",\"missing_information_de\":[\"Genaues Datum und Höhe der früheren Mieterhöhungen\",\"Aktuelle Nettokaltmiete und Wohnfläche\",\"Schriftliches Mieterhöhungsverlangen liegt vor?\"],\"area\":\"mietrecht\",\"dispute_start_date\":null,\"client_goal_de\":\"Der Mandant möchte wissen, ob er dem Mieterhöhungsverlangen seiner Vermieterin zustimmen muss.\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_670992",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989159,
+  "id": "ppXPau_dJcmt_PUP7Mnb2QI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 246,
+   "prompt_tokens": 1400,
+   "total_tokens": 1646
+  }
+ }
+}

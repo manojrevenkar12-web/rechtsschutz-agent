@@ -1,0 +1,40 @@
+{
+ "request_key": "b6313531c31cc825ef643cb5a0c78836",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1571069370000373,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TvjtUYkRf+/kAz8BxpVqHipDTE+MbzYisQfvfUQxONlyiLjbz5mx66uPakMGg7XxSE2wge9bB3nfxK8m4A4Cst4fYuZIklHy77zM8HWjcUdE0Zb/BijjzkGM="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_date_evidence\":\"mir am 15.09.2026 zugegangen\",\"dispute_start_date\":\"2026-09-11\",\"summary_de\":\"Der Mandant wendet sich gegen eine zwölfwöchige Sperrzeit der Agentur für Arbeit wegen Eigenkündigung, die ihm am [EVENT_DATE] zugegangen ist. Er begründet die Kündigung mit unzumutbaren Zuständen am Arbeitsplatz durch den Vorgesetzten.\",\"area\":\"sozialrecht\",\"area_confidence\":\"hoch\",\"event_date\":\"2026-09-15\",\"client_goal_de\":\"Der Mandant möchte gegen die von der Agentur für Arbeit verhängte zwölfwöchige Sperrzeit vorgehen.\",\"event_type\":\"sozialbescheid\",\"dispute_start_evidence\":\"Der Bescheid ist vom 11.09.2026\",\"manipulation_attempt\":false,\"missing_information_de\":[\"Kündigungsschreiben des Arbeitgebers oder Belege für die Mobbingsituation\",\"Nachweis über den wichtigen Grund für die Eigenkündigung\"]}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_685822",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988988,
+  "id": "-5TPasGhD4fP_uMPkuGp-QM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 281,
+   "prompt_tokens": 1749,
+   "total_tokens": 2030
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "request_key": "91e2fdd9d826eb259b69838cd40cf735",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 4.054690281000035,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage / Rechtsschutzversicherung\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen unserer Mandantin, [PERSON_1], in einer arbeitsrechtlichen Angelegenheit vertreten. \n\nAm 01.09.2026 hat unsere Mandantin ihr Arbeitszeugnis von der [FIRMA_1] erhalten. Da das Zeugnis versteckte negative Formulierungen enthält, strebt unsere Mandantin die Erteilung eines korrigierten und wohlwollenden Arbeitszeugnisses an. Der Streitgegenstand ist am 01.09.2026 entstanden.\n\nWir bitten höflich um Prüfung des Sachverhalts und um zeitnahe Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unserer Mandantin gegenüber der [FIRMA_1]. \n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TV8OXT7hBY9jYqQrANQC1pyfQM03zCRETa12DOq9fX2C0nwdCSDt+fEwN06OLNvCJrUuW+HQnohiPdZlbBfDsh3aHixYxB6lEGtDA17ZOcoQHWvx+EY3M/hY="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989039,
+  "id": "K5XParTYLM_3jrEP8Mq5gAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 190,
+   "prompt_tokens": 688,
+   "total_tokens": 878
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "request_key": "5be46070e02c2ae3587226db309ca200",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.0399526839999567,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T9ftDjc7+LM6V9iN5gQ067vs2NgqukjQJLa1Y00GbXoGDJHdBXmIbTSemcsPkaKHXw3UjBkFFTzhzkT5awjPTqIjIAD3uPBIurEzC3k2/I6TWWqOl6uHkP5w="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_type\":\"kein_fristereignis\",\"area_confidence\":\"hoch\",\"manipulation_attempt\":false,\"client_goal_de\":\"Die Mandantin möchte die Erstattung des Kaufpreises für einen nicht gelieferten Laptop in Höhe von 1.299 Euro nach Rücktritt vom Kaufvertrag.\",\"missing_information_de\":[\"Nachweis über die Zahlung\",\"Schriftlicher Rücktritt und Fristsetzung\"],\"dispute_start_evidence\":\"Am 20.09.2026 bin ich vom Vertrag zurückgetreten\",\"summary_de\":\"Die Mandantin [PERSON_1] hat am 01.09.2026 bei [FIRMA_1] einen Laptop für 1.299 Euro bestellt und bezahlt. Nach ausbleibender Lieferung ist sie am 20.09.2026 vom Vertrag zurückgetreten und fordert nun die Erstattung des Kaufpreises.\",\"dispute_start_date\":\"2026-09-20\",\"event_date_evidence\":\"null\",\"area\":\"vertragsrecht\",\"event_date\":\"null\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_648274",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988881,
+  "id": "kJTPau2oGtj2jrEPj9frkAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 277,
+   "prompt_tokens": 2133,
+   "total_tokens": 2410
+  }
+ }
+}

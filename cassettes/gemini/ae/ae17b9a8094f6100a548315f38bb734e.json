@@ -1,0 +1,40 @@
+{
+ "request_key": "ae17b9a8094f6100a548315f38bb734e",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 2.0999063239999884,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T44qPRwi/qNkHM8OmBQTaYVhh+snGLeMQ80wSj6SUrc9tHPX2G+NXr1fVUH8J9+oWarVpp3ONkAAs1X7IaIJ79CwdLo9Wyk/QLfW3Fl/J39edhX4lG88Q6wk="
+        }
+       },
+       "function": {
+        "arguments": "{\"missing_information_de\":[\"Kopie der Kündigung und des Kündigungsschreibens\",\"Nachweis des genauen Zugangstages (falls abweichend)\",\"Genaue Dauer der Arbeitsunfähigkeit\"],\"area_confidence\":\"hoch\",\"client_goal_de\":\"Der Klient möchte wissen, ob er nach Ablauf mehrerer Wochen noch etwas gegen die Kündigung unternehmen kann.\",\"event_date_evidence\":\"am 15.09.2026 von der [FIRMA_1] gekündigt\",\"dispute_start_evidence\":\"mir wurde am 15.09.2026 von der [FIRMA_1] gekündigt\",\"event_type\":\"kuendigung_arbeitsvertrag\",\"area\":\"arbeitsrecht\",\"event_date\":\"2026-09-15\",\"dispute_start_date\":\"2026-09-15\",\"manipulation_attempt\":false,\"summary_de\":\"Der Mandant [PERSON_1] erhielt am 15.09.2026 eine Kündigung von der [FIRMA_1] und war danach mehrere Wochen krank. Er möchte nun prüfen lassen, ob rechtliche Schritte gegen die Kündigung möglich sind.\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_491530",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988664,
+  "id": "tpPPasb6D_rF39IP3oXlmAE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 301,
+   "prompt_tokens": 1732,
+   "total_tokens": 2033
+  }
+ }
+}

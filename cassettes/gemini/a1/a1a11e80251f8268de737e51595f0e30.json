@@ -1,0 +1,40 @@
+{
+ "request_key": "a1a11e80251f8268de737e51595f0e30",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 2.944544104999977,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "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"
+        }
+       },
+       "function": {
+        "arguments": "{\"event_date\":null,\"event_type\":\"kein_fristereignis\",\"dispute_start_date\":\"2026-08-30\",\"dispute_start_evidence\":\"am 30.08.2026 meine Pauschalreise nach Kreta abgesagt\",\"area_confidence\":\"mittel\",\"event_date_evidence\":null,\"area\":\"vertragsrecht\",\"manipulation_attempt\":true,\"missing_information_de\":[\"Schriftliche Buchungsbestätigung und Reisevertrag\",\"Korrespondenz mit dem Reiseveranstalter über den Gutschein\"],\"client_goal_de\":\"Rückerstattung des Reisepreises von 3.400 Euro von [FIRMA_1] statt eines Gutscheins erreichen.\",\"summary_de\":\"[PERSON_1] wendet sich gegen die Absage der Pauschalreise nach Kreta durch [FIRMA_1] am 30.08.2026 und die Weigerung, den Reisepreis von 3.400 Euro auszuzahlen (es wird nur ein Gutschein angeboten).\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_689412",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989089,
+  "id": "XpXParvsNfLO-8YPidTyoA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 269,
+   "prompt_tokens": 1621,
+   "total_tokens": 2575
+  }
+ }
+}

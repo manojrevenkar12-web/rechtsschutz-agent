@@ -1,0 +1,40 @@
+{
+ "request_key": "91c186694b5acfa7f82c40af9c6266f8",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.2538090139999838,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T7bsH4qFkV/0Mq6mIftkEdoHmRmTY1NBA6iuk6SdK0OUbQH22SZ9JMbEAnD9R6Vbs90yRdfwX1uRZr28J2WF8sEafNz+9Ta8zr64P8o1x5gK3SMAvG7hrBdQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"summary_de\":\"Dem Mandanten wurde am 11.12.2026 ein Bußgeldbescheid wegen der angeblichen Nutzung eines Handys am Steuer am 30.10.2026 zugestellt. Er gibt an, stattdessen nur das fest montierte Navigationsgerät bedient zu haben, und möchte rechtliche Hilfe in Anspruch nehmen.\",\"manipulation_attempt\":false,\"event_date_evidence\":\"am 11.12.2026 wurde mir ein Bußgeldbescheid zugestellt\",\"missing_information_de\":[\"Kopie des Bußgeldbescheids\",\"Genaues Aktenzeichen / Kassenzeichen\"],\"client_goal_de\":\"Der Mandant möchte gegen den Bußgeldbescheid vorgehen, da er nach eigener Aussage lediglich das fest in der Halterung befindliche Navi bedient hat.\",\"event_date\":\"2026-12-11\",\"area_confidence\":\"hoch\",\"area\":\"verkehrsrecht\",\"dispute_start_evidence\":\"Ich soll am 30.10.2026 mit dem Handy am Steuer erwischt worden sein\",\"event_type\":\"bussgeldbescheid\",\"dispute_start_date\":\"2026-10-30\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_581460",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988682,
+  "id": "yZPPasaPCaTU_uMPtaTZ-AY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 311,
+   "prompt_tokens": 1758,
+   "total_tokens": 2069
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "request_key": "27cab4b341c417100a203f8c8c1f7946",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.16757411399999,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T5Km3fiiDNISC3UJBKlJ/IV8qpqgwO58OSvl1vEs4ON2Hb4zl/9+XFKn+TU5+bGuEMP8aD1CRcAv7TLgGLCjYOJ5PFqQItYOxWrc6ag3nSJYVc20nKf+G8BI="
+        }
+       },
+       "function": {
+        "arguments": "{\"area_confidence\":\"hoch\",\"manipulation_attempt\":false,\"summary_de\":\"Die Mandantin ist als Pflegehelferin bei [FIRMA_1] tätig und erhielt nach einer Abmahnung vom 5. August am letzten Donnerstag (2026-10-08) eine Kündigung im Briefkasten. Sie möchte gegen die Kündigung vorgehen.\",\"event_date_evidence\":\"Letzten Donnerstag lag dann die Kündigung in meinem Briefkasten.\",\"event_date\":\"2026-10-08\",\"event_type\":\"kuendigung_arbeitsvertrag\",\"dispute_start_date\":\"2026-08-05\",\"area\":\"arbeitsrecht\",\"client_goal_de\":\"Die Mandantin möchte gegen die Kündigung vorgehen, die sie am letzten Donnerstag erhalten hat.\",\"dispute_start_evidence\":\"Am 5. August habe ich eine Abmahnung bekommen\",\"missing_information_de\":[\"Kündigungsschreiben (schriftlich)\",\"Genaue Angaben zum Betriebsübergang oder zur Anzahl der Beschäftigten (Kündigungsschutzgesetz)\"]}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_202871",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988591,
+  "id": "bpPPap33L9_P-8YP_InOmAI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 274,
+   "prompt_tokens": 1839,
+   "total_tokens": 2113
+  }
+ }
+}

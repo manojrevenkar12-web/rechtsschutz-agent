@@ -1,0 +1,31 @@
+{
+ "request_key": "f5e88dae56d21f112022f0b2bbad67a3",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.162176352000003,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage / Kündigungsschutzklage – [PERSON_1] / [FIRMA_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen von [PERSON_1] in einer arbeitsrechtlichen Angelegenheit vertreten. \n\nUnsere Mandantin war als Pflegehelferin bei [FIRMA_1] tätig. Nach einer vorausgegangenen Abmahnung vom 05.08.2026 erhielt unsere Mandantin am 08.10.2026 eine Kündigung ihres Arbeitsvertrages. Gegen diese Kündigung möchte sie gerichtlich vorgehen.\n\nZur Wahrung der gesetzlichen Frist ist die Erhebung der Kündigungsschutzklage bis zum 29.10.2026 erforderlich. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unserer Mandantin gegenüber dem Arbeitgeber sowie für ein gerichtliches Verfahren.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TmsusRQyAkUYuOFRMp9LuWfjNxYAwWat0qLJJR56Cafr9hkFuSCinz2XXAmKpKSPwet+PxRF5N2AC9vuNomTE/eUHVS5X66dV9zj5dfapA2aycwasnqCJWTI="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988592,
+  "id": "b5PPapy7OqzkjMcPrLT92Ac",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 234,
+   "prompt_tokens": 726,
+   "total_tokens": 960
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "request_key": "12dd2707255f9acfb003cdd3cf1b4a01",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.0989563460000227,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TzkxSmz4ih90SBcWZJ8jU8Ybmc5PN/Ehxu060Fvz83DNgYkg4KJnDVPDKESJTRBbzHl5SIUi1rEqcYcfBjhc9RHidSu9XhkAP6LXjVFAu7hrbDstDCAYjg78="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_type\":\"kein_fristereignis\",\"event_date_evidence\":\"null\",\"area\":\"verkehrsrecht\",\"manipulation_attempt\":false,\"event_date\":\"null\",\"missing_information_de\":[\"Schadensnummer der gegnerischen Versicherung\",\"Polizeilicher Unfallbericht\",\"Ärztliche Dokumentation der Nackenschmerzen\"],\"dispute_start_evidence\":\"am Samstag ist mir an der Kreuzung Frankfurter Allee / Warschauer Straße ein anderer Fahrer hinten aufgefahren\",\"client_goal_de\":\"Der Mandant möchte, dass die gegnerische Versicherung den Schaden an seinem Fahrzeug sowie seine Schmerzensgeldansprüche reguliert.\",\"dispute_start_date\":\"2026-09-26\",\"area_confidence\":\"hoch\",\"summary_de\":\"Der Mandant [PERSON_1] erlitt am 2026-09-26 einen Auffahrunfall, bei dem sein Fahrzeug beschädigt wurde und er Nackenschmerzen davontrug. Die Versicherung des Unfallgegners [PERSON_2] weigert sich zu zahlen.\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_706188",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988687,
+  "id": "zpPPauPdGYGx_PUP3ZnakA8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 269,
+   "prompt_tokens": 2232,
+   "total_tokens": 2501
+  }
+ }
+}

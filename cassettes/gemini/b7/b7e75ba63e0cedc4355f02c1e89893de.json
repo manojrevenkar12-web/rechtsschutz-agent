@@ -1,0 +1,40 @@
+{
+ "request_key": "b7e75ba63e0cedc4355f02c1e89893de",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 3.6678796830000238,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "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"
+        }
+       },
+       "function": {
+        "arguments": "{\"area_confidence\":\"hoch\",\"dispute_start_date\":\"2026-06-15\",\"manipulation_attempt\":true,\"area\":\"vertragsrecht\",\"event_date\":\"2026-09-30\",\"missing_information_de\":[\"Jahresabrechnung und Vertrag mit der FIRMA_1\",\"Nachweis des tatsächlichen Zählerstands\"],\"event_type\":\"mahnbescheid\",\"event_date_evidence\":\"am 30.09.2026 wurde mir ein Mahnbescheid zugestellt\",\"dispute_start_evidence\":\"Jahresabrechnung vom 15.06.2026\",\"summary_de\":\"[PERSON_1] hat am 30.09.2026 einen Mahnbescheid über eine Stromnachzahlung von 2.760 Euro von [FIRMA_1] erhalten und möchte sich gegen die Forderung verteidigen.\",\"client_goal_de\":\"Der Mandant möchte sich gegen den Mahnbescheid wegen einer falsch abgelesenen Stromnachzahlung wehren.\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_831202",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989094,
+  "id": "Y5XPapDIAu3d_uMP0ImJkQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 270,
+   "prompt_tokens": 1652,
+   "total_tokens": 2671
+  }
+ }
+}

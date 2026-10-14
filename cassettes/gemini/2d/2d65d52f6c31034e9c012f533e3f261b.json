@@ -1,0 +1,31 @@
+{
+ "request_key": "2d65d52f6c31034e9c012f533e3f261b",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.9951376799999707,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage – [PERSON_1] / Arbeitsrecht\nVersicherungsnehmerin / Mandantin: [PERSON_1]\nSchadensnummer / Angelegenheit: Kündigungsschutz [FIRMA_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen der oben genannten Mandantin in einer arbeitsrechtlichen Angelegenheit vertreten. \n\nAm 08.10.2026 ging der Mandantin die Kündigung ihres Arbeitgebers, der Firma [FIRMA_1], zu. Zuvor war es am 05.08.2025 [Hinweis: lt. Fakten 05.08.] bereits zu einer Abmahnung gekommen. Die Mandantin hält die ausgesprochene Kündigung für ungerechtfertigt und wünscht eine rechtliche Interessenwahrnehmung durch unsere Kanzlei.\n\nZur Wahrung der Rechte ist die Erhebung einer Kündigungsschutzklage erforderlich, welche fristgerecht bis zum 29.10.2026 erfolgen muss. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts sowie um Erteilung der Deckungszusage für die außergerichtliche und zunächst gerichtliche Vertretung gegenüber der Rechtsschutzversicherung. Bitte teilen Sie uns Ihre Entscheidung aufgrund der anstehenden Frist schnellstmöglich mit.\n\nMit freundlichen Grüßen\n\nRechtsanwalt / Rechtsanwältin",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TKM8Fwn4SYJz7eIgcK/v9mr8R/KWUkVmVT3VwJuNsrx1LT5TgD5IM/GSESlECJommjGxa4l2lvMevN/Rjj4sbAnIcUWs/cBAvEljo1S4F/alYX9o3ekAat2g="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989140,
+  "id": "kpXPav2UCr7QjrEP89XziQw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 311,
+   "prompt_tokens": 731,
+   "total_tokens": 1042
+  }
+ }
+}

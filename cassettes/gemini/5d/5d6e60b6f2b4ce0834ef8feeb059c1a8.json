@@ -1,0 +1,31 @@
+{
+ "request_key": "5d6e60b6f2b4ce0834ef8feeb059c1a8",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.3059494809999705,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für unsere Mandantin [PERSON_1] / Schadennummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen unserer Mandantin [PERSON_1] in einer Angelegenheit des Vertragsrechts vertreten. \n\nAm 01.09.2026 hat unsere Mandantin einen Laptop für 1.299 Euro bestellt und den Kaufpreis bezahlt. Da eine Lieferung nicht erfolgt ist, ist unsere Mandantin am 20.09.2026 vom Kaufvertrag zurückgetreten und macht nun die Erstattung des Kaufpreises geltend.\n\nWir bitten höflich um Prüfung des Sachverhalts und um zeitnahe Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unserer Mandantin.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Td1etbrgrhDvG86WaCe1FdaYk/nk0k/lvneMahbC3CmwSKLtQbPRMKtkp4pBdh3rIBjvUIy5HMuLauEyytb80BBWKFdmEHBDHZZbP9uq2tpLUjMyalR7fT9Y="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988893,
+  "id": "nJTPavmoEpm5_PUPsLSCoAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 188,
+   "prompt_tokens": 945,
+   "total_tokens": 1133
+  }
+ }
+}

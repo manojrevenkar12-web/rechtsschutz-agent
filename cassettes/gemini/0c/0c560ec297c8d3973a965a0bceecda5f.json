@@ -1,0 +1,31 @@
+{
+ "request_key": "0c560ec297c8d3973a965a0bceecda5f",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.3814377199999939,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage – Arbeitsrechtliche Angelegenheit / Kündigungsschutzklage\nMandant: [PERSON_1]\nArbeitgeber: [FIRMA_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die rechtlichen Interessen unseres Mandanten [PERSON_1], wohnhaft in [ADRESSE_1], [PLZ_1] Berlin, vertreten.\n\nUnser Mandant ist seit dem 01.06.2026 als Barista bei der [FIRMA_1] beschäftigt. Am 20.08.2026 erhielt unser Mandant eine Kündigung in der Probezeit. Der Mandant möchte gegen diese Kündigung vom 20.08.2026 vorgehen. Der rechtliche Streitpunkt ist am 20.08.2026 entstanden.\n\nZur Wahrung der Rechte unseres Mandanten ist die Erhebung einer Kündigungsschutzklage erforderlich. Die entsprechende Klagefrist nach § 4 S. 1 KSchG endet am 10.09.2026. \n\nVor dem Hintergrund der laufenden Frist bitten wir Sie, den Sachverhalt zeitnah zu prüfen und uns die Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten zu erteilen. Bitte lassen Sie uns Ihre Entscheidung bis zum Ablauf der Frist am 10.09.2026 zukommen.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tsa8iV7c7cN+LDDqDjk0TxpgufptqwHP4CU3gUFDgE6Fna1syQffa8762CKrtxEC2GzJrX7YoZ8pby4E97nI5oTTJDXiAsY5NiPOWJOgtyudZzmSkE2IWcGw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988631,
+  "id": "lpPPapHYEeTK_uMP3oe7sAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 323,
+   "prompt_tokens": 1066,
+   "total_tokens": 1389
+  }
+ }
+}

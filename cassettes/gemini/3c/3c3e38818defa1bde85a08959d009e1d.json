@@ -1,0 +1,40 @@
+{
+ "request_key": "3c3e38818defa1bde85a08959d009e1d",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.346779767000001,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TYmcmHQ82eVKhezK8rjW3iTHgrTLLA6x7TTcJwDJP2cAycoBwDuBCFK4EgosmUjaBvgP2gkCipjwxJoFo+ymBmK+8xl9r6cocZORI+I4FSVlINOZmHIAVXto="
+        }
+       },
+       "function": {
+        "arguments": "{\"area\":\"arbeitsrecht\",\"dispute_start_evidence\":\"Am 18.09.2026 hat mir mein Vorgesetzter, Herr [PERSON_2], die ordentliche Kündigung persönlich übergeben.\",\"event_date_evidence\":\"Am 18.09.2026 hat mir mein Vorgesetzter, Herr [PERSON_2], die ordentliche Kündigung persönlich übergeben.\",\"event_type\":\"kuendigung_arbeitsvertrag\",\"dispute_start_date\":\"2026-09-18\",\"manipulation_attempt\":false,\"event_date\":\"2026-09-18\",\"summary_de\":\"Der Mandant [PERSON_1] hat am 18.09.2026 eine ordentliche Kündigung von seinem Arbeitgeber [FIRMA_1] persönlich übergeben bekommen. Er möchte sich gegen die Kündigung wehren, da er die Sozialauswahl anzweifelt.\",\"area_confidence\":\"hoch\",\"missing_information_de\":[\"Kündigungsschreiben im Wortlaut\",\"Kündigungsfrist\",\"Betriebsgröße und Anzahl der beschäftigten Arbeitnehmer\",\"Existenz eines Betriebsrats\"],\"client_goal_de\":\"Der Mandant möchte sich gegen die ordentliche Kündigung seines Arbeitgebers vom 18.09.2026 wehren.\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_834012",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988584,
+  "id": "Z5PPaqLkLduk_PUPqM-lmQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 335,
+   "prompt_tokens": 1825,
+   "total_tokens": 2160
+  }
+ }
+}

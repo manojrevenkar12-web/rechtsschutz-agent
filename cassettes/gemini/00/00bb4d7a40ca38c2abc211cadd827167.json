@@ -1,0 +1,31 @@
+{
+ "request_key": "00bb4d7a40ca38c2abc211cadd827167",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 7.240066439000003,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage Verkehrsrecht – [PERSON_1] / Schadennummer / Aktenzeichen: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen von [PERSON_1], wohnhaft in [ADRESSE_1], [PLZ_1] Berlin, in einer verkehrsrechtlichen Angelegenheit vertreten.\n\nUnsere Mandantschaft hat am 17.09.2026 einen Bußgeldbescheid (Aktenzeichen: [NUMMER_1]) wegen eines angeblichen Rotlichtverstoßes vom 02.08.2026 mit dem Fahrzeug mit dem Kennzeichen [KENNZEICHEN_1] erhalten. Der Vorwurf wird bestritten, da die Ampel beim Überqueren der Kreuzung noch gelb war. Gegen den Bußgeldbescheid soll nun vorgehen werden.\n\nDie Frist für die Einlegung des Einspruchs endet am 01.10.2026. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unserer Mandantschaft in dieser Bußgeldsache.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TupszgmhErWGAKRnc1U7Yf9aT4DeDcAIQXhI7NG40uhNYdf2XeVYIyhDWkI1bh+Gr0qFSfCc/B2VJ9whLUI3c59xMQO6BCp2k4/eUMacQZwf5RVXrC2zciWA="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988674,
+  "id": "u5PPasquDP-CjrEP2ZKnsAQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 278,
+   "prompt_tokens": 784,
+   "total_tokens": 1062
+  }
+ }
+}

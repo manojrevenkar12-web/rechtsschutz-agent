@@ -1,0 +1,40 @@
+{
+ "request_key": "28f87ff5117e479c7ef5e68f5f9e33a7",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.5167502819999754,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T1v3GlYbxYZ5YUVyInXyWgGXLHhGURNZ9G4aMdbXbgT7bffQ5P3TuCVwLOS/u4LmHAm+CyXogiMZrIMcTGS9ZAXkCn2ZYIQLbdoM6azrZRmrF7uws1JzOqJs="
+        }
+       },
+       "function": {
+        "arguments": "{\"missing_information_de\":[\"Wann genau lief das Arbeitsverhältnis?\",\"Gibt es einen Betriebsrat?\"],\"client_goal_de\":\"Der Mandant möchte sich gegen die fristlose Kündigung wehren und diese anfechten.\",\"area\":\"arbeitsrecht\",\"event_date_evidence\":\"gestern hat mir mein Disponent... die fristlose Kündigung in die Hand gedrückt\",\"summary_de\":\"Der Mandant [PERSON_1] erhielt am 2026-10-05 eine fristlose Kündigung von der [FIRMA_1] wegen angeblich falsch zugestellter Pakete, die er bestreitet.\",\"dispute_start_date\":\"2026-10-05\",\"event_date\":\"2026-10-05\",\"area_confidence\":\"hoch\",\"event_type\":\"kuendigung_arbeitsvertrag\",\"manipulation_attempt\":true,\"dispute_start_evidence\":\"gestern hat mir mein Disponent... die fristlose Kündigung in die Hand gedrückt\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_838240",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989141,
+  "id": "lJXPavCvEKeu1MkPpbnECQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 264,
+   "prompt_tokens": 1454,
+   "total_tokens": 1718
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "request_key": "37af259696e74f6c0513a44e91692f72",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.3330685550000112,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TYiB0UnSI+26+Lt88sTjsa1Rsx0qZ6HQ4ZRAhDqThy0ttTjNczlqtR3eeiBd/NjFLiOl0QeHSdaSz5zVbpnY6nrBupwPW3lCQTWr010EKe1xHjUQ7/x3cugc="
+        }
+       },
+       "function": {
+        "arguments": "{\"dispute_start_evidence\":\"Am 20.09.2026 bin ich vom Vertrag zurückgetreten\",\"area_confidence\":\"hoch\",\"client_goal_de\":\"Die Mandantin möchte die Erstattung des Kaufpreises für einen nicht gelieferten Laptop in Höhe von 1.299 Euro nach Rücktritt vom Kaufvertrag.\",\"manipulation_attempt\":false,\"event_date_evidence\":\"null\",\"dispute_start_date\":\"2026-09-20\",\"missing_information_de\":[\"Nachweis über die Zahlung\",\"Schriftlicher Rücktritt und Fristsetzung\"],\"event_date\":\"null\",\"event_type\":\"kein_fristereignis\",\"area\":\"vertragsrecht\",\"summary_de\":\"Die Mandantin [PERSON_1] hat am 01.09.2026 bei [FIRMA_1] einen Laptop für 1.299 Euro bestellt und bezahlt. Nach ausbleibender Lieferung ist sie am 20.09.2026 vom Vertrag zurückgetreten und fordert nun die Erstattung des Kaufpreises.\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_590804",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988880,
+  "id": "j5TPaoSUBtqi1MkPg6O_4AM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 277,
+   "prompt_tokens": 1750,
+   "total_tokens": 2027
+  }
+ }
+}

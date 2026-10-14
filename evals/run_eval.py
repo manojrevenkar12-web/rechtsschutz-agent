@@ -231,7 +231,7 @@ def main():
 
     cfg = yaml.safe_load(Path(a.config).read_text(encoding="utf-8"))
     provider = a.provider or cfg["provider"]
-    prices = {m["id"]: tuple(m.get("price_per_mtok", [0, 0])) for m in cfg["models"]}
+    prices = {m["id"]: tuple(m["price_per_mtok"]) for m in cfg["models"] if "price_per_mtok" in m}
     client = ChatClient(provider=provider, mode=a.mode, cassette_dir=ROOT / "cassettes" / provider, prices=prices,
                         max_concurrency=a.concurrency)
     cases = load_cases(a.split)

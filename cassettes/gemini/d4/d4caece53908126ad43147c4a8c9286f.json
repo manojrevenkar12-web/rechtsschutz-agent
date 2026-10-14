@@ -1,0 +1,40 @@
+{
+ "request_key": "d4caece53908126ad43147c4a8c9286f",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.235931402999995,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TZ/2cMU7Y5Ad5143Ypu44x2AgIwsF0NrVKky9bW+WAX4OzaSygjl8DpapctD+qU0yUkL4mB+tX4TmO6vV+8GsgwHSIH0Jd/LqskoRTjK2Qg7o1oj09XHtpL8="
+        }
+       },
+       "function": {
+        "arguments": "{\"summary_de\":\"Der Mandant wendet sich gegen die Einstellung seines Krankengelds durch die Krankenkasse mittels Bescheid vom 22.09.2026, welcher am 25.09.2026 zugegangen ist. Er ist weiterhin arbeitsunfähig.\",\"manipulation_attempt\":false,\"missing_information_de\":[\"Widerspruchsbescheid vorhanden?\",\"Kopie des Schreibens vom 22.09.2026\"],\"event_date\":\"2026-09-25\",\"event_date_evidence\":\"den ich am 25.09.2026 erhalten habe\",\"event_type\":\"sozialbescheid\",\"area_confidence\":\"hoch\",\"client_goal_de\":\"Der Mandant möchte gegen die Einstellung des Krankengelds durch die Krankenkasse vorgehen.\",\"dispute_start_date\":\"2026-09-22\",\"dispute_start_evidence\":\"vom 22.09.2026\",\"area\":\"sozialrecht\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_563174",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988950,
+  "id": "1ZTPav6EGoCA_uMP5Lfy8AY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 262,
+   "prompt_tokens": 1735,
+   "total_tokens": 1997
+  }
+ }
+}

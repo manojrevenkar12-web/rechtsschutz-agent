@@ -1,0 +1,40 @@
+{
+ "request_key": "f4577c40c7436d82112f60d29e42c09c",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1241985139999997,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tj6G8ClHv+TdiB/UG9Ddc8CDGPT+vz3muBEVYNBl8jFeVDS3T3UEF2m+xnH0g5WOMMy/8ZIN7UVuNKcWeyKvYwPiW4ka/ZlrsC5ZtcRFI8RlTI8ZGtxYSzyw="
+        }
+       },
+       "function": {
+        "arguments": "{\"summary_de\":\"Der Mandant [PERSON_2] hat am 2026-09-30 ein Mieterhöhungsverlangen seiner Vermieterin [PERSON_1] erhalten und möchte wissen, ob er diesem zustimmen muss.\",\"event_date_evidence\":\"gestern kam ein Schreiben meiner Vermieterin\",\"area_confidence\":\"hoch\",\"dispute_start_evidence\":null,\"client_goal_de\":\"Der Mandant möchte wissen, ob er dem Mieterhöhungsverlangen seiner Vermieterin zustimmen muss.\",\"missing_information_de\":[\"Wann genau erfolgten die früheren Mieterhöhungen?\",\"Welche Art von Wohnung (freifinanziert/öffentlich gefördert)?\"],\"event_type\":\"mieterhoehungsverlangen\",\"area\":\"mietrecht\",\"manipulation_attempt\":false,\"event_date\":\"2026-09-30\",\"dispute_start_date\":null}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_649444",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988750,
+  "id": "DZTPaoOdDIqV39IP_K6hwQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 233,
+   "prompt_tokens": 1859,
+   "total_tokens": 2092
+  }
+ }
+}

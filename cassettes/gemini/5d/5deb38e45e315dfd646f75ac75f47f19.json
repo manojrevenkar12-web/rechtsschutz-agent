@@ -1,0 +1,40 @@
+{
+ "request_key": "5deb38e45e315dfd646f75ac75f47f19",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1897549830000003,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TecWV1h3OCE1LV9jxy2Ey2if2zEbkE0RXVrQ2MPoTL+DW8zNtBmSliucND8CeI/1u4GUfSVAqQKnDxZa3s1xTA2SGW4nZNY9RFvy/u6ZCXyLEVzpKNDKl05E="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_date_evidence\":\"bei mir am 11.09.2026 angekommen\",\"client_goal_de\":\"Der Mandant möchte gegen die Ablehnung seines Antrags auf Bürgergeld durch das Jobcenter vorgehen.\",\"event_date\":\"2026-09-11\",\"event_type\":\"sozialbescheid\",\"summary_de\":\"Das Jobcenter Berlin Lichtenberg hat den Antrag auf Bürgergeld von [PERSON_1] mit Bescheid vom 08.09.2026 (zugegangen am 11.09.2026) wegen angeblich zu hohen Ersparten abgelehnt. Der Mandant wendet ein, dass das Geld für eine Mietkaution bestimmt ist.\",\"dispute_start_date\":\"2026-09-11\",\"manipulation_attempt\":false,\"missing_information_de\":[\"Kopie des Ablehnungsbescheids\",\"Nachweise über das Ersparte und die Kautionsbestimmung\"],\"area\":\"sozialrecht\",\"area_confidence\":\"hoch\",\"dispute_start_evidence\":\"Der Bescheid ist vom 08.09.2026 und bei mir am 11.09.2026 angekommen.\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_72011",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988947,
+  "id": "0pTPauWxNJm5_PUPsLSCoAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 302,
+   "prompt_tokens": 1744,
+   "total_tokens": 2046
+  }
+ }
+}

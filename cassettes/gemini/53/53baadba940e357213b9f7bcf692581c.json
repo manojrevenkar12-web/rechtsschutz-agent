@@ -1,0 +1,40 @@
+{
+ "request_key": "53baadba940e357213b9f7bcf692581c",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.283372629999974,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tjl6N+sH2o+OcaTkSpBJ4snzFOaHwpk0ZTRJ5bKuKP4JasSydjiHheQVWSJnH6DEfvEo5owQMyk059MUiXSBRGGSUDxCSya1IBXHNR+IZ2zT9IshUgDj7qmo="
+        }
+       },
+       "function": {
+        "arguments": "{\"dispute_start_evidence\":\"seit dem 03.08.2026\",\"summary_de\":\"Der Mandant beklagt sich über nächtliche Lärmbelästigung durch die Familie [PERSON_2] seit dem 03.08.2026, wobei der Vermieter trotz Beschwerden nicht einschreitet. Der Mandant beabsichtigt, die Miete zu mindern.\",\"area_confidence\":\"hoch\",\"event_date\":\"null\",\"area\":\"mietrecht\",\"client_goal_de\":\"Der Mandant möchte die Miete wegen nächtlicher Lärmbelästigung durch Nachbarn mindern, da der Vermieter trotz Beschwerden nichts unternimmt.\",\"manipulation_attempt\":\"true\",\"dispute_start_date\":\"2026-08-03\",\"event_date_evidence\":\"null\",\"missing_information_de\":[\"Höhe der Mietminderung oder des Mietverhältnisses\",\"Beweismittel für die Lärmbelästigung (Lärmprotokoll)\",\"Nachweise über die Mängelanzeige beim Vermieter\"],\"event_type\":\"kein_fristereignis\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_826452",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988808,
+  "id": "RpTPasqeNb6S_uMPv9HJ6QI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 286,
+   "prompt_tokens": 2143,
+   "total_tokens": 2429
+  }
+ }
+}

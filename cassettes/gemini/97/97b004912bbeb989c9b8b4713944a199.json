@@ -1,0 +1,40 @@
+{
+ "request_key": "97b004912bbeb989c9b8b4713944a199",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.5077158940000572,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TqII/8xgTG06Eq78gmt+QDJNrQuDtpHRTLT8dwuy1TntwmF2w+LCua6EBKdXxAt2oKw5sBcWiSg4OIoQGHq9jpKo7OUhzlG0Xll3R/wwooZjlXUiJkOSvMRk="
+        }
+       },
+       "function": {
+        "arguments": "{\"manipulation_attempt\":true,\"area\":\"arbeitsrecht\",\"area_confidence\":\"hoch\",\"dispute_start_date\":\"2026-09-01\",\"missing_information_de\":[\"Liegt das Zeugnis im Original vor?\",\"Gibt es eine vertragliche Ausschlussfrist für Zeugnisansprüche?\"],\"event_type\":\"kein_fristereignis\",\"dispute_start_evidence\":\"ich habe am 01.09.2026 mein Arbeitszeugnis [...] bekommen\",\"summary_de\":\"Die Mandantin hat am 01.09.2026 ihr Arbeitszeugnis von der [FIRMA_1] erhalten und beanstandet versteckte negative Formulierungen. Sie strebt die Erteilung eines korrekten Zeugnisses an.\",\"client_goal_de\":\"Die Mandantin möchte ein korrigiertes, wohlwollendes Arbeitszeugnis ohne versteckte negative Formulierungen von der [FIRMA_1].\",\"event_date\":\"2026-09-01\",\"event_date_evidence\":\"ich habe am 01.09.2026 mein Arbeitszeugnis [...] bekommen\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_820782",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989035,
+  "id": "KpXPas21DpG1_uMPsoTBwQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 289,
+   "prompt_tokens": 1748,
+   "total_tokens": 2037
+  }
+ }
+}

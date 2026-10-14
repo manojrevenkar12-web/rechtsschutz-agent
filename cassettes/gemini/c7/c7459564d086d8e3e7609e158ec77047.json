@@ -1,0 +1,31 @@
+{
+ "request_key": "c7459564d086d8e3e7609e158ec77047",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.9467585340000255,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage / Rechtsschutzversicherung\nVersicherungsnehmer/in: [PERSON_1]\nSchadennummer / Kundennummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen von [PERSON_1] in der Angelegenheit Vertragsrecht / [FIRMA_1] vertreten.\n\nSachverhalt:\nUnser Mandant erhielt am 02.10.2026 einen Mahnbescheid von [FIRMA_1] über 1.240 Euro aus einem Handyvertrag. Einer früheren Rechnung vom 05.03.2026 hatte der Mandant bereits wegen unberechtigter Roaming-Kosten widersprochen. Das Ziel ist es, die Forderung aus dem Mahnbescheid bezüglich des unberechtigten Handyvertrags abzuwehren.\n\nDie gesetzliche Frist zur Einlegung des Widerspruchs gegen den Mahnbescheid endet am 16.10.2026. \n\nAngesichts der laufenden Frist bitten wir um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TLboKmr6NrDIDa3K5lW7VelulbsY4b1tAqimLgBAnNi438rsA1aPjrpXih0tNSJF220oqMoy1DQUTngBCVFOoy2cFUr5qyUEyVLFtWHviuA5AAmg0gPPypfM="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988871,
+  "id": "hZTPauTdI9uj_uMP_v2PyQQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 276,
+   "prompt_tokens": 756,
+   "total_tokens": 1032
+  }
+ }
+}

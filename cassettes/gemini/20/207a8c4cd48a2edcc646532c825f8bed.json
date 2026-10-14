@@ -1,0 +1,40 @@
+{
+ "request_key": "207a8c4cd48a2edcc646532c825f8bed",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.3989853709999949,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TRBX9TqZu8GpkwXVKP0c/Np2h53fCybWru8EEWLPYZ8Tzbm0TIPawoyeOaig2qHYzM6oRwnV+6MD8FpgHIgjBfBsWx2JtyK3pKBtxDghzheU9LfraoELy+cg="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_type\":\"kein_fristereignis\",\"area\":\"arbeitsrecht\",\"client_goal_de\":\"Der Mandant möchte die ausstehenden Gehälter für Juli und August 2026 von seinem Arbeitgeber einfordern.\",\"summary_de\":\"Der Mandant [PERSON_1] berichtet, dass sein Arbeitgeber [FIRMA_1] ihm die Gehälter für Juli und August 2026 nicht gezahlt hat. Das Juli-Gehalt war fällig zum 31.07.2026.\",\"manipulation_attempt\":false,\"missing_information_de\":[\"Höhe des monatlichen Brutto- und Nettogehalts\",\"Besteht eine Ausschlussfrist im Arbeitsvertrag?\"],\"dispute_start_evidence\":\"Das Gehalt für Juli hätte am 31.07.2026 auf meinem Konto sein müssen\",\"event_date\":\"2026-01-01\",\"dispute_start_date\":\"2026-07-31\",\"event_date_evidence\":\"null\",\"area_confidence\":\"hoch\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_737828",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988612,
+  "id": "g5PPau_7FPjo-8YP0-G66QY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 266,
+   "prompt_tokens": 2106,
+   "total_tokens": 2372
+  }
+ }
+}

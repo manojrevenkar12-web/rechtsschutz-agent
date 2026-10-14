@@ -1,0 +1,40 @@
+{
+ "request_key": "9aab3c110d1e185b99bf6db6e275f391",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 4.737683727000018,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TQXIwBzUxMHhTfudrX2k9zOSy4+95l1nSTem3fdzPmn6wufHyrcraLRZvCqOBVSwLdOfLMkit97GEOjnvkEvneyntFq6yrwI72ganCgM7DGZ5Y6zMXGyVz0k="
+        }
+       },
+       "function": {
+        "arguments": "{\"dispute_start_date\":\"2026-09-10\",\"missing_information_de\":[\"Aktenzeichen der Behörde\"],\"event_type\":\"bussgeldbescheid\",\"event_date_evidence\":\"am 09.10.2026 wurde mir ein Bußgeldbescheid zugestellt\",\"area\":\"verkehrsrecht\",\"summary_de\":\"Der Mandant erhielt am 09.10.2026 einen Bußgeldbescheid wegen einer angeblichen Fahrt in einer Umweltzone ohne Plakette vom 10.09.2026. Er gibt an, dass die Plakette ordnungsgemäß an der Scheibe angebracht ist und möchte gegen den Vorwurf vorgehen.\",\"dispute_start_evidence\":\"am 10.09.2026 mit meinem Wagen [...] in einer Umweltzone ohne Plakette gefahren\",\"event_date\":\"2026-10-09\",\"client_goal_de\":\"Der Mandant möchte gegen den Bußgeldbescheid wegen einer angeblichen Fahrt ohne Umweltplakette vorgehen.\",\"manipulation_attempt\":false,\"area_confidence\":\"hoch\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_666474",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988734,
+  "id": "-ZPPatqgNKivjrEP2oKKoQE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 287,
+   "prompt_tokens": 1749,
+   "total_tokens": 2036
+  }
+ }
+}

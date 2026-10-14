@@ -1,0 +1,31 @@
+{
+ "request_key": "85b4e83b2f08b4e8017af5e7589a7a98",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 3.3678590170000007,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für Mandanten [PERSON_2] / Scheidung, Sorgerecht und Unterhalt\n\nSehr geehrte Damen und Herren,\n\nin obiger Angelegenheit zeige ich an, dass ich die Interessen unseres Mandanten, [PERSON_2], vertrete. \n\nUnser Mandant lebt seit dem 01.11.2025 von seiner Ehefrau, [PERSON_1], getrennt. Nunmehr wird die Scheidung angestrebt. Zudem besteht Streit über das Sorgerecht und den Unterhalt.\n\nUm die rechtlichen Interessen unseres Mandanten sachgerecht wahrnehmen zu können, bitten wir höflich um zeitnahe Erteilung der Deckungszusage für die Wahrnehmung seiner rechtlichen Interessen in dieser Angelegenheit. \n\nBitte teilen Sie uns Ihre Entscheidung schriftlich mit.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TqQ3GgC3g6WRt528oEdfNEZz8GxjL/M3A82mlP7pnCsmnCH3N4llT5eYPZd16UH0tAgbGpjaEjnP1hkWRlPSNtYWFsi2UpUkMEUahnfdqVRGgkoY5uoHA7TE="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989034,
+  "id": "JpXPasjbMbyR-8YP5YjAqQg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 183,
+   "prompt_tokens": 645,
+   "total_tokens": 828
+  }
+ }
+}

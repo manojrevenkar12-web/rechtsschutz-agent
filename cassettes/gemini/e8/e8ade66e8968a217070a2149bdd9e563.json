@@ -1,0 +1,31 @@
+{
+ "request_key": "e8ade66e8968a217070a2149bdd9e563",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 3.4241892219999954,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "length",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage Verkehrsrecht – [PERSON_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen hiermit an, dass wir die rechtlichen Interessen von [PERSON_1] in einer verkehrsrechtlichen Angelegenheit vertreten.\n\nUnserem Mandanten ist am 06.10.2026 ein Bußgeldbescheid wegen einer mutmaßlichen Geschwindigkeitsüberschreitung zugestellt worden, die im Zusammenhang mit einem Vorfall vom 01.07.2025 steht. Mit dem Bußgeldbescheid ist ein drohendes Monat Fahrverbot verbunden. Da [PERSON_1] beruflich dringend auf das Fahrzeug mit dem Kennzeichen [KENNZEICHEN_1] angewiesen ist, möchte der Mandant gegen den Bußgeldbescheid vorgehen, um das drohende Fahrverbot erfolgreich abzuwenden.\n\nDie Frist für die Einlegung des Einspruchs gegen den Bußgeldbescheid endet am 20.10.2026. Angesichts dieser laufenden Frist und des dringenden Handlungsbedarfs bitten wir Sie um eine",
+     "extra_content": {
+      "google": {
+       "thought_signature": "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"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988680,
+  "id": "xZPPau2nKPjo-8YP0-G66QY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 248,
+   "prompt_tokens": 999,
+   "total_tokens": 2195
+  }
+ }
+}

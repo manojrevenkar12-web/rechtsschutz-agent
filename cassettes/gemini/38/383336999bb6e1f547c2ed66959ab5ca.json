@@ -1,0 +1,31 @@
+{
+ "request_key": "383336999bb6e1f547c2ed66959ab5ca",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.0921865939999975,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage Verkehrsrecht – Mandant [PERSON_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen hiermit die anwaltliche Vertretung unseres Mandanten [PERSON_1], Telefon: [TELEFON_1], an. \n\nAm 01.10.2026 kam es zu einem Verkehrsunfall, bei dem ein Radfahrer in das Fahrzeug unseres Mandanten mit dem amtlichen Kennzeichen [KENNZEICHEN_1] gefahren ist. Der Radfahrer behauptet ein Verschulden unseres Mandanten und fordert Schmerzensgeld, während das Auto einen Kratzer an der Beifahrertür aufweist.\n\nUnser Mandant möchte sich gegen die Schmerzensgeldforderungen des Radfahrers nach diesem Verkehrsunfall verteidigen. \n\nWir bitten Sie daher höflich, für die Wahrnehmung der rechtlichen Interessen unseres Mandanten im Bereich Verkehrsrecht die Deckungszusage zu erteilen und uns diese kurzfristig schriftlich zukommen zu lassen.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T6WFh5YdXflr6vz5RYaAqddlHk9rY7XiF9FU8BakLszC8e7Wr1Nb7Dzj02zPgTq3/1hBqc07LqVhB4KVjNZqql+26ZiuEOaAN+jP6vJ8A8cdVEDDtfq8YDj0="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988729,
+  "id": "-JPPaqilLOXK-8YP9KH76AE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 231,
+   "prompt_tokens": 1036,
+   "total_tokens": 1267
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "request_key": "e7edba067c93e7bd9d9541f4627c91e4",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 0.589868187999997,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988687,
+  "id": "z5PPas_ZHuWw_PUPjKHk8Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 0,
+   "prompt_tokens": 2607,
+   "total_tokens": 2607
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "request_key": "9bd6c67ce72c745b70fd5b9bece0a434",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.5719666840000173,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TFMyaHK2pjJIjcrRfh5nVVLb+mRLVv6+cHFAZHaO62UZb/PXuDIl/h0vRwWO9YPnqvys5EpqZ8C/U+Cqsw1AG4SiURsZVLnGg+wgoQ2HNbB2AA57OA5+wwTA="
+        }
+       },
+       "function": {
+        "arguments": "{\"manipulation_attempt\":true,\"event_date\":\"null\",\"dispute_start_date\":\"2026-08-03\",\"summary_de\":\"[PERSON_1] wird seit dem 03.08.2026 durch nächtlichen Lärm aus der Nachbarwohnung gestört und beschwert sich, dass der Vermieter trotz Beschwerden nicht einschreitet. Der Mandant möchte nun die Miete mindern.\",\"area_confidence\":\"hoch\",\"area\":\"mietrecht\",\"missing_information_de\":[\"Welche Beweise (Lärmprotokoll etc.) liegen für den Lärm vor?\",\"Wurden dem Vermieter konkrete Fristen zur Abhilfe gesetzt?\"],\"dispute_start_evidence\":\"seit dem 03.08.2026 feiert die Familie [PERSON_2] in der Wohnung über mir fast jede Nacht\",\"event_type\":\"kein_fristereignis\",\"event_date_evidence\":\"null\",\"client_goal_de\":\"[PERSON_1] möchte wegen nächtlicher Lärmbelästigung durch Nachbarn und Untätigkeit des Vermieters die Miete mindern.\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_646257",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989064,
+  "id": "R5XPav-7A8q3_PUP6-qToQE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 285,
+   "prompt_tokens": 1635,
+   "total_tokens": 1920
+  }
+ }
+}

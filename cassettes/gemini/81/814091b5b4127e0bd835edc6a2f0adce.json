@@ -1,0 +1,40 @@
+{
+ "request_key": "814091b5b4127e0bd835edc6a2f0adce",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 0.5691530820000139,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T4Tr3LrzGFowix3jz9divK5j1s5HNCFGJCtGTukS9NMzXgRUU2xPlbQ4mwItY80YLGWFEV5XKxG/HMFTRHThRb/6QGIuNt8P4OuetyfKHfSCljUNTUjv2o1s="
+        }
+       },
+       "function": {
+        "arguments": "{\"which\":\"previous_week\",\"weekday\":\"dienstag\",\"base_date\":\"2026-10-14\"}",
+        "name": "find_weekday"
+       },
+       "id": "call_632643",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988674,
+  "id": "wpPPatb2HM_K-8YP7-LpmQE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 1743,
+   "total_tokens": 1785
+  }
+ }
+}

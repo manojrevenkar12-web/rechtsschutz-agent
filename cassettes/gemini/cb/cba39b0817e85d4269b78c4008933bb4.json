@@ -1,0 +1,31 @@
+{
+ "request_key": "cba39b0817e85d4269b78c4008933bb4",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.8085514839999917,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für arbeitsrechtliche Beratung – [PERSON_1], geb. [GEBURTSDATUM_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir den Mandanten [PERSON_1], geboren am [GEBURTSDATUM_1], in einer arbeitsrechtlichen Angelegenheit vertreten. \n\nAm 25.09.2026 wurde unserem Mandanten von seinem Arbeitgeber, der [FIRMA_1], ein Aufhebungsvertrag mit einer Abfindung von zwei Monatsgehältern vorgelegt. Unser Mandant benötigt nun rechtliche Beratung hinsichtlich der Frage, ob er den Aufhebungsvertrag unterschreiben kann oder ob dadurch eine Sperrzeit beim Arbeitslosengeld droht. Das Streitverhältnis hat seinen Ursprung am 25.09.2026.\n\nWir bitten höflich um Überprüfung des Versicherungsschutzes und um erteilende Deckungszusage für die außergerichtliche Vertretung und Beratung im Arbeitsrecht.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T2Sr+9LpfuNQzkWv8/ZvUbC1/9PFuz3plsFilFYd0UyefNXp+VnrCNBvL+VHy93x/oBt6xwkSbSxYI5V6qiavMdY/4ID/+KDEY+PGEhJGmAjui0H6owKZVUw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988618,
+  "id": "iJPPaumlJ8H4jrEP1b_s0Ao",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 223,
+   "prompt_tokens": 716,
+   "total_tokens": 939
+  }
+ }
+}

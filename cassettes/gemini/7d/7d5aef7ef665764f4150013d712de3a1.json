@@ -1,0 +1,31 @@
+{
+ "request_key": "7d5aef7ef665764f4150013d712de3a1",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.0772312990000046,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage im Arbeitsrecht / Mandant: [PERSON_2] / Versicherungsnummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nich zeige an, dass ich die Interessen von [PERSON_2] ([EMAIL_1]) in einer arbeitsrechtlichen Angelegenheit vertrete. \n\nDer Mandant ist als Softwareentwickler bei der [FIRMA_1] beschäftigt. Am 30.09.2026 wurde ihm eine Abmahnung erteilt, die aus Sicht des Mandanten unberechtigt ist, da die zugrundeliegende Projektverzögerung auf fehlende Zulieferungen eines anderen Teams zurückzuführen ist. \n\nDas Ziel des Mandanten ist es, die Entfernung der Abmahnung aus seiner Personalakte zu erreichen.\n\nIch darf Sie daher höflich bitten, für die Wahrnehmung der rechtlichen Interessen unseres Mandanten die Deckungszusage zu erteilen.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TjtS8twQzDwBuV70CPg8Lf6DhYvdISG6lmF22eGe2afuslqraerLHdqcZWfSwUJgH+n1AOMmqANkDaf7nrR/5zqOBfTfwAl8h5CmGh4N8IvjcfGD5MgfKR6o="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988602,
+  "id": "eZPPauC8Hr6a9MoPq4HzgAE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 213,
+   "prompt_tokens": 687,
+   "total_tokens": 900
+  }
+ }
+}
