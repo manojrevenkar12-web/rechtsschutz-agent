@@ -27,6 +27,7 @@ from .tracing import Tracer
 ENDPOINTS = {
     "openrouter": ("https://openrouter.ai/api/v1/chat/completions", "OPENROUTER_API_KEY"),
     "github": ("https://models.github.ai/inference/chat/completions", "GITHUB_TOKEN"),
+    "gemini": ("https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", "GEMINI_API_KEY"),
 }
 
 
@@ -100,6 +101,10 @@ class ChatClient:
             tracer.record_payload(outbound)
 
         payload: dict[str, Any] = {"model": model, "messages": messages, "temperature": temperature, "max_tokens": max_tokens}
+        if self.provider == "gemini":
+            # Gemini 2.5 models think by default and the thinking tokens count against max_tokens;
+            # keep it small so answers are not truncated and latency stays comparable.
+            payload["reasoning_effort"] = "low"
         if tools:
             payload["tools"] = tools
             if tool_choice is not None:
@@ -135,13 +140,13 @@ class ChatClient:
                    "X-GitHub-Api-Version": "2022-11-28", "HTTP-Referer": "https://github.com/manojrevenkar12-web/rechtsschutz-agent", "X-Title": "rechtsschutz-agent"}
         delay = 2.0
         async with httpx.AsyncClient(timeout=self.timeout_s) as client:
-            for attempt in range(6):
+            for attempt in range(9):
                 t0 = time.perf_counter()
                 r = await client.post(self.url, headers=headers, json=body)
                 latency = time.perf_counter() - t0
-                if r.status_code in (402, 429, 500, 502, 503, 504) and attempt < 5:  # 402: OpenRouter credit reservation for in-flight calls
-                    await asyncio.sleep(float(r.headers.get("retry-after", delay)))
-                    delay *= 2
+                if r.status_code in (402, 429, 500, 502, 503, 504) and attempt < 8:  # 402: OpenRouter credit reservation for in-flight calls
+                    await asyncio.sleep(min(float(r.headers.get("retry-after", delay)), 65.0))
+                    delay = min(delay * 2, 65.0)
                     continue
                 if r.status_code >= 400:
                     raise RuntimeError(f"HTTP {r.status_code} from {self.url}: {r.text[:300]}")

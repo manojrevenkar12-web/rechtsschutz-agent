@@ -19,5 +19,6 @@ jobs:
       - name: "Gates on recorded real-model outputs (replay, no API key)"
         if: hashFiles('cassettes/**') != ''
         run: |
-          CFG=config/eval.yaml; [ -d cassettes/openrouter ] || CFG=config/eval.github.yaml
+          CFG=config/eval.yaml
+          [ -d cassettes/gemini ] && CFG=config/eval.gemini.yaml
           python evals/run_eval.py --split test --config $CFG --mode replay --gate
