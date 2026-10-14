@@ -1,0 +1,31 @@
+{
+ "request_key": "689fd2e6a325287d400081660b9c8bd1",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.360095498000021,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage Verkehrsrecht – [PERSON_1] / Schadennummer: [NUMMER_1] (falls bekannt)\n\nSehr geehrte Damen und Herren,\n\nwir zeigen hiermit die anwaltliche Vertretung unseres Mandanten [PERSON_1] an. \n\nUnser Mandant hat am 06.10.2026 einen Bußgeldbescheid wegen einer mutmaßlichen Geschwindigkeitsüberschreitung auf der A100 im Juli 2026 erhalten (Kennzeichen: [KENNZEICHEN_1]). Da dem Mandanten ein einmonatiges Fahrverbot droht und er beruflich auf seinen Führerschein angewiesen ist, ist die Wahrnehmung seiner rechtlichen Interessen erforderlich. Ziel ist es, gegen den Bußgeldbescheid vorzugehen, um das drohende Fahrverbot abzuwenden.\n\nDie gesetzliche Einspruchsfrist endet am 20.10.2026. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten in dieser Verkehrsangelegenheit.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Ts2ih/z0igFjLwwX87rzFe2I/XdHAChe/tZ3jiGIUi2WQLXAQI9JQFje8h/5GUsMlp5N80Z+Fi/Md0Rq7aRTL4Ol7xaFghbft3B2+wTfV1Uh9pYGU+jOow/s="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791995603,
+  "id": "0q7Papi7K4Kn_uMP5b2i6A4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 268,
+   "prompt_tokens": 727,
+   "total_tokens": 995
+  }
+ }
+}

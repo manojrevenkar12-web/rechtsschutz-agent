@@ -1,0 +1,31 @@
+{
+ "request_key": "cdd9b9d9acbf6e5ca96290a54d37c6cb",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 3.5023878800000006,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage – [PERSON_1] / [FIRMA_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die rechtlichen Interessen von [PERSON_1], [ADRESSE_1], [PLZ_1] Berlin, in einer mietrechtlichen Angelegenheit vertreten.\n\nUnser Mandant hat am 03.11.2026 ein Mieterhöhungsverlangen der [FIRMA_1] erhalten. Das Ziel unseres Mandanten besteht darin, gegen dieses Mieterhöhungsverlangen vorzugehen, da nach seiner Auffassung die Einordnung in eine bessere Wohnlage unzutreffend ist. \n\nDie Frist zur Erklärung gegenüber dem Vermieter endet am 01.02.2027. Wir weisen vorsorglich auf diese Frist hin und bitten Sie daher um eine zeitnahe Entscheidung bezüglich unseres Antrags.\n\nWir bitten höflich um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten in dieser Angelegenheit. \n\nFür Ihre baldige Rückmeldung und Bestätigung der Kostenübernahme danken wir Ihnen im Voraus.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "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"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791995542,
+  "id": "k67PasqiKI7SjMcPhbjYuQs",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 260,
+   "prompt_tokens": 1030,
+   "total_tokens": 2217
+  }
+ }
+}

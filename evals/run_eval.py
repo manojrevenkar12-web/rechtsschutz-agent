@@ -253,7 +253,20 @@ def main():
         runs.append(("ablation", "no_date_tools", Settings(extraction_model=base, drafting_model=base, prompt_version=cfg["prompt_version"], date_tools=False)))
 
     all_fails = []
+
+    async def available(model: str) -> bool:
+        if a.mode == "replay":
+            return True
+        try:
+            await client._post({"model": model, "messages": [{"role": "user", "content": "OK?"}], "max_tokens": 50})
+            return True
+        except Exception as e:  # e.g. 503 "high demand" on free tiers: skip instead of retrying for an hour
+            print(f"-- skipping {model}: {str(e)[:200]}")
+            return False
+
     for kind, name, settings in runs:
+        if kind == "model" and not asyncio.run(available(name)):
+            continue
         subset = cases
         if kind == "ablation" and name == "no_spotlighting":
             subset = [c for c in cases if c["attack"]]
