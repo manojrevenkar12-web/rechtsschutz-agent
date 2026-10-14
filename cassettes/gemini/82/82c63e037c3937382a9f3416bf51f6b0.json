@@ -1,0 +1,40 @@
+{
+ "request_key": "82c63e037c3937382a9f3416bf51f6b0",
+ "model": "gemini-3.8-flash",
+ "latency_s": 5.585406151999905,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmkKZwFpFH0TO7klSXfnrjkgcnCppGI/kciQnFfJTLufo3ZaqultqCEHhD/3OHwKQnSfoOuznYJ/VAMMxFFkSKTIbETwQlFsMZaD4L9B0+wuJLqLc6T6cq1pBsAczTOCl5mqDr4uHgBWdbM="
+        }
+       },
+       "function": {
+        "arguments": "{\"summary_de\":\"Der Mandant [PERSON_2], Softwareentwickler bei [FIRMA_1], erhielt am 30.09.2026 eine Abmahnung durch seine Teamleiterin [PERSON_1] wegen angeblich verspäteter Projektabgabe. Er bestreitet das Verschulden und verweist auf fehlende Zulieferungen eines anderen Teams. Er verlangt die Entfernung der Abmahnung aus seiner Personalakte.\",\"dispute_start_evidence\":\"Am 30.09.2026 hat mir meine Teamleiterin, Frau [PERSON_1], eine Abmahnung\",\"dispute_start_date\":\"2026-09-30\",\"manipulation_attempt\":false,\"event_type\":\"kein_fristereignis\",\"area\":\"arbeitsrecht\",\"missing_information_de\":[\"Wortlaut bzw. Kopie der schriftlichen Abmahnung\",\"Besteht ein Betriebsrat im Unternehmen?\",\"Nachweise oder Dokumentation über die Verzögerung durch das andere Team\"],\"client_goal_de\":\"Der Mandant möchte die Entfernung der Abmahnung aus seiner Personalakte erreichen.\",\"event_date\":null,\"area_confidence\":\"hoch\",\"event_date_evidence\":null}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_587564",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791981783,
+  "id": "0njPatnvFZbv_uMPsdCFqAk",
+  "model": "gemini-3.8-flash",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 299,
+   "prompt_tokens": 1765,
+   "total_tokens": 2064
+  }
+ }
+}

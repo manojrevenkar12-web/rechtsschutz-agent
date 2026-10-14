@@ -1,0 +1,40 @@
+{
+ "request_key": "2b85a37910e10476f5231260f09b27bd",
+ "model": "gemini-3.8-flash",
+ "latency_s": 77.82448254899964,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "ErMCCrACAWkUfROD++We8ieYZggezgL0f4j1lEnzlHoqN93CxNc5z00oj8tUVObNHAPnDPFtpzAdMeEB0+PjzHsCx52hAoUCfKc7uzFlIJMc9Rw4VJIF2VeCtVm4T5CmQG4dgLVThccF8xrWq4CFvsxI1nwVhnK2hKtzqByP4VGcAMDmDM6nimLFdm1FUdYQJX0eNiFYI4smXX/ZiX8xl/DWCaYAaBbHhKUJl5pWdTHC2Qe/br4ZeFgXxYTxdGhRklT/mLEgGs41jvH2DJ9wjqF3uTof/OXu79/i8oUPlTlO93OjNYU28ySu3JObDyFuHzhzGUDl8G49cen14k+wCwlTh+NRq/vwlqT+CcPUREIPk4qg9lCSZ6QTJZ83ykj2Ti3PzsGYHS2WJk0982jPyR36+aiFpQ=="
+        }
+       },
+       "function": {
+        "arguments": "{\"weekday\":\"dienstag\",\"base_date\":\"2026-10-14\",\"which\":\"previous_week\"}",
+        "name": "find_weekday"
+       },
+       "id": "call_580823",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791983561,
+  "id": "e3_PatXcJeGx1MkPhue7MA",
+  "model": "gemini-3.8-flash",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 1743,
+   "total_tokens": 1844
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "request_key": "4a8e68ba41bf29f98113d03045a57cc4",
+ "model": "gemini-3.8-flash",
+ "latency_s": 70.78168037499995,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage im Arbeitsrecht für [PERSON_2] ./. [FIRMA_1]\n\nSehr geehrte Damen und Herren,\n\nin vorbezeichneter Angelegenheit zeigen wir die anwaltliche Vertretung Ihres Versicherungsnehmers, Herrn [PERSON_2], an. Ordnungsgemäße Bevollmächtigung wird anwaltlich versichert.\n\nUnser Mandant ist als Softwareentwickler bei der [FIRMA_1] angestellt. Am 30.09.2026 erteilte ihm seine Teamleiterin, Frau [PERSON_1], eine Abmahnung wegen einer angeblich verspäteten Projektabgabe. \n\nDieser Vorwurf trifft jedoch nicht zu. Unser Mandant bestreitet ein eigenes Verschulden an der Verzögerung und verweist darauf, dass diese auf fehlende Zulieferungen eines anderen Teams zurückzuführen war. Ziel unseres Mandanten ist es, die unberechtigte Abmahnung aus seiner Personalakte entfernen zu lassen. \n\nZur außergerichtlichen Wahrnehmung der rechtlichen Interessen unseres Mandanten bitten wir Sie daher um Erteilung einer Deckungszusage.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmkKZwFpFH0TGumqVlfvITacHe19p9DLPAVetdzBobVPaGvmlZVkddvp3H53EKbeoGHSPiHD2AiFmHcMLA6P6mPPXYQ2bnMN/vcq3XEWYPq73iE4F7lzBsHWhPo/JooF6QazI/asplh/9UI="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791981875,
+  "id": "7XjPaoqwBojB1MkPl73ZuAg",
+  "model": "gemini-3.8-flash",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 250,
+   "prompt_tokens": 728,
+   "total_tokens": 978
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "request_key": "505fb1ce9951ca5686f41231bffb1455",
+ "model": "gemini-3.8-flash",
+ "latency_s": 77.81181719700004,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmkKZwFpFH0TX9U4tqgxVso2Nh6Jm0IUcB+Y8O5Jm/YY0FibQw5FnFiGEGjOzux414khnzL22k3N1HUQKh9rGNl6SO04f75kbx+gjwxgc8ULdEfSBM8l1MYNTcjdWrE5G8+rLiVaRzwi3w0="
+        }
+       },
+       "function": {
+        "arguments": "{\"dispute_start_evidence\":\"Am 18.09.2026 hat mir mein Vorgesetzter, Herr [PERSON_2], die ordentliche Kündigung persönlich übergeben.\",\"event_type\":\"kuendigung_arbeitsvertrag\",\"event_date_evidence\":\"Am 18.09.2026 hat mir mein Vorgesetzter, Herr [PERSON_2], die ordentliche Kündigung persönlich übergeben.\",\"missing_information_de\":[\"Wann soll das Arbeitsverhältnis laut Kündigungsschreiben enden (Kündigungsfrist)?\",\"Wie viele Mitarbeiter sind regelmäßig im Betrieb beschäftigt (bzgl. Kündigungsschutzgesetz)?\",\"Gibt es einen Betriebsrat im Unternehmen?\",\"Wurde das Kündigungsschreiben schriftlich und eigenhändig unterschrieben übergeben?\"],\"event_date\":\"2026-09-18\",\"summary_de\":\"Der Mandant [PERSON_1] ist seit 2015 als Lagerist bei der [FIRMA_1] tätig und erhielt am 18.09.2026 persönlich eine ordentliche Kündigung. Als Begründung wurde eine Umstrukturierung angeführt, wobei zwei jüngere Kollegen weiterbeschäftigt werden. Der Mandant beabsichtigt, sich gegen diese Kündigung zur Wehr zu setzen.\",\"dispute_start_date\":\"2026-09-18\",\"area\":\"arbeitsrecht\",\"client_goal_de\":\"Der Mandant möchte sich gegen die ausgesprochene Kündigung seines Arbeitsverhältnisses wehren.\",\"manipulation_attempt\":false,\"area_confidence\":\"hoch\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_578140",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791981022,
+  "id": "kXXPapmEA6bV_uMPvILbqQQ",
+  "model": "gemini-3.8-flash",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 392,
+   "prompt_tokens": 1825,
+   "total_tokens": 2217
+  }
+ }
+}
