@@ -1,0 +1,7 @@
+OK      openai/gpt-4.1-mini
+OK      openai/gpt-4.1-nano
+OK      google/gemini-2.5-flash
+OK      mistralai/mistral-small-3.2-24b-instruct
+OK      meta-llama/llama-3.3-70b-instruct
+key: {'limit': 50, 'usage': 0, 'limit_remaining': 50, 'is_free_tier': True}
+account: {'total_credits': 0, 'total_usage': 0.19106715}
