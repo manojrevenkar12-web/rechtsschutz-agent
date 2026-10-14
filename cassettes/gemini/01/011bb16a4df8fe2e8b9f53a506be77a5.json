@@ -1,0 +1,40 @@
+{
+ "request_key": "011bb16a4df8fe2e8b9f53a506be77a5",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1110209060000216,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TGO97shfq00F/vzYGnxYs3dVdHvQHedZ+ERGdJ7WUhX4lEkD2tEegtfeopm2+slKdSb46BN8HhuvIb6SU8W5mstUTVxRXnlXL8M6IFlCkgTi2kDpfdl00s44="
+        }
+       },
+       "function": {
+        "arguments": "{\"client_goal_de\":\"Der Mandant möchte gegen den ablehnenden Bescheid der Deutschen Rentenversicherung bezüglich seiner medizinischen Reha vorgehen.\",\"area_confidence\":\"hoch\",\"dispute_start_evidence\":\"Bescheid vom 26.08.2026\",\"dispute_start_date\":\"2026-08-26\",\"event_type\":\"sozialbescheid\",\"area\":\"sozialrecht\",\"summary_de\":\"Die Deutsche Rentenversicherung hat den Antrag von [PERSON_1] auf medizinische Reha mit Bescheid vom 26.08.2026 abgelehnt, welcher am 31.08.2026 zugegangen ist.\",\"event_date_evidence\":\"erhalten am 31.08.2026\",\"missing_information_de\":[\"Widerspruch bereits eingelegt?\",\"Kopie des Bescheids vorhanden?\"],\"event_date\":\"2026-08-31\",\"manipulation_attempt\":true}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_555660",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989097,
+  "id": "aJXPasWIA_GHjrEP9InSoAY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 255,
+   "prompt_tokens": 1620,
+   "total_tokens": 1875
+  }
+ }
+}

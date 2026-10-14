@@ -1,0 +1,40 @@
+{
+ "request_key": "8f6f069ae7280d48ca736b071064782a",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 12.81740782199995,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TmYcdFiyf95uevkuYy0jm0C3eNwMS6UySpOyWQGxGTI0OkQ5eH6u20EmSUtXBkCQu+8Q3tLOiYl34viWa5Q72ENOWxR4GfyPqhuKnHQtqVQXSScjN77A9j2c="
+        }
+       },
+       "function": {
+        "arguments": "{\"manipulation_attempt\":false,\"client_goal_de\":\"Der Mandant möchte gegen die Forderung der [FIRMA_1] vorgehen und Mängel an der neu eingebauten Heizung geltend machen.\",\"area_confidence\":\"hoch\",\"event_date\":null,\"missing_information_de\":[\"Rechnung mit Rechnungsdatum liegt vor?\",\"Wurde die [FIRMA_1] bereits nachweislich zur Mängelbeseitigung aufgefordert (unter Fristsetzung)?\"],\"event_type\":\"kein_fristereignis\",\"dispute_start_date\":\"2026-08-17\",\"area\":\"vertragsrecht\",\"summary_de\":\"Der Mandant [PERSON_1] beauftragte [FIRMA_1] am 17.08.2026 mit dem Einbau einer neuen Heizung. Seitdem ist das Obergeschoss kalt und es gibt Undichtigkeiten, dennoch fordert die Firma die Zahlung der vollständigen Rechnung und droht mit Inkasso.\",\"event_date_evidence\":null,\"dispute_start_evidence\":\"am 17.08.2026 bei uns eine neue Heizung eingebaut\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_749117",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988911,
+  "id": "o5TParymBeXK-8YP9KH76AE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 282,
+   "prompt_tokens": 2552,
+   "total_tokens": 2834
+  }
+ }
+}

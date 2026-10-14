@@ -1,0 +1,40 @@
+{
+ "request_key": "e762d7df7337cb9b25aab70af0d75288",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 2.2397668419999945,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EtoKCtcKAWkUfRPHlwHJlWtHPxm4b+9wNMFj0xCCBHJO3eAKO2taGZBZfyzsSPxVuIr+eBs7Qttt++2fjY3sqjmeqVfBQkRiNyKZMnBAX03pMFR2l3/+TvHQZhYr4n1/1ShJv/jgF4cv9Xo7/RvjE+HUKRGk5aBPiu1dOn5dMAI2f1a+Bzo7OGPqm8r9A0SY7Jsuki7E3iqSsxnpuEVu6alrPlguxX5R4pAT5pvCs6glTIIF9Qf+S5juUMs855CSrlBchMyKhLB7ew9FCH65SwkggoYK8Qv1tQCQsd6Bo3nsZfAXmn23Jq8dJPgWJhh4TQyQMl4Y7IBLMm/kAAW7/zwvEBd0k7npaQWLwa9iAOlKhQcKv4qiBL5ANdNk97ZIC78AmvpzfWnF9NB+OsfbySfuO43MZZBAt1FBtoUzi5tE/09BXVFXyLu0vmwS8Gz3nExsHtDG8TGJXFnqC5npS+On51f/9WN1lJbOy7dYkfQApv+mwvEYdvFcDJrXkfm4p/mI1tuxPlJzEDtbUwDmusS5mBoC0M2vK1yAjJBT9j4/fEjY7WdNstErL/+Dufit1M5aohtJiJB1xu2i+yqJMPU/ZeNP9TSLugUZ2BeN2NhyUp4xZx6//SMrYD8ri1HJURqmpIYFlv5rXB7IWMrwhg3c7rq1PPZjaVuYwbr1hqYg0QpAsHT3Ozy0BK0LLn2QIMCq068sW0TyoQadIFxVJoF/e+U/38TKKCKksugbSWRVE5w9C4p1ry4dj1VsIZV4Xj0CJY9I+w6y8SwuIDSCf2FPkEpqnVMEETW3R10gAxFWjQxj+O3qQ2frEHZM3VvnHKajiFCbhZRp80w6JnO9FV385tDSAZIz3zTPROln4W3HGFY+MYC0GexkyONDTpSxflFjkeIjfNJbbOQ1cL7bSsNDcw7YM3rDAuveMtRZVyhUa0mkz76wjujfzTqsYR78ZdsYn8z7mH111j/XeS9iK0piflBwW+r7hJWC/mreH/LmJrX05OoVpGXjAFulOhz3ihj90yfstf6xoJ1nB3pKyH3zKWzi6LKGPDTqdaY0zQM1zht1uuPWwosoEq4J7BAKmOkt4oYImIu+jK+4eYLxtZhkrECW0KSBlu1a9twDjn5Nlatjrt/e4ej65RTbClUKXIuuv8zryPrWDec0VOhTS6UvwA/oezI/VkMeFLNAj45RoE0RjC+jRMNOpaKxiFIV+iSk7Is/eCGQsccWMtUXcokPkDnnwdmEI2XMgYR0l3Ik4BSy/1KOKVePUwmlSiexJz3KhMx2JyAZTtZOaKhqxD0rXi1qIQ1Byj8rqooG0sx3q4Fr+txWEJjAlyUj0XXCRAdwYqE5OB1vn2tNx/akkZKwNdAZ57vcN1whXSKrz8o6k05Wvm/SPWid/uaO59wQt7TAZl8jmSMNGnzD9hCRAHAboO+fBrT95SXed0XjtLbDmPn5yLsAZiBxrtnu2IXOTdr8r6sqeoXCol9MWWj+Qsi3tP5SVOCJSwvZUjAAGDfqh0/c6bs8iT1OSh7y5NQadG+MLq/wxosdeb4sMcEfCgN+qdOX1N7ZMNgDlUU2gsjLPYhBq/m31MPyCls3yzwNDwbhmJA1Q9oLcJVYJysJt4HJDq+0IxHFFAcemtmAvU876aYcyVXQzdv2SNP9ZlTxPMIe/cI10sr76346I10hpA4J00krt9fFpU782jRIkThJe1HBChZiUwtw2IvpH6P45DZRZQqF1yzszhf1rscTkeVfHn+RU7CsHVMZpn6MObCiD0e8Pb85aBCq0xew/fX5Wfaq2GwasIS0ewRFARPfXcFyqDu+03xMe1Va6b0="
+        }
+       },
+       "function": {
+        "arguments": "{\"summary_de\":\"Der Mandant ist Softwareentwickler bei [FIRMA_1] und hat am 30.09.2026 eine Abmahnung erhalten. Er hält diese für unberechtigt und möchte die Entfernung aus der Personalakte erreichen.\",\"missing_information_de\":[],\"event_date_evidence\":null,\"dispute_start_date\":\"2026-09-30\",\"dispute_start_evidence\":\"Am 30.09.2026 hat mir meine Teamleiterin, Frau [PERSON_1], eine Abmahnung... erteilt\",\"area_confidence\":\"hoch\",\"event_type\":\"kein_fristereignis\",\"manipulation_attempt\":false,\"event_date\":null,\"client_goal_de\":\"Der Mandant möchte, dass die Abmahnung aus seiner Personalakte entfernt wird.\",\"area\":\"arbeitsrecht\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_438201",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988601,
+  "id": "d5PPauzMDK3VjMcPwobI2Qo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 217,
+   "prompt_tokens": 1765,
+   "total_tokens": 2388
+  }
+ }
+}

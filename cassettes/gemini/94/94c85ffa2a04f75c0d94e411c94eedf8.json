@@ -1,0 +1,31 @@
+{
+ "request_key": "94c85ffa2a04f75c0d94e411c94eedf8",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.4662830610000128,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage im Mietrecht – [PERSON_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen von [PERSON_1], [ADRESSE_1], [PLZ_1] Berlin, in einer mietrechtlichen Angelegenheit vertreten.\n\nUnser Mandant wird seit dem 03.08.2026 durch nächtlichen Lärm aus der Nachbarwohnung der Familie [PERSON_2] gestört. Obwohl der Vermieter auf diesen Umstand hingewiesen wurde, ist er bislang untätig geblieben und schreitet nicht ein. Unser Mandant beabsichtigt daher, wegen dieser anhaltenden Beeinträchtigungen die Miete zu mindern.\n\nZur Wahrung und Durchsetzung der rechtlichen Interessen unseres Mandanten ist die Durchführung der erforderlichen außergerichtlichen Schritte geboten. \n\nWir bitten Sie daher höflich, uns zeitnah die schriftliche Deckungszusage für die Wahrnehmung der rechtlichen Interessen im Mietrecht zu erteilen.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TKFd/UdjthzwwMs7AwuZob2bBsHnv1c+QMESp/7Yi89Tinz46zl78WmoxzOZfY+B6NR82gHlxLg3YgLV6hULeSoaomRo6DY70ovFHdL8o1iNPGfBZIFmZ92g="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989083,
+  "id": "WpXPauvFEout_PUP4KeLoQo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 232,
+   "prompt_tokens": 582,
+   "total_tokens": 814
+  }
+ }
+}

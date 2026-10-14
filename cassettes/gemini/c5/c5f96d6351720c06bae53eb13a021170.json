@@ -1,0 +1,31 @@
+{
+ "request_key": "c5f96d6351720c06bae53eb13a021170",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.3711366739999846,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage Verkehrsrecht – [PERSON_1] / Schadennummer / Kassenzeichen [NUMMER_1] / Fahrzeug [KENNZEICHEN_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen hiermit die vertretungshonorare und rechtliche Interessenvertretung unseres Mandanten [PERSON_1] an. \n\nDem Mandanten wurde am 11.12.2026 ein Bußgeldbescheid wegen des Vorwurfs der angeblichen Nutzung eines Handys am Steuer am 30.10.2026 zugestellt (Kassenzeichen [NUMMER_1], Fahrzeug [KENNZEICHEN_1]). Der Mandant gibt an, zum Tatzeitpunkt lediglich das fest in der Halterung befindliche Navigationsgerät bedient zu haben, und wünscht rechtliche Unterstützung zur Verteidigung gegen den Bußgeldbescheid.\n\nDie Frist für die Einlegung des Einspruchs endet am 28.12.2026. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten im Bereich des Verkehrsrechts.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Td/xSAuy2qZtvzg6IhelgpwSnt4xX3/BrnrqomJ51K3tCrP0RaF4HWFxIeD72z5ePmtbUvB7ENFURU30z5OBaFMbX/iRWVNZPEBV3KgLGqaEGhM5v6cTXJY8="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988683,
+  "id": "ypPPatu_Gt_P-8YP_InOmAI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 279,
+   "prompt_tokens": 753,
+   "total_tokens": 1032
+  }
+ }
+}

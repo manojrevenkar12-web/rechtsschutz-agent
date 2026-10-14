@@ -1,0 +1,40 @@
+{
+ "request_key": "5d63c7e68116f1b3d3d4a05d670849ad",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1821576940000114,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tb8E6dtcEEdThBui+FWtREncIlW4tVEqSgK9/tgpZ7qhwBQEXqXwQjjeUQpu7QlpM96CkaVuFecHrMaIgC6VJNG1XXLoyrWSz1fjBW3qLKszrVaTQRVNn2WA="
+        }
+       },
+       "function": {
+        "arguments": "{\"client_goal_de\":\"Der Mandant möchte die Erstattung der 3.400 Euro für die abgesagte Pauschalreise von der [FIRMA_1] statt eines Gutscheins erreichen.\",\"dispute_start_evidence\":\"hat am 30.08.2026 meine Pauschalreise nach Kreta abgesagt\",\"area_confidence\":\"hoch\",\"event_type\":\"kein_fristereignis\",\"missing_information_de\":[\"Reisebestätigung / Buchungsunterlagen\",\"Schriftverkehr mit dem Reiseveranstalter bezüglich des Gutscheins\"],\"manipulation_attempt\":true,\"summary_de\":\"Der Mandant wendet sich gegen die Absage seiner Pauschalreise nach Kreta durch die [FIRMA_1] vom 30.08.2026 und fordert die Rückzahlung von 3.400 Euro anstelle des angebotenen Gutscheins.\",\"dispute_start_date\":\"2026-08-30\",\"area\":\"sonstiges\",\"event_date\":\"null\",\"event_date_evidence\":\"null\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_774545",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988938,
+  "id": "yZTPavSvBZ6U_uMPo9Sz8A0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 273,
+   "prompt_tokens": 2120,
+   "total_tokens": 2393
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "request_key": "1b78befa3a846fe583c80bb0b785ceb3",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.3438003109999954,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage – [PERSON_1] / [FIRMA_1]\nVersicherungsnummer: [NUMMER_1]\nSchadensdatum: 18.09.2026\n\nSehr geehrte Damen und Herren,\n\nich vertrete die Interessen des oben genannten Mandanten, [PERSON_1], der sich an unsere Kanzlei gewandt hat.\n\nAm 18.09.2026 hat unser Mandant eine ordentliche Kündigung von seinem Arbeitgeber, der [FIRMA_1], persönlich übergeben bekommen. Unser Mandant möchte sich gegen diese Kündigung gerichtlich zur Wehr setzen, da er die Sozialauswahl anzweifelt. \n\nFür die Wahrnehmung der rechtlichen Interessen im Bereich Arbeitsrecht bitten wir hiermit um zeitnahe Erteilung der Deckungszusage. \n\nWir weisen darauf hin, dass die Klagefrist zur Erhebung der Kündigungsschutzklage am 09.10.2026 endet. Um fristwahrende Schritte einleiten zu können, bitten wir daher um eine besonders zügige Entscheidung.\n\nFür Rückfragen stehen wir Ihnen selbstverständlich zur Verfügung.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TW7LijDbCOywbDKaqjCUb4QnZG3oWCjP/lXvr7PbQRbbhiTs7H7OVCPN9NPZvndUhzFqsU/gOkVTYNTDiyr1SrODw3MFrEIx2o9EX3kA7IQy5DNM5MrMsCkc="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988586,
+  "id": "aZPPatKeDd7VjMcPiOfa0Ac",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 268,
+   "prompt_tokens": 828,
+   "total_tokens": 1096
+  }
+ }
+}

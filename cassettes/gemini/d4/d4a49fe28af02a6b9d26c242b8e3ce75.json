@@ -1,0 +1,40 @@
+{
+ "request_key": "d4a49fe28af02a6b9d26c242b8e3ce75",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.6213028720000011,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TrsY3TzEjjff+zxeNZ7G/uj4V5k/v4tEyYP3wlIZpTO/M2Gz+R+xUlRlNRgr9vl7P0nE+cPbPMfqpRPV0brWpVR0aPR/zZSC+3+LwaW9Zp4CGe2DQj88izWc="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_type\":\"kein_fristereignis\",\"event_date_evidence\":\"null\",\"area\":\"verkehrsrecht\",\"dispute_start_evidence\":\"am Samstag ist mir an der Kreuzung Frankfurter Allee / Warschauer Straße ein anderer Fahrer hinten aufgefahren\",\"manipulation_attempt\":false,\"event_date\":\"null\",\"summary_de\":\"Der Mandant [PERSON_1] hatte am 2026-09-26 einen Auffahrunfall, bei dem sein Fahrzeug beschädigt wurde und er Nackenschmerzen erlitt. Die gegnerische Versicherung von [PERSON_2] verweigert bislang die Zahlung mit dem Vorwurf einer grundlosen Bremsung.\",\"dispute_start_date\":\"2026-09-26\",\"client_goal_de\":\"Der Mandant möchte, dass die gegnerische Versicherung den Schaden an seinem Fahrzeug (Stoßstange und Kofferraum) sowie seine Schmerzensgeldansprüche wegen Nackenschmerzen reguliert.\",\"area_confidence\":\"hoch\",\"missing_information_de\":[\"Schadensnummer oder Aktenzeichen der gegnerischen Versicherung\",\"Polizeibericht oder Unfallaufnahme vorhanden?\",\"Arztbericht bezüglich der Nackenschmerzen\"]}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_991015",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988686,
+  "id": "zJPPaoe2Lruy_PUP9qDngAM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 298,
+   "prompt_tokens": 1828,
+   "total_tokens": 2126
+  }
+ }
+}

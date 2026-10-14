@@ -1,0 +1,31 @@
+{
+ "request_key": "e8b6008fb33b5ffc11d6796cb3ddd00a",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.3935000960000252,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage – [PERSON_1] / [FIRMA_1]\nVersichertennummer: [NUMMER_1] (falls bekannt)\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen von [PERSON_1] in der Angelegenheit gegen die [FIRMA_1] vertreten.\n\nSachverhalt:\nDie [FIRMA_1] hat am 30.08.2026 die Pauschalreise des Mandanten nach Kreta abgesagt. Der Mandant fordert die Erstattung des gezahlten Betrags in Höhe von 3.400 Euro. Die Gegenpartei lehnt eine Auszahlung bisher ab und bietet stattdessen lediglich einen Gutschein an, womit sich der Mandant nicht einverstanden erklärt.\n\nWir bitten höflich um Prüfung des Versicherungsschutzes und um zeitnahe Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten. \n\nFür Rückfragen stehen wir gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T75jzoi6o3fler7YVoCYwPDNVl7ETc81hX8xsYdmC7z6xYTAqWXOEKawZgJ4AOI0D35Ympl4V88r4v2zNxzRb1/2n+EFX1rdHYHWElEVMhnP+i/np+n1jMhY="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988942,
+  "id": "zZTPaq0Y96v89Q-QhO6gDQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 232,
+   "prompt_tokens": 686,
+   "total_tokens": 918
+  }
+ }
+}

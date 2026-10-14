@@ -1,0 +1,31 @@
+{
+ "request_key": "cf7b1968f1b81a25ba4db3929f23d0c6",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.2739429850000192,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage / Schadensnummer: [NUMMER_1] / Mandant: [PERSON_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir den oben genannten Mandanten in der Angelegenheit gegen die [FIRMA_1] vertreten. \n\nDem Mandanten wurde am 21.09.2026 ein Vollstreckungsbescheid der [FIRMA_1] über 1.890 Euro für ein am 10.06.2026 beschädigt geliefertes Sofa zugestellt. Der Mandant hatte den Mangel damals sofort gemeldet und die Zahlung verweigert. Nunmehr soll gegen den Vollstreckungsbescheid rechtlich vorgegangen werden.\n\nDie Frist für die Einlegung des Einspruchs endet am 05.10.2026. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der Interessen unseres Mandanten im Bereich des Vertragsrechts.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TPKMlcO+p4GoW3UhdljL/7naBUxsBO7+mponeKeZ+V+0Da8hidIbu8a/Usu8LxfVfzGA3osdscpv6jqoym1cJIMKOT/n/uthjaiLMoqo89hmA/nzMBwY9o0c="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988875,
+  "id": "ipTPau_AC9j2jrEPj9frkAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 240,
+   "prompt_tokens": 738,
+   "total_tokens": 978
+  }
+ }
+}

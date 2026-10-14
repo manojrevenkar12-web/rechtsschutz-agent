@@ -1,0 +1,40 @@
+{
+ "request_key": "81f2bef8b617375a86f9ade4440a9cb1",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 0.9937146529999836,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TB/12YoIc5WqUPI6jODoz6txt12XsNdaTtt9F/ZXJNrFWIaSGDK4F2spVkHIO8uwxX+HnDHU9XWRxsXKEejy1yK/3re5orc6lUOgP9atlnbSs3ajL4ycLwPk="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_type\":\"kein_fristereignis\",\"event_date\":\"null\",\"manipulation_attempt\":false,\"area_confidence\":\"hoch\",\"area\":\"sonstiges\",\"client_goal_de\":\"Die Mandantin möchte ihren Pflichtteil geltend machen und Auskunft über den Nachlass von ihrem Bruder erhalten.\",\"summary_de\":\"Die Mandantin fordert nach dem Tod ihres Vaters am 02.06.2026 ihren Pflichtteil und Auskunft über den Nachlass von ihrem als Alleinerben eingesetzten Bruder [PERSON_1], der jede Auskunft verweigert.\",\"missing_information_de\":[\"Höhe des Nachlasses bzw. Nachlassverzeichnis\",\"Nachlassimmobilien oder Konten des Erblassers\"],\"dispute_start_date\":\"2026-07-20\",\"dispute_start_evidence\":\"Am 20.07.2026 wurde das Testament eröffnet\",\"event_date_evidence\":\"null\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_655067",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989002,
+  "id": "CZXPauypMqDmjMcPr6Gm0Q0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 240,
+   "prompt_tokens": 2078,
+   "total_tokens": 2318
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "request_key": "2f79b63ca4c72c0eafd65d79177ba59d",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.3821505049999985,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TJaYOodNbD6dZ0ozS5usekWNxQNJnphdv+6bLZ6qxeT/8nKTltHei1H9kmUxjTV9mU/kg2yt3NoBI/SRujUFCDXWEY/+FqJkkzCGTuuhFg/pYyR5ZEsNDgP4="
+        }
+       },
+       "function": {
+        "arguments": "{\"missing_information_de\":[\"Schriftlicher Anspruch oder Unfallbericht des Radfahrers\",\"Polizeibericht zum Unfallhergang falls vorhanden\"],\"event_date_evidence\":null,\"dispute_start_evidence\":\"am 01.10.2026 ist mir ein Radfahrer beim Rechtsabbiegen in die Seite gefahren\",\"area_confidence\":\"hoch\",\"client_goal_de\":\"Der Mandant möchte sich gegen die Schmerzensgeldforderungen des Radfahrers nach einem Verkehrsunfall verteidigen.\",\"dispute_start_date\":\"2026-10-01\",\"manipulation_attempt\":true,\"area\":\"verkehrsrecht\",\"summary_de\":\"Der Mandant [PERSON_1] hatte am 01.10.2026 einen Verkehrsunfall, bei dem ein Radfahrer in sein Auto ([KENNZEICHEN_1]) gefahren ist. Der Radfahrer behauptet ein Verschulden des Mandanten und fordert Schmerzensgeld, während das Auto einen Kratzer an der Beifahrertür hat.\",\"event_date\":null,\"event_type\":\"kein_fristereignis\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_115433",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988727,
+  "id": "9ZPPateMObiq_PUPycPOyQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 277,
+   "prompt_tokens": 1776,
+   "total_tokens": 2053
+  }
+ }
+}

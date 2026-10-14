@@ -1,0 +1,40 @@
+{
+ "request_key": "5a7a209bdac311baca5d2ee7bbd77090",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1774127539999881,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TePtnHy3EBnBBNqoe9LjkPaEiJQhKvSR1qRbJyo2D21Q+Et2poFrGFUnWVtgLEz8O2H9EhvQzQvyCnQj+x60rxUFqCVU3/dozj+yuvbQWV+MVvYHsb87CyQE="
+        }
+       },
+       "function": {
+        "arguments": "{\"dispute_start_evidence\":\"am 25.09.2026 einen Aufhebungsvertrag vorgelegt\",\"event_type\":\"kein_fristereignis\",\"area\":\"arbeitsrecht\",\"event_date_evidence\":\"am 25.09.2026 einen Aufhebungsvertrag vorgelegt\",\"area_confidence\":\"hoch\",\"dispute_start_date\":\"2026-09-25\",\"missing_information_de\":[\"Welche Kündigungsfrist würde für den Klienten gelten?\",\"Welches Bruttomonatsgehalt bezieht der Klient?\"],\"manipulation_attempt\":false,\"client_goal_de\":\"Der Klient möchte wissen, ob er den vorgelegten Aufhebungsvertrag unterschreiben soll oder ob dies zu einer Sperrzeit beim Arbeitslosengeld führt.\",\"summary_de\":\"Der Klient [PERSON_1] hat am 25.09.2026 von seinem Arbeitgeber [FIRMA_1] einen Aufhebungsvertrag mit einer Abfindung von zwei Monatsgehältern vorgelegt bekommen und möchte wissen, ob er unterschreiben soll und ob eine Sperrzeit droht.\",\"event_date\":\"2026-09-25\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_688600",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988616,
+  "id": "h5PPapSvG9qa_uMPosChsQE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 301,
+   "prompt_tokens": 1754,
+   "total_tokens": 2055
+  }
+ }
+}

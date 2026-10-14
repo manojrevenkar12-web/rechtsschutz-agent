@@ -1,0 +1,40 @@
+{
+ "request_key": "81e599610ec6d10b70168cbb40f564de",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 2.084894392999999,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TTjhHgEvfpzMBrZy3tUW8vZlLEM/lGr3bwmwPwjq/SxEogBQoHjXx3ThNTPRL24mn2fGaH5fv0EMzrC/yAGkBNriJEu/+YBW3P3lcGmEXwvl6WD0Pe+YWA6M="
+        }
+       },
+       "function": {
+        "arguments": "{\"summary_de\":\"Die Mandantin [PERSON_1] erhielt am 12.09.2026 per Einschreiben ihre Kündigung als Rezeptionistin im [FIRMA_1] nach vierjähriger Betriebszugehörigkeit. Sie vermutet einen Zusammenhang mit ihrer Mitarbeit im Betriebsrat und möchte dagegen vorgehen.\",\"area_confidence\":\"hoch\",\"dispute_start_evidence\":\"am Samstag, den 12.09.2026, hat mir der Postbote ein Einschreiben übergeben: meine Kündigung\",\"client_goal_de\":\"Die Mandantin möchte gegen ihre Kündigung als Rezeptionistin vorgehen, da sie einen Zusammenhang mit ihrer Tätigkeit im Betriebsrat vermutet.\",\"missing_information_de\":[\"Kündigungsschreiben liegt nicht vor\",\"Genaue Betriebsratsfunktion/Kündigungsschutz nach KSchG unklar\"],\"manipulation_attempt\":false,\"area\":\"arbeitsrecht\",\"dispute_start_date\":\"2026-09-12\",\"event_type\":\"kuendigung_arbeitsvertrag\",\"event_date\":\"2026-09-12\",\"event_date_evidence\":\"am Samstag, den 12.09.2026, hat mir der Postbote ein Einschreiben übergeben: meine Kündigung\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_626036",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988597,
+  "id": "c5PParSjMYWf-8YPxdSW-AI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 316,
+   "prompt_tokens": 1755,
+   "total_tokens": 2071
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "request_key": "d1259eeb3d6712007b53617b092516be",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 0.8402802790000123,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "Es8CCswCAWkUfRMkOKdO8c7S5W09ObcXPs2ty5swUpw8cJJU7CFnn8pgw3qLAGp0Rz/JpKCf0/Ry3SgEbJdQMX+IdaoAJBBsKY/jwwOzmJAjdXnQx+O9e5Z3zSTuQqNaRy+I1C8O5597Fu8Ze4SEHg6z8JjEitYsZBvACdj8Xabb9qSm3FMtXeKaedUcUmLAj88dk2B1bD6XwIUZwD2/Fz6fLF0xSLv3p9d/w6pxTdxB+XI6BOSSYD9xZOAu8LapKabohT90JxSK6LcF8sXGdOeL44mZYLouZ98Q5Zb77ndbvD7RVaxv+I+oPbtwguMWwO+pvHY6MFVBMqrvrYs9XHgVCVwk33fRjEhCL9e6wA1T3YfvaFXf4BdSHvx3L2rS+dhT8rFKDSzhYNqYezsXs8sIotfiVfWn0/5tv/l00qh0tOqAnlwhZ6+VDT7Tx8JjZAs="
+        }
+       },
+       "function": {
+        "arguments": "{\"days\":-1,\"base_date\":\"2026-10-01\"}",
+        "name": "shift_days"
+       },
+       "id": "call_732747",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988749,
+  "id": "DJTParnwE5O1_PUP2aCfsQs",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 31,
+   "prompt_tokens": 1711,
+   "total_tokens": 1824
+  }
+ }
+}

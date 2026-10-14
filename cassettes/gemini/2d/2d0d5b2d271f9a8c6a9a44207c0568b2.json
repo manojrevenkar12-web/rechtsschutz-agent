@@ -1,0 +1,40 @@
+{
+ "request_key": "2d0d5b2d271f9a8c6a9a44207c0568b2",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1952300400000127,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TJxUAWVKGQsDmcEOz7YV+3TjTlXyZ8hZPaTlY2SizBgmnC/+fciQzHHcW3rxDa0K4iU0ZGlktKtFUd7R3lEViq17QSkZSE01x77fgJBoTuWHDkEioKiWLefI="
+        }
+       },
+       "function": {
+        "arguments": "{\"summary_de\":\"[PERSON_1] hat am Dienstag letzter Woche ([EVENT_DATE]) einen Bußgeldbescheid wegen einer mutmaßlichen Geschwindigkeitsüberschreitung im Juli mit einem drohenden Monat Fahrverbot erhalten. Der Mandant ist beruflich auf das Auto angewiesen und möchte dagegen vorgehen.\",\"event_type\":\"bussgeldbescheid\",\"missing_information_de\":[\"Messprotokoll / Blitzerfoto\",\"Rechtschutzversicherungsschein\"],\"area\":\"verkehrsrecht\",\"event_date\":\"2026-10-06\",\"manipulation_attempt\":false,\"client_goal_de\":\"Der Mandant möchte gegen den Bußgeldbescheid vorgehen, um das drohende Fahrverbot abzuwenden.\",\"event_date_evidence\":\"am Dienstag letzter Woche ein Bußgeldbescheid zugestellt\",\"area_confidence\":\"hoch\",\"dispute_start_date\":\"2025-07-01\",\"dispute_start_evidence\":\"irgendwann im Juli soll ich 31 km/h zu schnell gewesen sein\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_721274",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988676,
+  "id": "w5PPao68BpG1_uMPsoTBwQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 268,
+   "prompt_tokens": 1820,
+   "total_tokens": 2088
+  }
+ }
+}

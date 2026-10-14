@@ -1,0 +1,40 @@
+{
+ "request_key": "8197f30e849e31b28208611415cf6588",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1495859949999954,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TimAdfyhHKfNVMf4eQGhfgFyjVRnxlczivFOjeJL2YC5vvBhfvkKxv4wd77msu3gtQOcHm9g57LcsA+e9iKkKzS3bTmnNNP0gx5axnw5prOGJ6wewcOQL9Js="
+        }
+       },
+       "function": {
+        "arguments": "{\"area\":\"sozialrecht\",\"event_date\":\"2026-10-06\",\"client_goal_de\":\"Der Klient möchte die Ablehnung seines Antrags auf Pflegegrad 2 durch die Pflegekasse anfechten.\",\"summary_de\":\"Der Klient erhielt am 2026-10-06 einen Ablehnungsbescheid der Pflegekasse bezüglich seines Antrags auf Pflegegrad 2. Er hält die Begutachtung für mangelhaft und möchte dagegen vorgehen.\",\"area_confidence\":\"hoch\",\"dispute_start_date\":\"2026-10-06\",\"missing_information_de\":[\"Widerspruchsfrist oder genaues Datum des Bescheids (falls abweichend)\",\"Ablehnungsbescheid liegt noch nicht im Wortlaut vor\"],\"event_type\":\"sozialbescheid\",\"manipulation_attempt\":false,\"event_date_evidence\":\"vor drei Tagen habe ich den Bescheid der Pflegekasse bekommen\",\"dispute_start_evidence\":\"vor drei Tagen habe ich den Bescheid der Pflegekasse bekommen\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_102360",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988952,
+  "id": "15TPauzIFrH5-sAP_Iub0A0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 265,
+   "prompt_tokens": 1773,
+   "total_tokens": 2038
+  }
+ }
+}

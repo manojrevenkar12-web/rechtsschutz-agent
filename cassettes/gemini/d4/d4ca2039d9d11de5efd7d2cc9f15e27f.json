@@ -1,0 +1,40 @@
+{
+ "request_key": "d4ca2039d9d11de5efd7d2cc9f15e27f",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.0709214689999982,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TPnwoxyQF8vTFIKPVONfYvwCaG6MYkqmcvEfZhYbJru3Fi+g0hgT7l1dYGJGIPQpnNr0QEWMQYR1Um+UFxRYuwos+WIQUF/HrxkZZ+PmWXfHeWZPc85cu+KU="
+        }
+       },
+       "function": {
+        "arguments": "{\"dispute_start_date\":\"2026-09-04\",\"missing_information_de\":[\"Kündigungsschutzklage bereits eingereicht?\",\"Wurde eine Abfindung angeboten?\"],\"event_type\":\"kuendigung_arbeitsvertrag\",\"client_goal_de\":\"Der Klient möchte gegen die Kündigung seines Arbeitgebers vorgehen.\",\"area_confidence\":\"hoch\",\"area\":\"arbeitsrecht\",\"event_date_evidence\":\"der Bote hat es am 04.09.2026 in meinen Briefkasten geworfen\",\"event_date\":\"2026-09-04\",\"summary_de\":\"Der Klient [PERSON_1] wendet sich gegen eine Kündigung seines Arbeitgebers [FIRMA_1], die ihm am 04.09.2026 zugegangen ist. Er ist dort seit elf Jahren beschäftigt.\",\"manipulation_attempt\":false,\"dispute_start_evidence\":\"Das Kündigungsschreiben ist auf den 03.09.2026 datiert, der Bote hat es am 04.09.2026 in meinen Briefkasten geworfen\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_668530",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988594,
+  "id": "cZPPap6kC6aa-8YPgtWGyA4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 293,
+   "prompt_tokens": 1815,
+   "total_tokens": 2108
+  }
+ }
+}

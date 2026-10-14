@@ -1,0 +1,40 @@
+{
+ "request_key": "8658a515fa9762e28aa00163d0650b12",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.231382596000003,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TYK/JEQF0CgdNIwpQxojCB8aGTxBzOrirDx1i6SdNukarOH8qcnxw6nVKCtCwESGGOi0FEMt77iTXxQ6Qt6JOp089TwRyeMpIA9pqYZyKp/tnm883IVWSG3o="
+        }
+       },
+       "function": {
+        "arguments": "{\"area\":\"verkehrsrecht\",\"event_date\":\"2026-10-06\",\"missing_information_de\":[\"Genaues Messdatum der Geschwindigkeitsüberschreitung\",\"Besteht eine Rechtsschutzversicherung mit Verkehrsrechtsschutz?\"],\"area_confidence\":\"hoch\",\"event_date_evidence\":\"Dienstag letzter Woche\",\"manipulation_attempt\":false,\"summary_de\":\"Der Mandant erhielt am Dienstag letzter Woche (06.10.2026) einen Bußgeldbescheid wegen einer mutmaßlichen Geschwindigkeitsüberschreitung von 31 km/h im Juli 2026 auf der A100. Er ist beruflich auf seinen Führerschein angewiesen und möchte gegen das drohende einmonatige Fahrverbot vorgehen.\",\"event_type\":\"bussgeldbescheid\",\"dispute_start_date\":\"2026-07-XX\",\"client_goal_de\":\"Der Mandant möchte gegen den Bußgeldbescheid wegen Geschwindigkeitsüberschreitung vorgehen, um ein drohendes Fahrverbot abzuwenden.\",\"dispute_start_evidence\":\"irgendwann im Juli\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_935167",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989144,
+  "id": "l5XParqgL9uj_uMP_v2PyQQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 291,
+   "prompt_tokens": 1432,
+   "total_tokens": 1723
+  }
+ }
+}

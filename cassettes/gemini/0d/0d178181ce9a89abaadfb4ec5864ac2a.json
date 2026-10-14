@@ -1,0 +1,40 @@
+{
+ "request_key": "0d178181ce9a89abaadfb4ec5864ac2a",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1917580410000141,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TAm6q/6S+oC+yRLeEpp7CIJHpJdCyow8Z9kc9ghUeiIqMPBxMppLo9l4zm3+XMGsgS0al4umBmvXYwhUlLfhL/M1BEuib/b16rMtvlFyjHxSM7OP//gXZSLc="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_date\":\"null\",\"area_confidence\":\"hoch\",\"manipulation_attempt\":false,\"missing_information_de\":[\"Wohnungsübergabeprotokoll liegt vor?\",\"Fotos oder Belege zu den angeblichen Schäden vorhanden?\"],\"dispute_start_date\":\"2026-07-15\",\"event_date_evidence\":\"null\",\"event_type\":\"kein_fristereignis\",\"area\":\"mietrecht\",\"client_goal_de\":\"[PERSON_2] möchte, dass die Kaution in Höhe von 2.100 Euro ausgezahlt wird.\",\"summary_de\":\"[PERSON_2] ist zum 31.03.2026 aus der Wohnung ausgezogen. Der ehemalige Vermieter [PERSON_1] lehnte die Rückzahlung der Kaution in Höhe von 2.100 Euro am 15.07.2026 unter Verweis auf angebliche Parkettschäden ab, obwohl bei der Übergabe ein mängelfreies Protokoll unterschrieben wurde.\",\"dispute_start_evidence\":\"Am 15.07.2026 hat mein ehemaliger Vermieter, Herr [PERSON_1], schriftlich abgelehnt\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_660023",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988797,
+  "id": "PJTPapyjONPI-8YPxPf38AE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 302,
+   "prompt_tokens": 2181,
+   "total_tokens": 2483
+  }
+ }
+}

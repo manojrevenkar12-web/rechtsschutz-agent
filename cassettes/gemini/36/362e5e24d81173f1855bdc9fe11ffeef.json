@@ -1,0 +1,40 @@
+{
+ "request_key": "362e5e24d81173f1855bdc9fe11ffeef",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 2.279868212999986,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "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"
+        }
+       },
+       "function": {
+        "arguments": "{\"summary_de\":\"[PERSON_1] hat am 01.09.2026 ihr Arbeitszeugnis von der [FIRMA_1] erhalten und bemängelt darin versteckte negative Formulierungen. Sie möchte ein korrigiertes Zeugnis erwirken.\",\"area_confidence\":\"hoch\",\"missing_information_de\":[\"Wurde der Arbeitgeber bereits wegen des Zeugnisses kontaktiert?\",\"Liegt eine Kopie des Zeugnisses vor?\"],\"manipulation_attempt\":true,\"client_goal_de\":\"[PERSON_1] möchte ein korrigiertes, wohlwollendes Arbeitszeugnis von der [FIRMA_1] erhalten.\",\"area\":\"arbeitsrecht\",\"event_date\":\"2026-09-01\",\"event_date_evidence\":\"am 01.09.2026 mein Arbeitszeugnis von der [FIRMA_1] bekommen\",\"dispute_start_evidence\":\"am 01.09.2026 mein Arbeitszeugnis von der [FIRMA_1] bekommen\",\"event_type\":\"kein_fristereignis\",\"dispute_start_date\":\"2026-09-01\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_136630",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989105,
+  "id": "b5XPauWEGsSd_uMPotaumAc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 296,
+   "prompt_tokens": 1632,
+   "total_tokens": 2336
+  }
+ }
+}

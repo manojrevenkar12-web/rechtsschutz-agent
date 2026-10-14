@@ -1,0 +1,40 @@
+{
+ "request_key": "1661a672052528f07dcb6c65894a6999",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1139124599999377,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T3KTC8fZ4HZ9ydMpsNKxKhg2fGnbWxKl+NmCuBKti8EECncfoq2QKJarRKNWpUuPiHBUn1WRV6NqqKe7s7ImGIL7Fg3VERoSSSR9faFQuS0yBGQSN82mSQnI="
+        }
+       },
+       "function": {
+        "arguments": "{\"summary_de\":\"Der Mandant [PERSON_2] lebt seit dem 01.11.2025 von seiner Frau [PERSON_1] getrennt. Nun wird die Scheidung angestrebt und es besteht Streit über Sorgerecht und Unterhalt.\",\"area_confidence\":\"hoch\",\"dispute_start_evidence\":\"seit dem 01.11.2025 getrennt\",\"client_goal_de\":\"Der Mandant möchte sich scheiden lassen und stritt sich über Sorgerecht und Unterhalt.\",\"missing_information_de\":[\"Welche konkreten Vereinbarungen oder Forderungen bestehen zum Unterhalt und Sorgerecht?\",\"Gibt es bereits gerichtliche Verfahren bezüglich der Scheidung?\"],\"event_type\":\"kein_fristereignis\",\"area\":\"sonstiges\",\"dispute_start_date\":\"2025-11-01\",\"manipulation_attempt\":true,\"event_date_evidence\":null,\"event_date\":null}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_524366",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989030,
+  "id": "JZXPap7rKtj2jrEPj9frkAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 238,
+   "prompt_tokens": 1732,
+   "total_tokens": 1970
+  }
+ }
+}

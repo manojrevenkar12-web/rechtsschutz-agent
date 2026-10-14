@@ -1,0 +1,31 @@
+{
+ "request_key": "ee34daff6ddd7b6b1c7134614f76ff59",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.4938899039999995,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage – [PERSON_1] / Arbeitsrecht\nVersicherungsscheinnummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nin obiger Angelegenheit zeigen wir an, dass wir den Mandanten, Herrn [PERSON_1], vertretern. \n\nDer Mandant wendet sich gegen die Kündigung seines Arbeitgebers, der [FIRMA_1], die ihm am 04.09.2026 zugegangen ist. Der Mandant ist dort seit elf Jahren beschäftigt. Ziel ist es, gerichtlich gegen die Kündigung vorzugehen.\n\nZur Wahrung der gesetzlichen Frist ist die Erhebung der Kündigungsschutzklage bis zum 25.09.2026 erforderlich. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen im Arbeitsrecht unter Angabe der obigen Versicherungsscheinnummer bis zum o.g. Datum.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TgrTS0q94jFPQNkLYrk2N2T54dhGc7dLpLqk6d4j3QrU748jqm593KyK++NuYTjEglmdjkqfyaWxCi7LsYCpOCw7U6NMR2eCr1UeXo0jxDSMhdFiujE4rO4M="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988595,
+  "id": "cpPPaqn0D-uA_PUP45mr0Qc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 234,
+   "prompt_tokens": 792,
+   "total_tokens": 1026
+  }
+ }
+}

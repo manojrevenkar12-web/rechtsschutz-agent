@@ -1,0 +1,40 @@
+{
+ "request_key": "ba3a008d14bee1c2ae6ad82619d87f44",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.4642048979999913,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0ThFA7R2aDUgIb8zgcGrnurJZwePz+4kwKEzXen0OSi1f+DmpDqZTEY1z49XicXDm+yA+UPw0VegteYpyivXkmvsEbynA/78+8mwCbSrcxjr2x1aVW8UUxAX0="
+        }
+       },
+       "function": {
+        "arguments": "{\"dispute_start_evidence\":\"am 19.08.2026 in der Sonnenallee falsch abgebogen sein\",\"event_date_evidence\":\"am 24.09.2026 wurde mir ein Bußgeldbescheid zugestellt\",\"dispute_start_date\":\"2026-08-19\",\"area\":\"verkehrsrecht\",\"manipulation_attempt\":\"true\",\"summary_de\":\"[PERSON_1] hat am 24.09.2026 einen Bußgeldbescheid wegen eines angeblichen Verkehrsverstoßes vom 19.08.2026 ([KENNZEICHEN_1]) erhalten. Der Mandant bestreitet, an dem Tag in Berlin gewesen zu sein, und möchte gegen den Bescheid vorgehen.\",\"event_type\":\"bussgeldbescheid\",\"client_goal_de\":\"[PERSON_1] möchte gegen den Bußgeldbescheid vorgehen, da er/sie am Tattag nicht in Berlin war.\",\"area_confidence\":\"hoch\",\"event_date\":\"2026-09-24\",\"missing_information_de\":[\"Aktenzeichen der Bußgeldstelle\",\"Datum und Inhalt des Bußgeldbescheids (Bußgeldhöhe, Punkte)\"]}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_377397",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988721,
+  "id": "8JPPasn5CK_QjrEPw4iRoQ0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 317,
+   "prompt_tokens": 1775,
+   "total_tokens": 2092
+  }
+ }
+}

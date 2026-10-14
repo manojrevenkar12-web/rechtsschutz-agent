@@ -1,0 +1,40 @@
+{
+ "request_key": "6dff3438c684cb0b4c764b6827b0a099",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.0514155469999764,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tq+KpXFySF1NV15ux2MjTbWcmN+6UBROwV5DIG5J8qLUsvqT2+MeCdwdT64YuopWtVKNc/ac2AWmd01TKezOMixjhYOS7zGbJ/UDSK5VdhimVMvNhZIfuumo="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_date\":\"2026-09-29\",\"event_date_evidence\":\"am 29.09.2026 einen Anhörungsbogen der Bußgeldstelle bekommen\",\"client_goal_de\":\"Der Mandant möchte wissen, ob er den Anhörungsbogen ausfüllen muss.\",\"summary_de\":\"Der Mandant hat am 29.09.2026 einen Anhörungsbogen der Bußgeldstelle wegen eines angeblichen Abstandsverstoßes vom 03.09.2026 auf der A113 erhalten und möchte wissen, ob er diesen ausfüllen muss.\",\"dispute_start_evidence\":\"am 03.09.2026 auf der A113 zu wenig Abstand gehalten haben\",\"dispute_start_date\":\"2026-09-03\",\"manipulation_attempt\":false,\"missing_information_de\":[\"Angaben zum genauen Tatvorwurf und Beweismitteln\"],\"area_confidence\":\"hoch\",\"area\":\"verkehrsrecht\",\"event_type\":\"kein_fristereignis\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_280492",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988704,
+  "id": "35PPapOmJvyNjrEP3cWv-AI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 273,
+   "prompt_tokens": 1739,
+   "total_tokens": 2012
+  }
+ }
+}

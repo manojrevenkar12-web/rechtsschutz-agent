@@ -1,0 +1,31 @@
+{
+ "request_key": "0befeb6b4ff76cd9df6fedfcf181c2f4",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1711691430000002,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage – [PERSON_1] ./. [FIRMA_1]\nVersichertennummer / Schadennummer: [NUMMER_1] (falls bekannt)\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir den oben genannten Mandanten, [PERSON_1], in einer arbeitsrechtlichen Angelegenheit vertreten.\n\nAm 05.10.2026 hat unser Mandant von [FIRMA_1] eine fristlose Kündigung erhalten. Unser Mandant bestreitet den Vorwurf der falsch zugestellten Pakete und möchte gegen die Kündigung vorgehen. \n\nZur Wahrung der Rechte unseres Mandanten ist die Erhebung einer Kündigungsschutzklage erforderlich, welche fristgerecht bis zum 26.10.2026 zu erfolgen hat. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0THH/KdTSfMXuylnVDctZlRZpJC4kd0jTMJdzvA3lmO5YALUTSyataEDwbh0FW4YmBfgWlkk6Ad6aQmK0l8J7wmdi5t2HqYJjQrjZcZ5BeeH9HcGc3/9ACcl8="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988622,
+  "id": "jZPPatLBKLvTjMcPmpaouQE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 230,
+   "prompt_tokens": 733,
+   "total_tokens": 963
+  }
+ }
+}

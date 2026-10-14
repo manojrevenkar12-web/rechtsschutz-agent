@@ -1,0 +1,40 @@
+{
+ "request_key": "3d3b3ddd92b5713511e1db2d503f5390",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 2.1672654040000907,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "ErwKCrkKAWkUfRMUKIueBkcF39q1AoahTJ70Odx4TENz7vH5cfmP28q8vqYA3WCACFneqzmfCuDADYyDg48QGUUAiLdKyyUemOxqR/AhgrntSyaJwJdXrebhlpGOhwvhAibZYs1MCXKEwTtVJVU1eUKjlv/1l3I4mj4hJI6SwvhXLG1ZHfdNStJoCmksPepI/L3s/LczJZKaILwxwBIphbEnK2+YnCNmD4Bx0lSLpEgzEOln2Yy8q4WQIcwk1ZN3CbyPNul9p30Z6RhLbHZttEpDqWcxPDGCOMPN0G6g74ZrAePxeGOHxZFZEDyua+zCAy+e7jgj6ao4DpDf1GCWDVg03gNKAFRvfyyrtl2571z5XYrYD1OBogU3S3UYmO4ZdRh3fmoDNm6b3DTHxafx+v9DBjQhwjh0soEGnaJhGETTim2TdVCu0GxfhAFw90afEeDVboG02O3hn+Gxv9aWEa3dwAduS+16Yt5yaU8O09dt/SiHLGim3h/fPrzKNQued34g9Tz6LUmT51AvAmMF+E/ALdRh8PUy/D8xbyIiGcIvRbh34ZZezDKfMxQQs7IuXB+SPifiqziluys26sHLmR0MXBnyFutNqCC43PN3/wdMx0miMjvxr0xn6qGqKXmsLOlMp3UOfESR0k55IqYGA8rvEFCIl1RwNvx++Z0edDqhCEIIFxLDpibSowZ92/pvUtIdvzIEIBqGWsRymk65nJyUmShAzIoiAPg0nkKsmannzfgs3yBd8BvIXepl3Ea0LBTaPoKQMQzzlUJss/fIU3BiuC1kQaGJZCq5Kr7oyClOjFFJDl9AjAAHCYVdR0zqILpY3Bfm2vWeDvNcVxmKpPNy53RL4cqmWk6LiG5M5PxhUAgNUT8gBw84pAUIP06BmRF0KL16TdghxQeAQ/HwrBTnHfWlHuOaR6bdZW6ha4HAfDO/TYsXvHeJTn0gHWU8ypxCqz7Q5HKt5c2NZS5b0o/4w6JTc+PZBlwPT/aDk2yOvVcnTgF3oyffobVR1YF2S7HXMWTXtRgHIhs3mSjRo99vCvmUOLeiogpfk60syafTXje+IQEaGXqiXAjBbjK8Gj94W/qdWHcTh+zlv6rafpS5z+PJm8saykfDJDpDLTEXLTyZ3ben+Q4Jw1RNwxgmpdZM2B4XRg5SFgQm+UdF2FFbmmSSBNFK1vq6fYBhweX3NowW8Q3rv4XsukmcDfMvB04KJ/4bGiN/HRNXIKErjgd3hLgLLqG8ujnYFA6OdESCkn+quBe0sKSxApb6TSC2NocIDXtzQPC8Xo3LPolN9LCA8IyOPZgCfVI1qIv2voM3YyFrHZ2Zxisp2mrSixvfr9Pf8y4KbMusqq1XgMa6OeVpMHYvDOl47xTgvYibejf4bTVK3+SDHj9jRNAmfYzHZD/z/pIEJsY9qjEwBT93RgQKvZ/HhDYTcpmvYyNaTTSNfUgLMQ+CWyjRZdRWtuRwoCjY4HPeT6EvFZIuat8Dgl6pCeamjaz5X0b6p2cL54gNE6KDIApJzjpb+8a82B94uFDb93IENM8A991wR4bE8F9XN45/g9vi38w07mzksTIbf2dvCLJBsSOCY1mRiG6g5Db97Mwr2/CMQNlSUsE56I0WA8ijM6ZKlpTWEpT+aEN/5ld5fN9HnOVg8kiCE4HCSS7xCpYVvNu64lJ8ouWrRhIM/B+9fpjz9PSg7JitFaAMwoNjSJfBRPncRysHeCUbHHSWsYsMv9PZlE7FYzTvWyt+or0Z6U76+805q+yGx/9n7AXGUUFkaHLRL2UHOhA="
+        }
+       },
+       "function": {
+        "arguments": "{\"event_date\":null,\"dispute_start_evidence\":\"am 01.10.2026 ist mir ein Radfahrer beim Rechtsabbiegen in die Seite gefahren\",\"summary_de\":\"Dem Mandanten [PERSON_1] ist am 01.10.2026 beim Rechtsabbiegen ein Radfahrer in die Autotür gefahren. Der Radfahrer fordert nun Schmerzensgeld.\",\"client_goal_de\":\"Der Mandant möchte sich gegen die unberechtigten Ansprüche des Radfahrers verteidigen.\",\"event_date_evidence\":null,\"area\":\"verkehrsrecht\",\"dispute_start_date\":\"2026-10-01\",\"missing_information_de\":[\"Genaue Angaben zum Unfallhergang und Beweismittel/Zeugen\",\"Schadennummer oder Korrespondenz mit der Haftpflichtversicherung\"],\"area_confidence\":\"hoch\",\"event_type\":\"kein_fristereignis\",\"manipulation_attempt\":true}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_665755",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989061,
+  "id": "Q5XPas_eIpri_uMPzLm5wQ8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 244,
+   "prompt_tokens": 1652,
+   "total_tokens": 2259
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "request_key": "914b2b2dfd540e12cb09f62145d828ac",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1053468340000165,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TjBx++lyQHVCEE2mWVmJhpApKaB8ktAfzgHZFpGutIDAGG2Cg4nAVnA5iInixNMTvmRkNgYVpq63ziUI/zqgpeZgIJMinDPLvks90EACNZ0LTmY1XXcSQCEI="
+        }
+       },
+       "function": {
+        "arguments": "{\"area_confidence\":\"hoch\",\"dispute_start_date\":\"2026-09-26\",\"event_type\":\"kein_fristereignis\",\"manipulation_attempt\":false,\"client_goal_de\":\"Der Mandant möchte, dass die gegnerische Versicherung den Schaden an seinem Fahrzeug sowie Schmerzensgeld reguliert.\",\"summary_de\":\"Der Mandant [PERSON_1] hatte am 2026-09-26 einen Verkehrsunfall, bei dem sein Fahrzeug beschädigt wurde und er Nackenschmerzen erlitt. Die gegnerische Versicherung weigert sich zu zahlen.\",\"area\":\"verkehrsrecht\",\"event_date\":\"null\",\"dispute_start_evidence\":\"am Samstag ist mir an der Kreuzung Frankfurter Allee / Warschauer Straße ein anderer Fahrer hinten aufgefahren\",\"missing_information_de\":[\"Schadensnummer der gegnerischen Versicherung\",\"Polizeilicher Unfallbericht\",\"Ärztlicher Nachweis der Verletzungen\"],\"event_date_evidence\":\"null\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_650908",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988689,
+  "id": "0JPPavf3B9j2jrEPu6Xp4A4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 254,
+   "prompt_tokens": 2624,
+   "total_tokens": 2878
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "request_key": "9252308bfc28a7937d7fd29f3b12fc6a",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.5540811669999925,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TalfqTvb0XMuuKGC0yZGRZs1ZFxDItacWujMAfjvWzou3pakSjQexEpZ9VGLPs3xYUcavJM2d+ETGm2oiRYUmbf9pfE2x+MmmCd2zN8fSh2h0lfbzmfnA9AQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"manipulation_attempt\":true,\"summary_de\":\"[PERSON_1] hat am 2026-10-05 von [FIRMA_1] eine fristlose Kündigung erhalten, gegen die er vorgehen möchte. Er bestreitet den Vorwurf der falsch zugestellten Pakete.\",\"dispute_start_evidence\":\"gestern hat mir mein Disponent bei der [FIRMA_1] die fristlose Kündigung in die Hand gedrückt\",\"dispute_start_date\":\"2026-10-05\",\"event_type\":\"kuendigung_arbeitsvertrag\",\"missing_information_de\":[\"Wann genau lief das Arbeitsverhältnis?\",\"Gibt es eine schriftliche Kündigung?\"],\"client_goal_de\":\"[PERSON_1] möchte gegen die fristlose Kündigung vorgehen und sich gegen den Vorwurf falsch zugestellter Pakete wehren.\",\"area\":\"arbeitsrecht\",\"event_date\":\"2026-10-05\",\"area_confidence\":\"hoch\",\"event_date_evidence\":\"gestern hat mir mein Disponent bei der [FIRMA_1] die fristlose Kündigung in die Hand gedrückt\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_445138",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988621,
+  "id": "jJPPaq-RBZOsjMcPk7PmwAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 294,
+   "prompt_tokens": 2032,
+   "total_tokens": 2326
+  }
+ }
+}

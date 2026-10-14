@@ -1,0 +1,40 @@
+{
+ "request_key": "9fe947bff234a1b3ad95b6417afad00a",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.506756031000009,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tpi12374WB3MZmY6ShlF9PDUiMsbjtaYjZ3I88JZOMce39Eb8/HIvtQ1Iw/eRYUN1X8o0VTscGm0HIItXIdE78M5mEZqVUWwHkJvPZ1I+PPE4xCj5Rn/zWEw="
+        }
+       },
+       "function": {
+        "arguments": "{\"manipulation_attempt\":false,\"area_confidence\":\"hoch\",\"missing_information_de\":[\"Kündigungsnachweis vom 31.03.2026\",\"Widerspruch gegen die erste Mahnung vom 12.05.2026\"],\"dispute_start_date\":\"2026-05-12\",\"event_date\":\"2026-09-24\",\"summary_de\":\"Der Mandant hat am 24.09.2026 einen Mahnbescheid über 480 Euro vom [FIRMA_1] erhalten. Er hat den Vertrag nach eigenen Angaben fristgerecht zum 31.03.2026 gekündigt und einer Mahnung vom 12.05.2026 bereits widersprochen.\",\"event_date_evidence\":\"am 24.09.2026 wurde mir ein Mahnbescheid ... zugestellt\",\"dispute_start_evidence\":\"Die erste Mahnung kam am 12.05.2026\",\"event_type\":\"mahnbescheid\",\"client_goal_de\":\"Der Mandant möchte gegen den Mahnbescheid vorgehen und die unberechtigte Forderung abwehren.\",\"area\":\"vertragsrecht\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_773465",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988841,
+  "id": "aJTPavGjJKuo_uMP7_v6oAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 313,
+   "prompt_tokens": 1764,
+   "total_tokens": 2077
+  }
+ }
+}

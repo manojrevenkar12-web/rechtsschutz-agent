@@ -1,0 +1,40 @@
+{
+ "request_key": "742d046a110126c256af7a88abdc64f0",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.8338949970000158,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TKH0S5Zm1Q06OfrniaE21VG2mYYZqtbRZ/35uB5SjYz1druzsy27Dj/KilFt4mz3uwaEf6vNF5KxcULdz3f709reASxBO03cNTgQM6OQMQfzMEaJldWQjnuM="
+        }
+       },
+       "function": {
+        "arguments": "{\"manipulation_attempt\":false,\"summary_de\":\"Der Mandant [PERSON_1] hatte am Samstag einen Auffahrunfall an einer Kreuzung, bei dem sein Fahrzeug beschädigt wurde und er Nackenschmerzen erlitt. Die gegnerische Versicherung weigert sich zu zahlen, da der Unfallgegner behauptet, der Mandant habe grundlos gebremst.\",\"area\":\"verkehrsrecht\",\"client_goal_de\":\"Der Mandant möchte erreichen, dass die gegnerische Versicherung den Schaden an seinem Fahrzeug sowie seine Schmerzensgeldansprüche reguliert.\",\"dispute_start_date\":\"2026-09-26\",\"event_date_evidence\":\"null\",\"area_confidence\":\"hoch\",\"missing_information_de\":[\"Schadensgutachten oder Kostenvoranschlag vorhanden?\",\"Ärztliche Dokumentation der Nackenschmerzen vorhanden?\",\"Polizeiliche Unfallaufnahme erfolgt?\"],\"dispute_start_evidence\":\"am Samstag\",\"event_type\":\"kein_fristereignis\",\"event_date\":null}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_705972",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989150,
+  "id": "nJXParz3OuDxjrEPj52o0Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 259,
+   "prompt_tokens": 1440,
+   "total_tokens": 1699
+  }
+ }
+}

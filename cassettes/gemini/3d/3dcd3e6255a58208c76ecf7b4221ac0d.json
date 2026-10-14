@@ -1,0 +1,40 @@
+{
+ "request_key": "3dcd3e6255a58208c76ecf7b4221ac0d",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 16.862583567,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TgZ6uxEVR3MyJOJP+Tiug31IQcyMri5OFp7D44bSeeTTIb/TSGxHoZSRf/tUwtaOvHU3JqCgLZMQTzqm+9MEhjjE/zF2ppJsT6XvH19ds/VkqX+dWDhrKBus="
+        }
+       },
+       "function": {
+        "arguments": "{\"dispute_start_date\":\"2025-08-05\",\"area\":\"arbeitsrecht\",\"client_goal_de\":\"Die Mandantin möchte gegen ihre Kündigung vorgehen, da sie diese für ungerechtfertigt hält.\",\"event_date_evidence\":\"Letzten Donnerstag lag dann die Kündigung in meinem Briefkasten\",\"manipulation_attempt\":false,\"event_date\":\"2026-10-08\",\"summary_de\":\"Die Mandantin arbeitet als Pflegehelferin bei [FIRMA_1] und erhielt am 5. August eine Abmahnung sowie am vergangenen Donnerstag (08.10.2026) die Kündigung im Briefkasten. Sie möchte nun rechtliche Hilfe gegen die Kündigung in Anspruch nehmen.\",\"missing_information_de\":[\"Wann genau wurde das Arbeitsverhältnis geschlossen?\",\"Gibt es einen Betriebsrat und wurde dieser angehört?\"],\"area_confidence\":\"hoch\",\"dispute_start_evidence\":\"Am 5. August habe ich eine Abmahnung bekommen\",\"event_type\":\"kuendigung_arbeitsvertrag\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_29202",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989138,
+  "id": "gZXPar6GEoqR39IP6PbquQ0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 269,
+   "prompt_tokens": 1449,
+   "total_tokens": 1718
+  }
+ }
+}

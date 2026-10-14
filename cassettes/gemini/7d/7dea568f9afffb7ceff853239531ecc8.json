@@ -1,0 +1,31 @@
+{
+ "request_key": "7dea568f9afffb7ceff853239531ecc8",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.3888264659999976,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage / Arbeitsrecht / Mandant: [PERSON_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir den Mandanten [PERSON_1] in einer arbeitsrechtlichen Angelegenheit gegenüber seinem Arbeitgeber, der [FIRMA_1], vertreten.\n\nDer Sachverhalt stellt sich wie folgt dar: Der Arbeitgeber hat dem Mandanten die Gehälter für die Monate Juli und August 2026 nicht gezahlt. Das Gehalt für Juli 2026 war zum 31.07.2026 fällig. Der Streitbeginn ist der 31.07.2026, das zugrundeliegende Ereignis fand am 01.01.2026 statt.\n\nDas Ziel unseres Mandanten ist es, die ausstehenden Gehälter für Juli und August 2026 von seinem Arbeitgeber einzufordern.\n\nWir bitten Sie hiermit höflich, für die Wahrnehmung der rechtlichen Interessen unseres Mandanten die Deckungszusage zu erteilen.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TKTAuRclYvdFiRbJA+0DM9/VqFqD+Ojv4GzkLbzQ3j9DphQ540LSY1r7hDaWsfhjOuvM5ialBHOpuWyuMmwQJnYGn8jAzBwplcgKb4eGpoqiSaGTQ1aSZmes="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791988615,
+  "id": "hpPParFP4PGOsQ-PnajQCQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 244,
+   "prompt_tokens": 995,
+   "total_tokens": 1239
+  }
+ }
+}

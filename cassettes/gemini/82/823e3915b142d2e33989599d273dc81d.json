@@ -1,0 +1,40 @@
+{
+ "request_key": "823e3915b142d2e33989599d273dc81d",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 2.072514498000004,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EvEJCu4JAWkUfROF6BxNBalzM7ID5C+KR+55h6n1spipyDc30Ztb4HCk4ZrBMSNccucPzyqBz3eGc0DvIc8D//IEHzf7HVhFFicNkcJf+LhxkWiGJnWUgonObbYZur9xCqYRt5bMq5BHc2uQfazqhXwCJQLJHOmgZVk+zSV3gFhyzyHMgt0ivUQN/pgfLOe0TGDmxOb5jBTv2oW6skamysnJjU3rqGqnP1ytgLZS9rUYcmraTXF/UAmdNIJAHiGewZJK3STNWcl/utxSkB0daDeHuCX68qkAG2Z8zfbDqgEMgYFe8oyW3g8wF077J9/TNgs0tZB0A6+aeSBytO6eC6+hqXpEDgqL1zf7KN3pVw1fyUTSclFXpUO09mDT52cO4iZzcSQMND/5A7TuhKjkN1VA61j7gvRy/oBrVnUJFPzKwWECHKRbBU5Yk+7VbmShu0qsKINS6W8Z6hguYKJ102q2D69fyziFc8Y0bsfyLmrsMW6SMcwnTvnJswwTiDpfFk5I4CBdxu3J3DsP4ojboyeIWaF7NBGDS0j+gYMqrVQFjCijCLb+ggkH8QEY5PQ8tgMUw6jMw8yxV8qikgyVmAvTKEWKwhrjX4Nqluspu1KPe/ltCAwtDhr7QDDWQrd2OLDbLQ0C3IXl92aEpCbnkAfvXj6dcf8UgpNbgvpZlEtm4z0xyKPygHCzJ6+4ogJG/ruKcDk65m6524fqwlbbcgYZHTpqxVYBHpnO6lCGC2IfQGxUOa5TpG5CbByz7bzJIlVUCgJRKDSC04Q+OfXnqz8qCCcNtAqjsVfkyQ9ZcaOIgcS5X3fqm6haESZtTzxDOVSA4OZuSDmjuvAXJxFFVFoAbhNWmIWuKMeGapjTKj0XeCdXYjG4rTwOc5JJu1iPidbggzptZ6lhYS9h/Akh1nDoJCuSz8A7G+gHlRKqv6Q3uAdbI0VeKI4yDcX5SZSWqXOfF7YRP0GeNM+FWs9futA9qOXpI9eeNeXEuqQtdPukjcOAQW8cy7+S1Hl/xwJe8vNS/CCWhnOY8LRulzMlApvYsjdgoumqngSz7vLilixctiFYcHPJ9hK2UFXIrIBG19L4lygRrQ0YLwVAw0qDp9LR4uimUPP4/GB+gAe2V1sbqdpg1YPUlHoLV+RfAiV3jPK49v3z7S3JnL60208qv3UDKbj1cLerg5XawX4igTVy+KhtjQetovxpL8nlM8wvJfq2E6owR1+bGurbPfuJjxXH04VI9dki99VjqMgFrEggy2TFb4um3hrUiNClHABHEQ5W7s3rX5FcwPLOBl0VTVoaVS3FmZj8s7rmXcURz6+I7tFDIzbj/sxBLKvDCs2ovTOHlNO0popGjn2Tz4WYOwP+uoMJlaMVJ29XSq5Cjef1h9kTrpAZa+0gXRiQVfa3EEpeqfI3QJ/Tetx8lC46rFeiEzeP2el+wDW8XRyJF3/ApGbi1ZAiUKy7RcJN4/A6rg5BqnddSQZUkU2GuPAM2cm+k5MfPQ2gcrD3345Ko2Q3JtZtgU1IM4smqPTE9xCEdas+Zu75h7aYMg+7Ovq9Egf01/oPfERr+mZknvmnX98/maSSTWtt/r2E1a33vRVVeyIwDaIaVhUUj2dRkxTVFNiuEKQhZ5ri0oUr4blBnINPq1ubr0nzDDHyH6SiHivBHm+qrtxG4Ahd39bFBKeOR0ZsC0M="
+        }
+       },
+       "function": {
+        "arguments": "{\"summary_de\":\"Der Mandant ist seit dem 01.06.2026 als Barista bei [FIRMA_1] beschäftigt und erhielt am 20.08.2026 eine Kündigung in der Probezeit, nachdem er sich über fehlende Pausenzeiten beschwert hatte.\",\"client_goal_de\":\"Der Mandant möchte gegen die Kündigung vom 20.08.2026 vorgehen.\",\"event_date_evidence\":\"Am 20.08.2026 habe ich die Kündigung bekommen\",\"dispute_start_evidence\":\"Am 20.08.2026 habe ich die Kündigung bekommen\",\"area\":\"arbeitsrecht\",\"area_confidence\":\"hoch\",\"manipulation_attempt\":false,\"dispute_start_date\":\"2026-08-20\",\"missing_information_de\":[\"Kündigungsschreiben (schriftlich im Original?)\",\"Genaue Vereinbarungen zu Arbeitszeiten und Pausen\"],\"event_type\":\"kuendigung_arbeitsvertrag\",\"event_date\":\"2026-08-20\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_405115",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791988628,
+  "id": "kpPPap3lDruZ_uMP8N2i8QM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 283,
+   "prompt_tokens": 1754,
+   "total_tokens": 2427
+  }
+ }
+}

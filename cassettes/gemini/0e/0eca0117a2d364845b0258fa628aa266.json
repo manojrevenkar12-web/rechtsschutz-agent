@@ -1,0 +1,31 @@
+{
+ "request_key": "0eca0117a2d364845b0258fa628aa266",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.7238189409999904,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_2] / Rechtsschutzversicherung Versicherungsnummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen von Frau / Herr [PERSON_2] (nachfolgend Mandantin genannt) in einer rechtlichen Angelegenheit vertreten. \n\nNach dem Tod des Vaters der Mandantin am 02.06.2026 wurde am 20.07.2026 das Testament eröffnet, in dem ihr Bruder [PERSON_1] als Alleinerbe eingesetzt wurde. Die Mandantin fordert nun ihren Pflichtteil sowie Auskunft über den Nachlass. Da der als Alleinerbe eingesetzte Bruder jegliche Auskunft verweigert, ist die Wahrnehmung der rechtlichen Interessen der Mandantin erforderlich.\n\nWir bitten Sie hiermit, für die Wahrnehmung der rechtlichen Interessen der Mandantin in dieser Angelegenheit die entsprechende Deckungszusage zu erteilen und uns diese schriftlich zu bestätigen.\n\nMit freundöglichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Te7jwHfKBNH8IW3Xtio2YcAwXgpw6fsPFhLxEw+9D4kQgXOWVlLGH89MkCbnvaNf4hbozAcFCf8lOzy0r9DAIAPrhLK+brmROnEf6iAAu6vXF/YJQiYm4qZU="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989022,
+  "id": "HJXPauzsHoGx_PUP3ZnakA8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 228,
+   "prompt_tokens": 651,
+   "total_tokens": 879
+  }
+ }
+}

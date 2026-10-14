@@ -1,0 +1,40 @@
+{
+ "request_key": "b55371023bef687efb2969ee1504e781",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 3.758427666999978,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "Eq4HCqsHAWkUfRM98s+RhO7O1+6vOmTNw0c8Bp+LJc3okcAvTALlRaGuUsZaMZsVnRfLUJP7Q2ubqzjLqUfvFhLyrEC7nqR4YhJ2ALlVisfgX1yBC329qF+I59jjS9tM9AzYh6AjTwL/M3Tqi6EjxHP3rfQdzyF3YNUZR8h2donOeiNSki4WEmQMztbhhFM1R/rxPHk29EfSppCVXqeReUD/v0GigwO3ao+1KevGz7Sl7UyTNT7KH9hqOk7RPvlT8Bwexof0ioJaN2ffxfHUkxOZ1jlULL8P+L+1G3RllAJbo2K6TLQ9s4IVj+R4l7BEnLxDUAujbLPOByvOr4OU+GhUiQg5uYqn1f5Ydq8U/wUHuOj/wx2miNkEFK3D/dDBxtKqFfDbPtz/FSp8eQgxiwLVTsR6MbbhFwRIkntmUEUCM4rT3RnD/4+/NEqkhkedg2Y1VHsc05aQTYN74cv7JxS+AJGoBmKPBBwt4dabJhBUMsavP3l6aRnURjdLylUuE4mbmupwdirAerUHdBzAsTZKyphDZcez6X6lTG/asqOwkmL6ym7B9Wj4Ip4JYEk7XUVY3vIKlD3q2BXfNtCXcnmDeu3/TprU/m2IzJDpQJNl9jEfbgsW7qDR4PVzaGhuTXlwkprUjLsixDEKHPQEC6LMoT9NBu5wvVPPOtZDIC2fPd9JJ9BtXuoHtWhqfWISlvkJPB+GFkga7ewwUzpdUJwsGKIgvYoZeIffDJ5mj65gQxyR3CpGcZpGCYlYFo0PmLKADZpfBu+swen3bFtHiHv51vEatFM0bVXaN8ESfe2lRzREy4eWgTgN7ezlIstYNcq3Gfl0kXWFahYOwZzsi/oKTZ8kqmb8PvGpqxFybEetdSdk+9Xj7ssuREo5O26zUwCPzmonP9QLwgJ8wXb7rypGSMSezliGOM34c5VIXISN1UTVNyYYsN7gadFLuJaFiSvw4e7gjXQl1vZN/tm52FXwWS0eymXnHDsxH0Oou7WCF24R81iYrM//AES+phqFFYLZlw1gB+T8X1Ipp1+cj2AMGdhcopFk1dkuKNP2lZ6eCg4YFgL6INPy6p8eFNU7IHodJliGWrOORps1EP/2aZNPUvhNy6IWIDPYO1S5au5CBCK8zA+jDrI3IKRB3lxLrhEsDJS6NNVkp10NjdW7rDhIyaHChWUdey7zLjoT02KhG/SbgSPS9bUoChZsWcRRo6Og3NszBK2GfEQZsg0alAxlRBOFbP4+B8utYzdqM6Vo"
+        }
+       },
+       "function": {
+        "arguments": "{\"days\":-1,\"base_date\":\"2026-10-06\"}",
+        "name": "shift_days"
+       },
+       "id": "call_660200",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791989043,
+  "id": "L5XPaoD7NP3O-8YPzKr_wAE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 31,
+   "prompt_tokens": 1645,
+   "total_tokens": 1931
+  }
+ }
+}

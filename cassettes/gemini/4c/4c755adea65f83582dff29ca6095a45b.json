@@ -1,0 +1,31 @@
+{
+ "request_key": "4c755adea65f83582dff29ca6095a45b",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 3.469731804000048,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage Verkehrsrecht – [PERSON_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen hiermit die anwaltliche Vertretung unseres Mandanten [PERSON_1] an. \n\nAm 30.10.2026 wurde unserem Mandanten ein Bußgeldbescheid wegen eines angeblichen Verkehrsverstoßes vom 19.08.2026 zugestellt. Dem Mandanten wird vorgeworfen, am angeblichen Tattag mit dem Fahrzeug [KENNZEICHEN_1] einen Verstoß begangen zu haben. Der Mandant bestreitet den Vorwurf und möchte rechtlich gegen den Bußgeldbescheid vorgehen, da er an diesem Tag nicht in Berlin war.\n\nDie gesetzliche Frist zur Einlegung des Einspruchs endet am 08.10.2026. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten im Bereich des Verkehrsrechts.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T5WO0CWSKQY7Ob0hG7Tco/KFf206g9iSwx+8jMyH6J8cENYPZpTFZpUN6GCRorcaJvQ5FRqEPzZiW2eC0QwF8YJ6U+kv6CHyHf94o99LX6cKU6Igibc4RPBE="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989059,
+  "id": "QJXPavLVBKuG-8YPq8PH4QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 245,
+   "prompt_tokens": 619,
+   "total_tokens": 864
+  }
+ }
+}
