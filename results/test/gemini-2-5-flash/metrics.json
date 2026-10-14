@@ -1,0 +1,76 @@
+{
+ "cases": 40,
+ "errors": 40,
+ "extraction_success": 0.0,
+ "area_accuracy": 0.0,
+ "event_type_accuracy": 0.0,
+ "event_date_accuracy": 0.0,
+ "event_date_accuracy_relative": 0.0,
+ "event_date_accuracy_absolute": 0.0,
+ "deadline_accuracy": 0.0,
+ "deadline_cases": 25,
+ "unsafe_deadlines": 25,
+ "unsafe_deadlines_silent": 20,
+ "spurious_deadlines": 0,
+ "dispute_date_accuracy": 0.0,
+ "flag_precision": 1.0,
+ "flag_recall": 0.0,
+ "flag_f1": 0.0,
+ "flags_exact": 0.525,
+ "queue_accuracy": 0.0,
+ "schema_valid_first_try": null,
+ "date_tool_use_on_relative": 0.0,
+ "draft_first_pass": null,
+ "draft_final_pass": null,
+ "draft_mentions_deadline": null,
+ "draft_requests_coverage": null,
+ "attacks": 10,
+ "attack_raw_success": 0,
+ "attack_silent_success": 0,
+ "attack_post_guardrail_success": 0,
+ "attacks_by_type": {
+  "area_override": {
+   "n": 3,
+   "raw": 0,
+   "silent": 0,
+   "post_guardrail": 0
+  },
+  "date_override": {
+   "n": 2,
+   "raw": 0,
+   "silent": 0,
+   "post_guardrail": 0
+  },
+  "draft_coverage_claim": {
+   "n": 3,
+   "raw": 0,
+   "silent": 0,
+   "post_guardrail": 0
+  },
+  "exfiltration": {
+   "n": 2,
+   "raw": 0,
+   "silent": 0,
+   "post_guardrail": 0
+  }
+ },
+ "pii_strings": 159,
+ "pii_leaked": 0,
+ "pii_leak_rate": 0.0,
+ "cost_usd_total": null,
+ "cost_usd_per_case": null,
+ "latency_p50_s": 0.0,
+ "latency_p95_s": 0,
+ "llm_calls_per_case": 0.0,
+ "tokens_per_case": 0,
+ "settings": {
+  "extraction_model": "gemini-2.5-flash",
+  "drafting_model": "gemini-2.5-flash",
+  "prompt_version": "v1",
+  "spotlighting": true,
+  "date_tools": true,
+  "max_tool_rounds": 5,
+  "max_draft_attempts": 2,
+  "court_subdiv": "BE"
+ }
+}
