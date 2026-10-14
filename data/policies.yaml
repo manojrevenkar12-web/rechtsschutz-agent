@@ -1,0 +1,42 @@
+# Illustrative legal-protection (Rechtsschutz) policy records.
+# In production these come from the insurer integration, not from the client's email.
+# Waiting periods and module names are simplified, ARB-style and configurable per tariff;
+# real tariffs differ between insurers.
+defaults:
+  waiting_period_months:
+    arbeitsrecht: 3
+    mietrecht: 3
+    vertragsrecht: 3
+    sozialrecht: 3
+    verkehrsrecht: 0
+policies:
+  POL-A:
+    tariff: "Komfort (alle Bausteine, inkl. sozialrechtliches Widerspruchsverfahren)"
+    start: 2018-01-01
+    modules: [arbeitsrecht, verkehrsrecht, mietrecht, vertragsrecht, sozialrecht]
+    sozial_widerspruchsverfahren: true
+  POL-B:
+    tariff: "Privat + Beruf + Verkehr (ohne Wohnen)"
+    start: 2021-06-01
+    modules: [arbeitsrecht, verkehrsrecht, vertragsrecht, sozialrecht]
+    sozial_widerspruchsverfahren: false
+  POL-C:
+    tariff: "Komfort, Neuvertrag"
+    start: 2026-07-01
+    modules: [arbeitsrecht, verkehrsrecht, mietrecht, vertragsrecht, sozialrecht]
+    sozial_widerspruchsverfahren: false
+  POL-D:
+    tariff: "Verkehrs-Rechtsschutz"
+    start: 2020-01-01
+    modules: [verkehrsrecht]
+    sozial_widerspruchsverfahren: false
+  POL-E:
+    tariff: "Komfort, Neuvertrag"
+    start: 2026-08-15
+    modules: [arbeitsrecht, verkehrsrecht, mietrecht, vertragsrecht, sozialrecht]
+    sozial_widerspruchsverfahren: false
+  POL-F:
+    tariff: "Privat + Beruf + Wohnen (ohne Verkehr)"
+    start: 2023-04-01
+    modules: [arbeitsrecht, mietrecht, vertragsrecht, sozialrecht]
+    sozial_widerspruchsverfahren: false
