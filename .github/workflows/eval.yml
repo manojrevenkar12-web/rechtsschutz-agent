@@ -62,7 +62,7 @@ jobs:
           [ "${{ inputs.provider }}" = "gemini" ] && CFG=config/eval.gemini.yaml
           ARGS=""; [ -n "${{ inputs.models }}" ] && ARGS="--models ${{ inputs.models }}"
           [ "${{ inputs.ablations }}" = "false" ] && ARGS="$ARGS --skip-ablations"
-          python evals/run_eval.py --split test --config $CFG --mode record --concurrency ${{ inputs.provider == 'gemini' && '1' || '3' }} $ARGS 2>&1 | tee results/eval.log
+          python -u evals/run_eval.py --split test --config $CFG --mode record --concurrency ${{ inputs.provider == 'gemini' && '1' || '3' }} $ARGS 2>&1 | tee results/eval.log
           python evals/report.py --split test --config $CFG 2>&1 | tail -3
       - name: Push results to a branch
         if: always()

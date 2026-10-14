@@ -1,0 +1,31 @@
+{
+ "request_key": "2e9c34d6032836e2fd72011cd86ea7e8",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 0.8103061589999925,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_2] / Mietrecht\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir den Mandanten [PERSON_2] in einer mietrechtlichen Angelegenheit vertreten.\n\nDer Sachverhalt stellt sich wie folgt dar: Unser Mandant hat am 30.09.2026 ein Mieterhöhungsverlangen seiner Vermieterin [PERSON_1] erhalten. Der Mandant möchte nun prüfen lassen, ob er diesem Mieterhöhungsverlangen zustimmen muss.\n\nDie Frist zur Erklärung endet am 30.11.2026. \n\nAus diesem Grund bitten wir um eine zeitnahe Entscheidung und um Erteilung der Deckungszusage für die außergerichtliche Vertretung und rechtliche Prüfung im Bereich Mietrecht.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Thcuv2jUPCVbaFaG7H4IycVw+wsAenjjdKhpKWLRNtkc0eBW52QevIaMAm2aKzzxGCIInBjrxsE+M7J7b8vdsmuafrsPKwFWVBzt83PtGS8G9jtCj3rDlAuA="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989419,
+  "id": "qpbPatukKuL9qtsPsK6d8Qw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 186,
+   "prompt_tokens": 894,
+   "total_tokens": 1080
+  }
+ }
+}

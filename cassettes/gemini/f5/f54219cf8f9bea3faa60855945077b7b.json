@@ -1,0 +1,40 @@
+{
+ "request_key": "f54219cf8f9bea3faa60855945077b7b",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 4.144953737000151,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "ErwECrkEAWkUfRMe8acT2u5kK629MwQvhpKUpYR6wcGTZwUVXZrXgNdWaUVF+sI16htFbv1YSxFWRowvYoLyiVoVUXLkFqYgRK4KW9Zbgx2FqL4haHSOLdeddiub+Dr56lgF89yQoGYehBMz9rWrmRhQp1/zhWTmQjTpip7G8tmcH/EhtUONkE0GIrb8u6V4EgUea5krpZwhwpqKNRVz+0d2eBzAus23on3aBnsQ5oX6xGp+ly0eAkLa36YbIs6WmxAT+OAMDFkgesM40xbsWO9TzZhHTWt3xaqnLcejHybXUkG92XAqspAvlz8eOjRpTdtnMIa6OlJF6yl5Mtl22CSP+rF6S7E3m4E6COgd6OUL7V6aFSXzYBJn09BIh8agW36U5bVW9WNYr+aHFWeX8GKWWrEkclFjijYwfCntf98Max4XNf0OinpYkz4lMupBRObBw4TbY2wnwJpNqfUGwowSvCQGIUHNOOoovdtXNZpIzK8CORiXSsLeq+pPh/utQlPA2iez2xrfz6sK+HParHGwDAoPsKjsUj16/xySY+q8qq2aqjI6VrQ2kyN6Y/i8WlwGAp2K6NDOB66ixmC2u7QGwnqnOBjmEWpC6bPkraEI461aEmEoYKrTXku9nH077objCezicKvqSfejjErqzlm6CvFF+4SljwqDtuc9RtwEoMNG5KFBPfk2iU2+0Qe1l9gWOdEIRMpRqf7iL3coFfsLdQfDUndxNZJ1CzpQoE5bOypU/e0q/liP5hPhzqs="
+        }
+       },
+       "function": {
+        "arguments": "{\"client_goal_de\":\"Der Mandant möchte wissen, ob er den Aufhebungsvertrag unterschreiben soll oder ob dies zu einer Sperrzeit beim Arbeitslosengeld führt.\",\"event_date_evidence\":null,\"manipulation_attempt\":false,\"dispute_start_date\":\"2026-09-25\",\"area_confidence\":\"hoch\",\"event_date\":null,\"missing_information_de\":[\"Liegt der Aufhebungsvertrag schriftlich vor?\",\"Wurde das Arbeitsverhältnis bereits gekündigt?\"],\"area\":\"arbeitsrecht\",\"summary_de\":\"Der Mandant hat am 25.09.2026 von seinem Arbeitgeber, der [FIRMA_1], einen Aufhebungsvertrag mit einem Abfindungsangebot von zwei Monatsgehältern erhalten. Er ist unsicher bezüglich der Annahme des Angebots und der möglichen Konsequenzen für das Arbeitslosengeld.\",\"dispute_start_evidence\":\"am 25.09.2026 einen Aufhebungsvertrag vorgelegt\",\"event_type\":\"kein_fristereignis\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_1344266",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791991042,
+  "id": "_pzPatTnJ6OGqtsPyrvEmA4",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 268,
+   "prompt_tokens": 1754,
+   "total_tokens": 2141
+  }
+ }
+}

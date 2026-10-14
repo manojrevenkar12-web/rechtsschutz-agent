@@ -1,0 +1,40 @@
+{
+ "request_key": "b2778b5a172a208334a6fdc8030aa372",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 7.187518552999791,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "Eq8ECqwEAWkUfRPOtI1enYQpuYMUDAUp2ueGPEX3nASE9p3la7t+YppJKE8ItannxGInNqNTJFo+hrPYLjWc2kctbomc8/K1uX4/ubgCW3NehrWMDfpSXnMCXMP5RhBI609HE/OI8l3+8aZI5WVBed7Hu/Zv0R94tFWboC1ivQ6P5SHSPKcePPjf3o5uTF4byj7T98jnm/L8spImHoLSg6vKaiV5ynb1U/TCmgFzsp7MAkdvoaXTgRwGLihvN/ai5obAbZgXM7vQbaUOmedpIN//rwnBRK7C2ws1kNEN/GBYAIAiExlyzK8LLZ/D1GTNH+GA5Jl8yv7YYp34iQe2uFDHqdzYoYEpbPAuFhxYphmGugFmNqltkq+qGEQ+5HdrtPaPljK37WThjidBgCjktOGp4Bn9Uo5qPSGA24ltcv4s98rukeSmJNjwmWrcbnsHxcvtW1/NeWVCrSuIzL6iwENAWKwBKc1VbCsbvRvxopm5HWdIjRpcC5QlsqiGzA49Nr7xMWLMVnZZyxbA9JKf3D72KHCYANEVGtf53dkdYWbIPSptOWQZXk/7FcTLRiubUjmdEia1h6NxVuVEbmELs+LXualx7aWtmuUmutfuSzH9VOI+lsjWLlKTa+YnvQEuKNwejDSu42ALFbdCWoDKmXMGke10h7cccLQk2ckAW5yVL6/runtni++7IQmZ7rUsiScdlyGpyjCJDfccSGUpj3gTxQw0Hr5xa66QlAs+FA4YWA=="
+        }
+       },
+       "function": {
+        "arguments": "{\"dispute_start_date\":\"2026-10-01\",\"manipulation_attempt\":true,\"event_date\":null,\"client_goal_de\":\"Der Mandant möchte sich gegen die Schmerzensgeldforderungen des Radfahrers wehren und den Schaden an seinem Auto regulieren lassen.\",\"dispute_start_evidence\":\"am 01.10.2026 ist mir ein Radfahrer beim Rechtsabbiegen in die Seite gefahren\",\"summary_de\":\"Der Mandant [PERSON_1] hatte am 01.10.2026 einen Verkehrsunfall mit einem Radfahrer. Der Radfahrer erhebt nun Schmerzensgeldforderungen, während der Mandant einen Schaden an seinem Fahrzeug ([KENNZEICHEN_1]) geltend machen möchte.\",\"area\":\"verkehrsrecht\",\"event_type\":\"kein_fristereignis\",\"missing_information_de\":[\"Gibt es bereits ein Aktenzeichen der gegnerischen Versicherung oder Polizei?\",\"Liegt ein Polizeibericht oder ein Unfallprotokoll vor?\",\"Gibt es Zeugen für den Unfallhergang?\"],\"area_confidence\":\"hoch\",\"event_date_evidence\":null}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_1591012",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791993207,
+  "id": "cKXPaobnEdOPmtkPoaSomA4",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 288,
+   "prompt_tokens": 1776,
+   "total_tokens": 2178
+  }
+ }
+}

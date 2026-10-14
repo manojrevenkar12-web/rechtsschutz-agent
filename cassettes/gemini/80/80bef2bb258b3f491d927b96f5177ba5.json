@@ -1,0 +1,40 @@
+{
+ "request_key": "80bef2bb258b3f491d927b96f5177ba5",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 2.960351560000163,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EvAKCu0KAWkUfROEFzHqQ77QYA0cAescUdLBeS8EuiJbrTcdBtMdAZbECIHSJxK6iRPFihISN2W6tenusCeV29mWY7hvnKfsd/G010DMcml9ShYJhAVkfhRPGQxCsRT9tYqNBfTAcsj9FT6DtXQWwmuGtoH1Ldv7xpI8dOIhrrF8LhZnijgsEhO75/IhFhaje27jj+8n4EeyvxOznIh5x1Ec6OIq4l6R+TBJZCX/q+d7zFVpi7SpoMqZB3AdcGA63kgf/SQuXoYG5e3vqntM4DJK9kceQ8fedspetKfVtX7LYnSIBqeGkIEJMfTh+60YcTTEDZGCnFaeb7kNrx8LThMZ4jpxLl3DYk+yfKb+I0T0mRRcTf9/BAr0Htp/Nwme39a83yUKfbAy+ieEPxUQGTyrFpt0l8+5TIZNmaBtnToIeKaMWteoh/uKsXqqFOPK1e/GlzZUgxasFZkcc/nz8Zumqn6eBgbJWvCHWXzgGgbeYXU/wIVMiSYeOm9GuX6koKRCfasfsQdlm81B5qGXcsaGULsDThJ2P+IMpa9ggJHBDtmQUotGbIHY7vMLZ+1r1QI3OguKKSJsu+pBGJc1k90XJ4E3+JMhd290yQEIcx70TdM/aLSFus+vzQcP4pKDB4QrDa0OWUujcY3fhmn2mvnn1UnTVmwuLkbKzo7wzql3Oo2MQHdvOoDgEo491THLg+MKSr7/lfIYULDEN+3ig5e6Umj2Wf7g3T5tqwo8mdWyuooPB0DBHt4cC8rd3kxOZSBCtdi8/E/VX9uUcMxWdUW5ECB1PNUiysQlUw6n5jVbR8XAJzjoJWlCdCTTaDtNdyt4c2aULQwUFJtbrw/P9qdgaRrGW/C+rlvo3Zqud8TsAgqSbVaPZRDIukRMr/RFg8l67VcQrnxlKeCy3FSwtCQODBLrGd5oYH5En6cjvH8iq/YAga74shPzSi+WM6jxZ7e3xZpUBL3CiXfsGGnmi3MEZPdL8AHYHKc6fgxDKYVCdAp6SAV7b/lcxXrndLqa2v7PhYf/pEzMXXQUlsepW39hu1AhX8iIs4zEbahox4m9XaEJv2XwacHkoMgDLFgtwM0TRIPTRARA+mm6zBW5xHKVDxZhp+Kx4AOwsvFOW4Qd98fgGWlp2hOpC8/MRAvaKFkQVUGvWW7N02ltNQ9MZ2/83liy6RkuzaYT1uGjgKKci3KZhXMAeAZwI1WgFTsXa0uKHqpB1WnK2znPFiYlvd1DpUn6dNZSgZRZP5ECa+7T/CTMjzelnRX5vl3Wx7A1kf0y6UUc3ly9wRtxYIUb62TzcKciDjeCPPdRgANDd4htBzfcDsfLEnb+iaGTULoLK7TaEbiZ4TiwWDITWW8z6OdDk/3zUSGrTCDg2ud6DnHeq6drl1QJecBd5eQMevptDMIUfdnEauWdop9+wLCulxjUpt1j9omkDYe0sTtUzaQoXaxuhoc8k/GXBM+OUvo7K8Ew6XGSeLqK5K4ITQrGKLatjH63mfJyF+Pl3I5gSUd5EydsBQI7Vn5D7U+qtnqg8dSEPlIwrmfZmzi23JkZm3OePpscu/LxSoK9M7HBzluO9M5tX+7e5T2MNsrykMPqwl0k+Me0FSV3L1iDL7BJFTVjPCRMulprLx3+gixKsuBmGUZ3e3RnBhXFxursYAk/BCGGefI7kNkMAf+EGTE73K9VGsSedQZ0anVHbINDokXN4oADbCT9nnJPQ3Bk2XwRCuB2CzfoLs+kkDLZs8ZIEhCr/bKpfjBzRW+pdALJ3szTkPHY1nMCbsilPUL3Oj7xJJYQ2MKF1jIR3DDzCzDcJssca2WtLpQPSY7biKYlJHDk6sngJGKtjn/Swd4tPzqkrbbp"
+        }
+       },
+       "function": {
+        "arguments": "{\"dispute_start_date\":\"2026-09-26\",\"client_goal_de\":\"Der Mandant möchte die Regulierung des Schadens durch die gegnerische Versicherung erreichen.\",\"event_type\":\"kein_fristereignis\",\"summary_de\":\"Der Mandant hatte am 26.09.2026 einen Auffahrunfall, bei dem ihm ein anderer Fahrer hinten aufgefahren ist. Die gegnerische Versicherung verweigert die Regulierung des Schadens am Fahrzeug sowie die Anerkennung der gesundheitlichen Folgen.\",\"event_date_evidence\":null,\"missing_information_de\":[\"Polizeiliche Unfallaufnahme erfolgt?\",\"Gibt es ein ärztliches Attest für die Nackenschmerzen?\",\"Gibt es Zeugen für den Unfall?\"],\"manipulation_attempt\":false,\"area_confidence\":\"hoch\",\"event_date\":null,\"area\":\"verkehrsrecht\",\"dispute_start_evidence\":\"am Samstag\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_1530588",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791993035,
+  "id": "yKTPapGZJtSc6dkPtbuGoA8",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 237,
+   "prompt_tokens": 1944,
+   "total_tokens": 2562
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "request_key": "ab1db1452f8f886a2b6669c8f7fe79d5",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.3895521709999912,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage / Rechtsschutzversicherung\nMandant: [PERSON_1]\nVersicherungsnummer: [NUMMER_1]\nSchadensangelegenheit / Streitgegenstand: Vertragsrecht / Werkvertrag ([FIRMA_1])\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir den oben genannten Mandanten in dieser Angelegenheit vertreten. \n\nDem Mandanten wurde von der [FIRMA_1] am 17.08.2026 eine neue Heizung eingebaut. Seitdem erbringt die Anlage nicht die geschuldete Leistung (das Obergeschoss bleibt kalt) und weist Undichtigkeiten auf. Dennoch fordert die Gegenpartei die vollständige Bezahlung der Rechnung und droht bereits mit Inkassomaßnahmen. \n\nUnser Mandant möchte nun gegen die unberechtigten Forderungen der [FIRMA_1] vorgehen und die Mängel an der neu eingebauten Heizung rechtlich geltend machen. \n\nWir bitten Sie daher höflich, für die Wahrnehmung der rechtlichen Interessen unseres Mandanten im Bereich des Vertragsrechts die Deckungszusage zu erteilen und uns diese zeitnah schriftlich zu übermitteln. \n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T/Zlq3Sex8QD6O8uuImK+pK4oUDsF8wAwUY2HuO9wfpGDftUrBhvDkm4L0duOl9j37ExNJSp3jSSE7TjNrYveAUlSDL5tK9atcVhAjZCADJpzr3vIh9z06I0="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989464,
+  "id": "1pbPaqC_OaT4qtsPgI7UOQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 267,
+   "prompt_tokens": 710,
+   "total_tokens": 977
+  }
+ }
+}

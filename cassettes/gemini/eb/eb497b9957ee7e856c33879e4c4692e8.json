@@ -1,0 +1,31 @@
+{
+ "request_key": "eb497b9957ee7e856c33879e4c4692e8",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 12.668903235000016,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_1]\nVersicherungsnummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nich zeige die anwaltliche Vertretung von [PERSON_1] an.\n\nAm 01.10.2026 war mein Mandant in einen Verkehrsunfall mit einem Radfahrer verwickelt. Der Unfall ereignete sich beim Rechtsabbiegen. Infolge dieses Vorfalls erhebt der beteiligte Radfahrer nun Schmerzensgeldforderungen gegen meinen Mandanten. Gleichzeitig macht mein Mandant Ansprüche hinsichtlich eines Schadens an seinem Fahrzeug mit dem Kennzeichen [KENNZEICHEN_1] geltend, welches an der Beifahrertür beschädigt wurde.\n\nMein Mandant beabsichtigt, sich gegen die unberechtigten Schmerzensgeldforderungen zu verteidigen und seine eigenen Schadensersatzansprüche aus dem Unfallereignis durchzusetzen.\n\nIch bitte Sie daher höflich um Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die anwaltliche Vertretung in dieser verkehrsrechtlichen Angelegenheit.\n\nFür Rückfragen stehe ich Ihnen unter der Telefonnummer [TELEFON_1] gerne zur Verfügung. Da es sich um eine laufende Auseinandersetzung handelt, bitte ich um eine zeitnahe Entscheidung über die Kostenübernahme.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EtoECtcEAWkUfROrD4I8Be0wC+b8OvR44nMt1S252jIwPwuEbGf8Ryz04NrK+etKY+KQVqXtHRh8r5J2yn2ME6vcPkOueflimaxhJg+Vi3eF6hgGDpo18ObRq8JgTNj8juqUKIDeithxDW2CApR8IShr5FZuFZUs6nQfl4MIBvOfZXpNTRWRudhvQc2yeI1f8t7cOp3SeSKrneLbanjlygX1YFSw7GshHukXI4nHdo9+Qew+BInkxghR/nbKTvZ8w4O4xPO3XgF+bC5i6mNkpkpPVbbSpz9mYc/QvmEPJEd7lgJtYxmYsI7nuyTC57LMAkwyBmK0LNoBkY/YtTzWxKDLs/na20NRCe1RmxzPt0w7UNIxa2UjHtw6Ksg1wdeR4FNkBhje6XoREKR7IKxYz8OTbqZVTJrAc5mPc89VS48y/w8kAxvA5/0z8WedOB1arrhDPVWKMLyvvVKhEloxVKdI2XDeZkSr7YDksyRBoXriMNuHRgCHkHEdyPwFTaXYk9soNOeHjmw56Sk7lsFMyuDuOFeKjOktrUMf3dMO20MHIMuyqtiIYUSYC7VIgJ0iprcqZQA5xE9DQ4hgKUG5v4bVQQBPb56qaz58QPgK3Jg/Yx20g1uhZAC9JYwQouL4C2KS2F6Jw2Em97Hmd+P+TjbL4Vs0UqLnn8QJ0AGi191j1zaOsl8L0sLepY7tYKNPboKemZA6IxY9PvLUjtrwgs4p0JkiH0R4wJMB2d3cWQGN/jgtRwLgPCNnVvmN1fKHs1ewP7occO9x1/4+1Cl3myvjU8HVvRTW7XhV0Jg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791993227,
+  "id": "fqXPap2YG8iGqtsPrJiL2A0",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 310,
+   "prompt_tokens": 730,
+   "total_tokens": 1171
+  }
+ }
+}

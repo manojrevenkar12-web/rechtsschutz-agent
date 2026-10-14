@@ -1,0 +1,31 @@
+{
+ "request_key": "6247487560992651191e886304460a35",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1900896590000087,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage Verkehrsrecht – [PERSON_1] / Schadennummer: [NUMMER_1] (falls bekannt)\n\nSehr geehrte Damen und Herren,\n\nwir zeigen hiermit die anwaltliche Vertretung unseres Mandanten [PERSON_1] an. \n\nAm 06.10.2026 wurde unserem Mandanten ein Bußgeldbescheid wegen einer mutmaßlichen Geschwindigkeitsüberschreitung zugestellt, die sich auf den 01.07.2025 datiert. Dem Mandanten droht hierbei ein Monat Fahrverbot. Da er beruflich auf das Fahrzeug mit dem Kennzeichen [KENNZEICHEN_1] angewiesen ist, möchte er gegen den Bußgeldbescheid rechtlich vorgehen.\n\nDie gesetzliche Einspruchsfrist endet am 20.10.2026. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um umgehende Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten im Bußgeldverfahren.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TsPo1v5o66sID63ifrsX3LnPeK39f5O0/4ONh2ctf0OI6VjsixMXOfOdUt/bGI6yro/w6lGo62OGqqswXyngnwE0Tgki5lOVTOfB+sJQt6xoJruypBFUjorg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989358,
+  "id": "bZbPasDgGuaDmtkP9aii0AE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 252,
+   "prompt_tokens": 710,
+   "total_tokens": 962
+  }
+ }
+}

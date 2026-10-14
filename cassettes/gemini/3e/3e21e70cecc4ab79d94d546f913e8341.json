@@ -1,0 +1,31 @@
+{
+ "request_key": "3e21e70cecc4ab79d94d546f913e8341",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.2880437639999798,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage – [PERSON_1] / Schadennummer / Versicherungsnummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die rechtliche Vertretung von [PERSON_1] in einer Angelegenheit des Sozialrechts übernommen haben. \n\nDas Jobcenter Berlin Lichtenberg hat den Antrag unseres Mandanten auf Bürgergeld mit Bescheid vom 08.09.2026, zugegangen am 11.09.2026, abgelehnt. Die Behörde begründet dies mit angeblich zu hohem Vermögen, wobei unser Mandant geltend macht, dass die Ersparnisse zweckgebunden für eine Mietkaution bestimmt sind. \n\nUnser Mandant möchte gegen diese Ablehnung vorgehen. Zur Wahrung der Rechte ist zu beachten, dass die Frist für die Einlegung des Widerspruchs am 12.10.2026 endet. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten im hiesigen sozialrechtlichen Verfahren. \n\nMit freundöglichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TrdiFsGwZgBniQFCXAfaPFrinAu1uCUMo+rt4+cpKX8ohKmmXEF8A+Q8ayjko5Sjx089FxDD2UImbmmZxBYeKrY5K+HK1UChbXpg7KKR0ncC/3IAGedvMoIw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989473,
+  "id": "4JbPatWtHsL7qtsP6dTU8Q8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 267,
+   "prompt_tokens": 715,
+   "total_tokens": 982
+  }
+ }
+}

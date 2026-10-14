@@ -1,0 +1,31 @@
+{
+ "request_key": "8897344f8c920e50626cdb2be800206e",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 2.6468829710001955,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_1] – Verkehrsrechtsschutz\n\nSehr geehrte Damen und Herren,\n\nich zeige die anwaltliche Vertretung für [PERSON_1] an. Mein Mandant hat am 24.09.2026 einen Bußgeldbescheid erhalten, der sich auf einen angeblichen Verkehrsverstoß am 19.08.2026 bezieht.\n\nDem Mandanten wird vorgeworfen, mit dem Fahrzeug [KENNZEICHEN_1] einen Verkehrsverstoß begangen zu haben. Mein Mandant bestreitet den Vorwurf vollumfänglich, da er sich zum Tatzeitpunkt nachweislich nicht in Berlin aufgehalten hat. Er beabsichtigt daher, gegen den Bußgeldbescheid vorzugehen und Einspruch einzulegen.\n\nDie Einspruchsfrist endet am 08.10.2026. Um die Wahrnehmung der rechtlichen Interessen meines Mandanten fristgerecht sicherstellen zu können, bitte ich Sie höflich um die Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die anwaltliche Vertretung in dieser Angelegenheit.\n\nBitte teilen Sie mir Ihre Entscheidung zeitnah mit, damit ich die notwendigen Schritte zur Fristwahrung einleiten kann.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EsYECsMEAWkUfROtv/OgTxsfztgBDeN1dyjlKh7bMkKmr25PI+IKj0fgTr4SLADVrNkPbZbOoOrJFrnGSwdWw+MLTwR8IWO3NLmkeWXfvexDxSo2tqBerVMlEbqyAiVYQBG94v73aUP1Qo8+uqDSENDUkKVAa+K6Wq3hDSCbiHQsAckawqmCRqrdRbeGjvM6WK09HI92eUNXlTLKYgCEAXbSZlhmd+TO8wLy0fPrphO7Xrifni8flif3inh8+Ye8xzwwWoxx0gtaDfrEwPdVCowA4Mz/HfTAuJCVOaQynpL6CsJPYrLcTWHEKY+gTvW/S1MHp0cFwTCLXabThZJWk/5tP9Zpj5xfaG2QvIw2jQHAJk14jN1Zy4915XXfpd0je0I8Y4u1AoUjsSUomqgHaeZpCoV6rduIlyi69NUebS/Z6CKZezNKboSx1W8dcGFKcgnnvb/hGyrhNb9ov80PZRc9efUYTWFxLlqxTjkUxm6PTEnYg5BxQ6PlvoFOuW03A3h4KfX3Qp3dJAPb7vZgkfChRevrNZcviRGcRpeef0AK3Hhs44JoDceb5CaVLsMr7JuvAlkTnxfeTqn86+1qQe3FJRoQZRsIXzt3O82f6uIjiXPYQqH0LeR/njeHmIKNrQSOQi23qoThIkIk+x0RTpxJK0Vk34MR+raPqiP6BFDy2AGADq6OAnGRTrJmi6ld+Do2F2bjaa2oVjzh31j58W29GO1qVvKYzfEgQo5kVQ17Nmo/u5KAGkFBjMjPyYXkPsyEdEB0jtUQ"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791993153,
+  "id": "P6XPau4U9NXPsg-IpKeRDw",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 293,
+   "prompt_tokens": 738,
+   "total_tokens": 1161
+  }
+ }
+}

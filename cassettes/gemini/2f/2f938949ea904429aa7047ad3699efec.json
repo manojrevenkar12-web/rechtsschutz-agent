@@ -1,0 +1,31 @@
+{
+ "request_key": "2f938949ea904429aa7047ad3699efec",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 4.477732731000003,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage / [PERSON_1] / Mahnbescheid vom 24.09.2026\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen von [PERSON_1] in der Angelegenheit gegen [FIRMA_1] vertreten. \n\nAm 24.09.2026 ist unserem Mandanten ein Mahnbescheid über 480 Euro (Geschäftszeichen [NUMMER_1]) zugestellt worden. Dem zugrunde liegt eine Streitigkeit, deren Beginn auf den 12.05.2026 datiert. Unser Mandant hat den Vertrag nach eigenen Angaben fristgerecht zum 31.03.2026 gekündigt und einer Mahnung vom 12.05.2026 bereits widersprochen. \n\nDas Ziel unseres Mandanten besteht nun darin, gegen den Mahnbescheid vorzugehen und die unberechtigte Forderung abzuwehren. \n\nDie Frist für den Widerspruch gegen den Mahnbescheid endet am 08.10.2026. \n\nWir bitten daher höflich um zeitnahe Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten im Bereich des Vertragsrechts sowie um Mitteilung des Aktenzeichens.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TlUqg3qjjxJLpJwGSfdEO6M9h1roFreojXIqr2CZUBFGUmtoG6df/rSlvIUhd81zC9WnSOkbuduH7Z7YVDeQleIODprgDJSjkrCs4R8CHIFukszvEAJUJn5w="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989456,
+  "id": "zJbPaoDwC5W-mtkPubnl2Q8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 304,
+   "prompt_tokens": 753,
+   "total_tokens": 1057
+  }
+ }
+}

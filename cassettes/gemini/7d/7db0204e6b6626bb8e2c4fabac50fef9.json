@@ -1,0 +1,31 @@
+{
+ "request_key": "7db0204e6b6626bb8e2c4fabac50fef9",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 5.105242868000005,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_2] / Mietrecht\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen von [PERSON_2] in einer mietrechtlichen Angelegenheit gegen den ehemaligen Vermieter [PERSON_1] vertreten.\n\n[PERSON_2] ist zum 31.03.2026 aus der Wohnung ausgezogen. Der ehemalige Vermieter [PERSON_1] lehnte die Rückzahlung der Kaution in Höhe von 2.100 Euro am 15.07.2026 unter Verweis auf angebliche Parkettschäden ab, obwohl bei der Übergabe ein mängelfreies Protokoll unterschrieben wurde. Das Ziel unseres Mandanten, [PERSON_2], ist es, dass die Kaution in Höhe von 2.100 Euro ausgezahlt wird.\n\nWir bitten Sie hiermit um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T/wfORfZPG6abvVap6ZYtno7dcs105NBS1v+CnKLd7PfQteueCZoMnNYK2FoMKGLzT8wrpJuVc/waT5sDdACR4RlFcVnk+iNvBi+7H/qPgXxQb66Tz1CVOA8="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989444,
+  "id": "v5bParyeKtH7qtsPruyU6A8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 228,
+   "prompt_tokens": 1023,
+   "total_tokens": 1251
+  }
+ }
+}

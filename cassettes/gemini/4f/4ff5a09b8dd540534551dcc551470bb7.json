@@ -1,0 +1,40 @@
+{
+ "request_key": "4ff5a09b8dd540534551dcc551470bb7",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 6.507024170000022,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EqkECqYEAWkUfRNzwd4cWqSNWezWcw1T04CUF/E+9WniypvKDBjgTBk/yVkb9FS7sCg5pMHENofD9Lsd+znSJtT7uaubhFl8+gQknqFrNJGUC6ke1p9VuAEIPkCj5M6dWAQnY+5pyDzbZfegKW8Ocy+ebzQGYZUvwBH+sULZ/8C8ekkMp+F9YGPm2CifPkoO1h2A8G5iX9lUeAC3ABt/MM8ai1sVFZo/bYHVuxw/kiNfkL+itdlTJ/BTCAqG+3T5/ZvEum+ei+1WkVqNW0PzIDPd+j4Jlz5VvGHhLdh1PLccEMguHPT4+tQ1N7LVdgkeQy0Xq3tJJ2ULidIJbPicgYphCpTYIap8G6UCCiFuA8eNNTUYfHFk9L4DR/S6yhrbj30RnM6ntEI8417yQKJfpcxkI3ZiyRGa/QVdb4l0da5NDHRfwgHmhii/udvIVcCsstg8palOHaX3YtQdzRWk69M6rfwPHsJyY8woDxHyGesoedYETBz+T8sZS577zIl5XKB66HGVal+3A073pdVJ/zd5tyBikQEIGzWUxQQz2A2cVPl+xeQZQcgLhmI6zzWrVr4kk2zLrm0Dc4ZEyRloAJdPSPXxJeQ226cqEQdXL3YMhyP7czex80iM5oya8yeL6kJ+NwbXHG8brwDF5+NfIyuYmeOtl5RdSTjw7BCI/z/h/7dCMQ4qVDi2aQS0/JdKmKYlPD0z8aTeZAAM2f0Fojc/CEmUhR7/0CXq9A=="
+        }
+       },
+       "function": {
+        "arguments": "{\"client_goal_de\":\"Der Mandant möchte gegen den Bußgeldbescheid vorgehen, da er nach eigener Aussage nur das fest installierte Navi bedient hat.\",\"event_date_evidence\":\"am 11.12.2026 wurde mir ein Bußgeldbescheid zugestellt\",\"area_confidence\":\"hoch\",\"event_type\":\"bussgeldbescheid\",\"summary_de\":\"Der Mandant erhielt am 11.12.2026 einen Bußgeldbescheid wegen angeblicher Handynutzung am Steuer am 30.10.2026. Er bestreitet den Vorwurf und gibt an, lediglich ein fest installiertes Navigationsgerät bedient zu haben.\",\"dispute_start_date\":\"2026-10-30\",\"missing_information_de\":[\"Kopie des Bußgeldbescheids\",\"Genaue Bezeichnung des Navigationsgeräts/der Halterung\"],\"event_date\":\"2026-12-11\",\"manipulation_attempt\":false,\"area\":\"verkehrsrecht\",\"dispute_start_evidence\":\"am 30.10.2026 mit dem Handy am Steuer erwischt worden sein\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_1154869",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791992749,
+  "id": "pqPPat-kKuOIz7IPxcLpwA0",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 301,
+   "prompt_tokens": 1758,
+   "total_tokens": 2173
+  }
+ }
+}

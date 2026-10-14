@@ -1,0 +1,40 @@
+{
+ "request_key": "b17cebd92cfc638f78b8aab0df1673c8",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 4.6823959399998785,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EvsDCvgDAWkUfRM4riJb90SAGUM4dbj70W7GZmbBNz3o4hUq3bNtRIYkWmAQrSksb42O/nGo7lmt6M74io7CX+X7iKXUKlr4H4Z3DJUU2+czPt+SNCxvgu5wxrvRNNEbahJZQDk9l392VQHrhGHTcqTWJB7T2NQiIOb+cweUgI31yV9G9qgJoDa0SeVfP5Rk2ojKmkOmtGFT6QJ0NBwUH296Mdv1qIXm+6CKwNRXlqZ7t/U4zsalNPNBOr9bom9UiVl78mrDILWQC/I0/Lyq+0MZGSwBa3ivbPQqgS6C9ZgvAGqU4mN8XzC1ajy8NHmUB9RyW8qxF6ksWOhCwN7QCbKyvVQ4hqzRbGLsYoJfKTQnzpIM+SA6nLJb6Ud97gjMuPFozGHhATwYB73N3Z52Or3sIibm+033pGxDN70+Te2ukRH6umJKxs6oqi7vHC8NL05aGFgJcbUOyD/HpH4VZH9V5E4i0GlBkJpjai1I/b2+Cf0BEY2dtJASctp1+4mP26EjCRioRfOucREhoPS59FHYypaD9pAAFUKBH772EK+44Ew6YkBDByC1h/QRTdGZ0jv1VfOHI3q77qfrjg2wgAPYl37NdB6CDNDrF4KZOE2HUNqNygG/uOGYnNwcqgBUpg9fwEVPaOVaK+DI9aoIR0MAMfD+fOBk5JfMcgVJ"
+        }
+       },
+       "function": {
+        "arguments": "{\"area\":\"arbeitsrecht\",\"area_confidence\":\"hoch\",\"event_date_evidence\":null,\"manipulation_attempt\":false,\"client_goal_de\":\"Der Mandant möchte die ausstehenden Gehaltszahlungen für Juli und August 2026 von seinem Arbeitgeber einfordern.\",\"event_type\":\"kein_fristereignis\",\"missing_information_de\":[\"Gibt es einen schriftlichen Arbeitsvertrag?\",\"Wurde der Arbeitgeber bereits schriftlich zur Zahlung gemahnt?\",\"Wie hoch ist die Gesamtsumme der ausstehenden Gehälter?\"],\"dispute_start_evidence\":\"Das Gehalt für Juli hätte am 31.07.2026 auf meinem Konto sein müssen\",\"event_date\":null,\"summary_de\":\"Der Mandant berichtet, dass sein Arbeitgeber, die [FIRMA_1], die Gehälter für Juli und August 2026 nicht gezahlt hat. Trotz Hinweisen auf Liquiditätsprobleme durch den Geschäftsführer steht das Gehalt weiterhin aus, während der Mandant das Arbeitsverhältnis fortsetzt.\",\"dispute_start_date\":\"2026-07-31\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_1877831",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791991024,
+  "id": "65zPaq64O8L7qtsP6dTU8Q8",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 278,
+   "prompt_tokens": 1743,
+   "total_tokens": 2129
+  }
+ }
+}

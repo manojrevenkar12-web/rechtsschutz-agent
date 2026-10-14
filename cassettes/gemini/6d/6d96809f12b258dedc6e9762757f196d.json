@@ -1,0 +1,31 @@
+{
+ "request_key": "6d96809f12b258dedc6e9762757f196d",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.4059307680000046,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für arbeitsrechtliche Vertretung – Mandant: [PERSON_1] / Schadennummer bzw. Versicherungsnummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir den Mandanten [PERSON_1] in einer arbeitsrechtlichen Angelegenheit vertreten. \n\nDer Mandant erhielt am 15.09.2026 eine Kündigung von der [FIRMA_1] und war danach mehrere Wochen erkrankt. Nunmehr soll geprüft werden, ob angesichts dieser Umstände und nach Ablauf der üblichen Fristen noch rechtliche Schritte gegen die Kündigung möglich sind bzw. eingeleitet werden können. Die gesetzliche Frist zur Erhebung der Kündigungsschutzklage nach § 4 S. 1 KSchG endete grundsätzlich am 06.10.2026.\n\nWir bitten höflich um Prüfung des Sachverhalts und um zeitnahe Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten im Arbeitsrecht gegenüber der [FIRMA_1]. \n\nBitte teilen Sie uns Ihre Entscheidung zeitnah mit.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T/W7a3bTOwKA/fV9PxgHcqFJJ6WcYJEJPzHbWnvdVKYBBfTXCYlem8hqu/Z4CBY2v9JCWgaI6U6jOid6miC5pWBuVmxHm6CzNhZPmpJhoNKi4xKkKuKw7sr4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989355,
+  "id": "apbPauCqIvXiqtsPlN2J-Q8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 263,
+   "prompt_tokens": 697,
+   "total_tokens": 960
+  }
+ }
+}

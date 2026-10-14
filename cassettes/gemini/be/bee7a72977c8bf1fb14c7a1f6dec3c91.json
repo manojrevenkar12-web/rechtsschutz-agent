@@ -1,0 +1,31 @@
+{
+ "request_key": "bee7a72977c8bf1fb14c7a1f6dec3c91",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.081592072999996,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage Verkehrsrecht – [PERSON_1] / Schadennummer: [NUMMER_1]\n\nSehr geehrte Damen und Herren,\n\nwir zeigen hiermit die vertretungliche Interessen wahrnehmung für unseren Mandanten [PERSON_1] an. \n\nAm 24.09.2026 hat unser Mandant einen Bußgeldbescheid wegen eines angeblichen Verkehrsverstoßes vom 19.08.2026 für das Fahrzeug mit dem Kennzeichen [KENNZEICHEN_1] erhalten. Der Mandant bestreitet, an dem genannten Tag in Berlin gewesen zu sein, und möchte gegen den Bußgeldbescheid vorgehen.\n\nDie Frist für die Einlegung des Einspruchs endet am 08.10.2026. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten im Verkehrsrecht.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TiYnZb1TEp4UZNCS46QIZDE6BO8WwTaRpPSvl+d50jwVqVof7GXURgBqe42t3KEtwZvHgN6Mo6Pu9Y8l/aIkIrAfp5/QWB22qL+McKXrUq+/yB3LGF5VhB/4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989396,
+  "id": "k5bPauPiLe2KmtkPrtulEA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 232,
+   "prompt_tokens": 761,
+   "total_tokens": 993
+  }
+ }
+}

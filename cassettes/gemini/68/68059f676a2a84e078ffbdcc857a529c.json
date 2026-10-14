@@ -1,0 +1,31 @@
+{
+ "request_key": "68059f676a2a84e078ffbdcc857a529c",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.3341465000000028,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage – [PERSON_1] / Bußgeldbescheid vom 09.10.2026\n\nSehr geehrte Damen und Herren,\n\nwir zeigen hiermit die anwaltliche Vertretung unseres Mandanten [PERSON_1] an. \n\nUnser Mandant erhielt am 09.10.2026 einen Bußgeldbescheid wegen einer angeblichen Fahrt in einer Umweltzone ohne Plakette vom 10.09.2026 mit dem Fahrzeug [KENNZEICHEN_1]. Da die Plakette nach Angaben unseres Mandanten ordnungsgemäß an der Scheibe angebracht ist, soll gegen den Vorwurf im Wege des Einspruchs vorgegangen werden.\n\nDie Frist für die Einlegung des Einspruchs endet am 23.10.2026. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten im Verkehrsrecht.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Trh9b6AE89wEU93jFgLR5UsfNN8lsYz7XdEXs8E3/OdNtvWx+BCR1RYnHZOIdrSG85CuT1FH5Jx9ms8KC+Ip/US5QXbG2mzi8ubyEEThMAvQXbWCsNotKlJM="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989404,
+  "id": "m5bPasnvKJGJ6dkPtI-GsA4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 241,
+   "prompt_tokens": 729,
+   "total_tokens": 970
+  }
+ }
+}

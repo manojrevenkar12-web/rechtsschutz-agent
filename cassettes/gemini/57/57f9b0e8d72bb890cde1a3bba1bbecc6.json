@@ -1,0 +1,31 @@
+{
+ "request_key": "57f9b0e8d72bb890cde1a3bba1bbecc6",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.4034188589999985,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage / Rechtsschutzversicherung\nVersicherungsnehmer / Mandant: [PERSON_1]\nSchadennummer / Kundennummer: [NUMMER_1]\nRechtsgebiet: Sozialrecht\nStreitgegenstand: Sperrzeit der Agentur für Arbeit (Bescheid vom 11.09.2026, zugegangen am 15.09.2026)\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen des oben genannten Mandanten in einer sozialrechtlichen Angelegenheit vertreten. \n\nDer Mandant wendet sich gegen eine von der Agentur für Arbeit verhängte zwölfwöchige Sperrzeit wegen Eigenkündigung. Die Kündigung erfolgte nach Darstellung des Mandanten aufgrund unzumutbarer Zustände am Arbeitsplatz durch den Vorgesetzten. Der entsprechende Bescheid ist dem Mandanten am 15.09.2026 zugegangen.\n\nDie Frist für die Einlegung des Widerspruchs endet am 15.10.2026. \n\nWir bitten daher höflich um zeitnahe Prüfung des Sachverhalts und um Erteilung der Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten in dieser Angelegenheit.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TdfEVLp+j9pFtAT1EQr4lhf8g2C2409gkrNEQ1e5Pug8MsZ9kdwx0LJMG3dl6LlBFc7CJ2fPa2Az3MaLwH3amAXJHkMI7DtbKIrFFE+nUZxWYfBcVHPAdPBM="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989509,
+  "id": "A5fPat32LoHjqtsPnY7d-A8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 288,
+   "prompt_tokens": 710,
+   "total_tokens": 998
+  }
+ }
+}

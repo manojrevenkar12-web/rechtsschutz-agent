@@ -1,0 +1,31 @@
+{
+ "request_key": "42d4f57664a36403d6738adeea7fd0b8",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 4.767628321999837,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage für [PERSON_1]\nSchadenereignis: Verkehrsordnungswidrigkeit vom 03.09.2026\n\nSehr geehrte Damen und Herren,\n\nich zeige die anwaltliche Vertretung von [PERSON_1] an. Mein Mandant hat am 29.09.2026 einen Anhörungsbogen der Bußgeldstelle erhalten, in dem ihm ein Abstandsverstoß vorgeworfen wird, der sich am 03.09.2026 auf der A113 ereignet haben soll. Das betroffene Fahrzeug führt das Kennzeichen [KENNZEICHEN_1].\n\nMein Mandant hat mich beauftragt, ihn in dieser verkehrsrechtlichen Angelegenheit zu vertreten und insbesondere zu prüfen, ob und inwieweit eine Mitwirkungspflicht hinsichtlich des Anhörungsbogens besteht.\n\nIch bitte Sie daher höflich um Prüfung des Versicherungsschutzes für die anwaltliche Beratung und Vertretung in dieser Angelegenheit sowie um Erteilung der Deckungszusage.\n\nDa es sich um ein laufendes Verwaltungsverfahren handelt, bitte ich um eine zeitnahe Entscheidung über die Kostenübernahme, damit ich die notwendigen Schritte für meinen Mandanten einleiten kann.\n\nFür Rückfragen stehe ich Ihnen gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "Ev4DCvsDAWkUfRMsx0g6DaPkNkN5puKGWS+7JTRadjj5xQCXGOiHKD5J3GbXhCbH58IYo3KwRv74HHh7UWj7XXhPSExOloiPmeWT0H5tU0gK60i10RfNl6N8K5+U0+ju/wv6GM6HgPDij8PkTql1paS/AAO7iahDdXn1ZxU74O6xnfFrrX8/e00cTNvo+QT8oYNhBCc+7Xxc8+mpWiWDu13J92U71yFFSwnq/u3mmCF7G7PvwJly1EbDukJNUY4exvYvstI4tEvn5CDg4U6LlPcPKOSEG3Ah85URVDOGW3mNCTfWvH0CltcTGbyc4guQwH0jAvuiGJhX27+sAk6iaOYhqFVrv2o0JZvfukX/LGD5gNIeLFTxAr/pPARa7yGNI5Z+ftgQ7B1n6fL5TIB15VrlyNaefQc3Sg0TPKP+8tci5Mdpd1lRjudat+jZZTSsbIt9UqzDr+0UuyUIZoGm64Ru7UjEpDCkFDuXRa5Lonx6FLFSajGSW6S4LLvOCx/AZGr1SujJ6oYVw+TojlObn3WuoG8Hjl948bOLkqe1laDqPv3aKq5K72MfUzdVltY2iat1wnhqDGGQvataL6d8/bvchZ3LvIYjEEqjC1756HEEWaVNvoh/Tdx91kRyZtt5M36DiRBzRBS6q1s1ErWm9lVXrtDHZ+Q82sjuiH0RIxsc"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791993147,
+  "id": "NqXPap6OKMCHqtsPkP-usA4",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 303,
+   "prompt_tokens": 1007,
+   "total_tokens": 1420
+  }
+ }
+}

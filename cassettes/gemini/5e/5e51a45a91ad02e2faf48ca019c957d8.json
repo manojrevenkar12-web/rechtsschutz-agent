@@ -1,0 +1,31 @@
+{
+ "request_key": "5e51a45a91ad02e2faf48ca019c957d8",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.7456158979999827,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage Verkehrsrecht – Mandant [PERSON_1] / Schadennummer / Versicherungsnehmer\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir den Mandanten, Herrn [PERSON_1], in einer verkehrsrechtlichen Angelegenheit vertreten. \n\nAm 01.10.2026 kam es zu einem Verkehrsunfall, bei dem ein Radfahrer in das Fahrzeug unseres Mandanten mit dem amtlichen Kennzeichen [KENNZEICHEN_1] gefahren ist. Der Radfahrer wirft unserem Mandanten ein Verschulden vor und macht Schmerzensgeldansprüche geltend. Unser Mandant möchte sich gegen diese unberechtigten Forderungen verteidigen; zudem weist sein Fahrzeug einen Sachschaden (Kratzer an der Beifahrertür) auf.\n\nWir bitten höflich um Prüfung des Sachverhalts und um zeitnahe Erteilung der schriftlichen Deckungszusage für die Wahrnehmung der rechtlichen Interessen unseres Mandanten im Bereich Verkehrsrecht. \n\nFür Rückfragen stehen wir Ihnen unter der Telefonnummer [TELEFON_1] gerne zur Verfügung.\n\nMit freundöglichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TltizrQGVs4dqnBuV8YrCprweKLmZWOtS1m5stFWzqPhhQ32a9rFY48R3PW7jZeONUxE/ZSlI0JmqyHeyFao24Tkzg48mVNjhjyiV3UHhk2srCmpunoIc0Vo="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989403,
+  "id": "mZbPasLuNZCtqtsPuMqTaA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 254,
+   "prompt_tokens": 742,
+   "total_tokens": 996
+  }
+ }
+}

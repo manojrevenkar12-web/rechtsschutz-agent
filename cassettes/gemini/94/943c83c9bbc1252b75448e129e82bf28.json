@@ -1,0 +1,31 @@
+{
+ "request_key": "943c83c9bbc1252b75448e129e82bf28",
+ "model": "gemini-3.5-flash-lite",
+ "latency_s": 1.1788538129999893,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Betreff: Deckungsanfrage im Mietrecht – [PERSON_1] / Schadennummer / Rechtsschutzversicherung\n\nSehr geehrte Damen und Herren,\n\nwir zeigen an, dass wir die Interessen von [PERSON_1], wohnhaft in [ADRESSE_1], [PLZ_1] Berlin, in einer mietrechtlichen Angelegenheit vertreten.\n\nDer Sachverhalt stellt sich wie folgt dar: Seit dem 03.08.2026 ist unser Mandant von nächtlicher Lärmbelästigung durch die Familie [PERSON_2] betroffen. Obwohl der Vermieter auf entsprechende Beschwerden hingewiesen wurde, unternimmt dieser bislang nichts. Unser Mandant beabsichtigt daher, die Miete wegen dieser Beeinträchtigungen zu mindern.\n\nWir bitten Sie hiermit, für die Wahrnehmung der rechtlichen Interessen unseres Mandanten die mietrechtliche Deckungszusage zu erteilen. \n\nFür Ihre zeitnahe Rückmeldung und Übermittlung der Deckungsbestätigung danken wir im Voraus.\n\nMit freundlichen Grüßen\n\nRechtsanwalt",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TFogcp6VWnOkMJqWDxFgNtc49Jo7Hff+J1tIjP+KuOuWICV5uFiT0PD3uShBmSpIN1Q9U2B9IkZl2Gf0z6BPwBLY2J7uW43o4jRakq0WRXXCUk0GwKMx7xQY="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791989445,
+  "id": "xJbPasiBNIuGqtsPgcTfqQ4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 235,
+   "prompt_tokens": 708,
+   "total_tokens": 943
+  }
+ }
+}

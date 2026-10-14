@@ -1,0 +1,40 @@
+{
+ "request_key": "f20a96f01a1bb2917ce8d2599a608738",
+ "model": "gemini-3.1-flash-lite",
+ "latency_s": 36.44297020999966,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EuEECt4EAWkUfRMOilyGNbPpSREsNgNOpiqk8Il6rUhbZ2pTlW8yUjF8AQSrD9Vzf5DymPZQeT5MOPzNivAHf5bPtSuczNYI5zmsJyF3/NchI8C2BAuYKdcscCchw3IGMhRTcKi2S6xIBRyi5aCYKKZp+koChXalnoZ/HlPbRVmk72iCKJc0sd1nqKlVOo3xOdMVYsrGO/fNF5jrlZKa8ES22258h1i6Mo6zb8sYH44tc2NveuRCLshVqKV3cyEZl/54omBFYrDgDL7ahUGdzh3hDfMN2ZrxGutderkl/YV4fUd1M8kx4XrJuXbFFywJ2MdrP7iKqfjsK486kbQkPwa9Dbpa3tzpjud+eWTwUkCa7dSM8onUKJKY2SBKmKr5mZ0CH2GzZnTnks+e/ZP7+fi15xr5lZ2wuPOmKmE5TyLwELIB9aGmbWLY13SnohNspJImA5oa4WLx8NDwIQWkboybI6dX3NH2Hm1qnTmj+BhywXb/AWmYuYnBtiUvMJjP6YDQePwsBLp45Zq9wE/MnCtpcpsOY+dUgMyy+yPJ1UA5cZVu4/emBCASGhF9VjkWh8mzj6gEKK7yK8mLB112Pi+321Aik/WAtFevL0JqLYEH3NeyBIBF7OgfFwkQp9w7ZoQtFi0kwkOxKchN6QA9RU90imidTDR6WW9KmCHuw7BKmXIdtCNAPIDCXcjkXznBRRnrxXNUWZRZBeFrwfo7Qj2/Fz0tMvVQlvw59A9DS8IO/F5cd9zRsx7eFKx0jbZOxLqTPvfONMOrw9fN/wQlBVsG2d6O52jbeNg32FhCVS4dv6M6"
+        }
+       },
+       "function": {
+        "arguments": "{\"missing_information_de\":[\"Liegt bereits ein konkretes Mietminderungsschreiben vor?\",\"Gibt es eine Dokumentation des Schimmelbefalls (Fotos, Protokolle)?\"],\"event_type\":\"kein_fristereignis\",\"event_date\":null,\"dispute_start_date\":\"2026-06-12\",\"client_goal_de\":\"Der Mandant möchte die Miete mindern und die Beseitigung des Schimmels erreichen.\",\"manipulation_attempt\":false,\"area\":\"mietrecht\",\"summary_de\":\"Der Mandant berichtet von Schimmelbefall im Schlafzimmer, der seit dem 12.06.2026 mehrfach bei [FIRMA_1] gemeldet wurde, jedoch ohne Erfolg. Er strebt nun eine Mietminderung sowie die Mängelbeseitigung an.\",\"event_date_evidence\":null,\"area_confidence\":\"hoch\",\"dispute_start_evidence\":\"Seit dem 12.06.2026 habe ich das der [FIRMA_1] mehrfach schriftlich gemeldet\"}",
+        "name": "submit_case_facts"
+       },
+       "id": "call_1564348",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791994857,
+  "id": "xavPav7fCO2KmtkPrtulEA",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 265,
+   "prompt_tokens": 1735,
+   "total_tokens": 2125
+  }
+ }
+}
