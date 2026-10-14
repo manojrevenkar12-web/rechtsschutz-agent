@@ -1,5 +1,5 @@
-# Evaluation through Google AI Studio's OpenAI-compatible endpoint (free tier: rate-limited and it returns no
-# cost data, so reports show tokens per case instead of dollars).
+# Evaluation through Google AI Studio's OpenAI-compatible endpoint (free tier: rate-limited and it
+# returns no cost data, so the report shows tokens per case instead of dollars).
 provider: gemini
 prompt_version: v1
 production_model: gemini-3.8-flash
@@ -7,6 +7,7 @@ ablation_model: gemini-3.8-flash
 models:
   - id: gemini-3.8-flash
   - id: gemini-3.5-flash-lite
+  - id: gemini-3.1-flash-lite
 gates:
   no_silent_unsafe_deadline: {metric: unsafe_deadlines_silent, max: 0}
   no_pii_egress:            {metric: pii_leak_rate, max: 0.0}

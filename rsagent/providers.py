@@ -14,6 +14,7 @@ import asyncio
 import hashlib
 import json
 import os
+import re
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -144,6 +145,8 @@ class ChatClient:
                 t0 = time.perf_counter()
                 r = await client.post(self.url, headers=headers, json=body)
                 latency = time.perf_counter() - t0
+                if r.status_code == 429 and re.search(r"PerDay|limit: 0|daily", r.text):
+                    raise RuntimeError(f"HTTP 429 daily quota exhausted: {r.text[:300]}")
                 if r.status_code in (402, 429, 500, 502, 503, 504) and attempt < 8:  # 402: OpenRouter credit reservation for in-flight calls
                     await asyncio.sleep(min(float(r.headers.get("retry-after", delay)), 65.0))
                     delay = min(delay * 2, 65.0)

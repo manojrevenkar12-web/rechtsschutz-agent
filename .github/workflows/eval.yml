@@ -29,7 +29,12 @@ jobs:
           mkdir -p results
           if [ "${{ inputs.provider }}" = "gemini" ]; then
             curl -s -H "Authorization: Bearer $GEMINI_API_KEY" https://generativelanguage.googleapis.com/v1beta/openai/models \
-              | python -c "import json,sys; d=json.load(sys.stdin); print('\n'.join(sorted(m['id'] for m in d.get('data',[]))) or d)" | tee results/available_models.txt
+              | python -c "import json,sys; d=json.load(sys.stdin); print('\n'.join(sorted(m['id'] for m in d.get('data',[]))) or d)" > results/available_models.txt
+            for m in $(python -c "import yaml; print(' '.join(x['id'] for x in yaml.safe_load(open('config/eval.gemini.yaml'))['models']))"); do
+              code=$(curl -s -o probe.json -w "%{http_code}" -H "Authorization: Bearer $GEMINI_API_KEY" -H "Content-Type: application/json" \
+                https://generativelanguage.googleapis.com/v1beta/openai/chat/completions -d "{\"model\":\"$m\",\"messages\":[{\"role\":\"user\",\"content\":\"Sag OK\"}],\"max_tokens\":20}")
+              echo "PROBE $m HTTP $code $(head -c 300 probe.json | tr '\n' ' ')" | tee -a results/available_models.txt
+            done
           elif [ "${{ inputs.provider }}" = "github" ]; then
             curl -s -o catalog.json -w "catalog HTTP %{http_code}\n" -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $GITHUB_TOKEN" https://models.github.ai/catalog/models | tee results/available_models.txt
             head -c 400 catalog.json >> results/available_models.txt; echo >> results/available_models.txt
